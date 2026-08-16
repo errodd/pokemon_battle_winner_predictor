@@ -2,11 +2,11 @@
 
 <img src="logo/Logo_Facyt.svg.png" alt="FACYT Logo" width="130"/>
 
-## UNIVERSIDAD DE CARABOBO
-### FACULTAD EXPERIMENTAL DE CIENCIAS Y TECNOLOGÍA (FACYT)
-#### DEPARTAMENTO DE COMPUTACIÓN
+## UNIVERSITY OF CARABOBO
+### FACULTY OF EXPERIMENTAL SCIENCES AND TECHNOLOGY (FACYT)
+#### DEPARTMENT OF COMPUTER SCIENCE
 
-**Course:** Machine Learning (*Aprendizaje Automático - Electiva 2026*)  
+**Course:** Machine Learning (*Machine Learning - Elective 2026*)  
 **Professor:** Álvaro Espinoza  
 
 ---

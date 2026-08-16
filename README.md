@@ -155,7 +155,7 @@ graph LR
 
 ## 📜 7. Authors & Academic Affiliation
 
-- **Student:** Eduardo Rodríguez
+- **Authors:** Anthony Quero y Luigi Quero
 - **Institution:** Universidad de Carabobo (UC) — Facultad Experimental de Ciencias y Tecnología (FACYT)
 - **Department:** Departamento de Computación
 - **Subject:** Machine Learning (*Aprendizaje Automático 2026*)

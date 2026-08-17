@@ -129,9 +129,9 @@ Five domain-grounded mathematical features were engineered to replace raw collin
 | Feature Name | Mathematical Definition | Domain Interpretation & Predictive Impact |
 | :--- | :---: | :--- |
 | **`Speed_Diff`** | $\text{Speed}_1 - \text{Speed}_2$ | Turn-order initiative ($r = +0.678$). |
-| **`Stat_Total_Diff`** | $\text{Total\_Stats}_1 - \text{Total\_Stats}_2$ | Total combat power gap ($r = +0.470$). |
+| **`Stat_Total_Diff`** | $\text{Total\\_Stats}_1 - \text{Total\\_Stats}_2$ | Total combat power gap ($r = +0.470$). |
 | **`Atk_Def_Penetration_Diff`** | $\frac{\text{Attack}_1}{\text{Defense}_2} - \frac{\text{Attack}_2}{\text{Defense}_1}$ | Physical damage penetration ($r = +0.242$). |
-| **`Special_Form_Advantage`** | $\text{Is\_Special}_1 - \text{Is\_Special}_2$ | Evolutionary tier advantage ($75.9\%$ vs $18.9\%$ win rate). |
+| **`Special_Form_Advantage`** | $\text{Is\\_Special}_1 - \text{Is\\_Special}_2$ | Evolutionary tier advantage ($75.9\%$ vs $18.9\%$ win rate). |
 | **`Type_Advantage_Ratio`** | $\log_2\left(\frac{\text{Eff}_{1 \rightarrow 2} + 0.1}{\text{Eff}_{2 \rightarrow 1} + 0.1}\right)$ | Symmetric elemental weakness exploitation ($+10.7\%$ win rate boost). |
 
 ---

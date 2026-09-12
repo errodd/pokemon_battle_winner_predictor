@@ -107,13 +107,13 @@ python ../scripts/merge.py
 Across the 11 analytical sections of the EDA, key mechanics governing combat outcomes were identified:
 
 1. **Speed as the Decisive Predictor ($r = +0.678$):**  
-   - Speed differential ($\Delta\text{Speed} = \text{Speed}_1 - \text{Speed}_2$) is the single most dominant linear feature.
+   - Speed differential ($\Delta\text{Speed} = \text{Speed}_1 - \text{Speed}_2$) is the feature with the strongest univariate linear association.
    - Being faster than the rival yields a **$92.39\%$ victory rate**, whereas being slower collapses victory to **$4.60\%$**.
 2. **Outcome Determinism and First-Turn Advantage in Speed Ties:**  
    - **$94.0\%$ ($1,712$ pairs)** of re-matched combats are completely deterministic (invariant to positioning order).
-   - In the $6.0\%$ ($110$ pairs) where the winner flips by position, **$43.6\%$ exhibit exact speed ties ($\text{Speed}_1 == \text{Speed}_2$)**, proving that the simulator awards first-turn initiative to `First_Pokemon`.
+   - In exact speed tie scenarios ($\text{Speed}_1 == \text{Speed}_2$), the simulator awards the victory to `Second_Pokemon` in **$100\%$ of the $1,328$ observed cases**.
 3. **Special Forms Taxonomy ($134$ Species / $16.8\%$ of the Catalogue):**  
-   - **Primal Reversions ($83.3\%$)**, **Mega Evolutions ($73.6\%$)**, **Alternative Battle Formes ($70.6\%$)**, and **Standard Legendaries ($68.5\%$)** significantly overpower standard Pokémon due to a $+100$ to $+350$ base stat advantage.
+   - **Primal Reversions ($83.3\%$)**, **Mega Evolutions ($73.6\%$)**, **Alternative Battle Formes ($70.6\%$)**, and **Standard Legendaries ($68.5\%$)** significantly overpower standard Pokémon, which we hypothesize is due to a $+100$ to $+350$ base stat advantage.
 4. **Elemental Matchup Impact:**  
    - Holding an elemental type advantage delivers a **$+10.7\%$ net win rate increase** ($52.77\%$ vs $42.05\%$), acting as the decisive tie-breaker in speed-parity battles.
 5. **Class Balance & Naive Baseline:**  
@@ -144,13 +144,13 @@ graph LR
     B --> C["Preprocessing Pipeline (RobustScaler + OneHot)"]
     C --> D["Candidate Model Training with 5-Fold CV"]
     D --> E["Evaluation vs Naive Baseline (52.80%)"]
-    E --> F["Optimal Classifier Selection (>95% Accuracy)"]
+    E --> F["Optimal Classifier Selection (vs Baselines)"]
 ```
 
 - **Validation Strategy:** Stratified $80/20$ partition ($40,000$ train / $10,000$ test) with Stratified 5-Fold Cross-Validation.
 - **Candidate Models:** Logistic Regression, Decision Trees (CART), Random Forest Classifier, Gradient Boosting / XGBoost, KNN, and Multi-Layer Perceptron (MLP).
 
-- **Target Metric:** Significantly surpass the **$52.80\%$ Naive Baseline**, achieving **$\text{Accuracy} > 95\%$** on unseen combats.
+- **Target Metric:** Consistently surpass the **$94.05\%$ Strong Speed-Based Baseline** on unseen combats.
 
 
 ## 📜 7. Authors & Academic Affiliation

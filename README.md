@@ -115,7 +115,7 @@ Across the 11 analytical sections of the EDA, key mechanics governing combat out
    - **$94.0\%$ ($1,712$ pairs)** of re-matched combats are completely deterministic (invariant to positioning order).
    - In exact speed tie scenarios ($\text{Speed}_1 == \text{Speed}_2$), the simulator awards the victory to `Second_pokemon` in **$100\%$ of the $1,328$ observed cases** (2.66% of all battles).
 3. **Special Forms Taxonomy & Confounding Hypothesis:**  
-   - **Primal Reversions ($83.3\%$)**, **Mega Evolutions ($73.6\%$)**, **Alternative Battle Formes ($70.6\%$)**, and **Standard Legendaries ($68.5\%$)** significantly overpower standard Pokémon, which we hypothesize is primarily mediated by their base-stat advantage ($+100$ to $+350$ points). We explicitly treat this as a hypothesis, as category status and stat totals are naturally confounded and will be controlled during multivariate modeling.
+   - **Primal Reversions ($83.3\%$)**, **Alternative Battle Formes ($78.3\%$)**, **Standard Legendaries ($76.4\%$)**, and **Mega Evolutions ($73.6\%$)** significantly overpower standard Pokémon, which we hypothesize is primarily mediated by their base-stat advantage ($+100$ to $+350$ points). We explicitly treat this as a hypothesis, as category status and stat totals are naturally confounded and will be controlled during multivariate modeling.
 4. **Elemental Matchup Impact:**  
    - Holding an elemental type advantage delivers a **$+10.7\%$ net win rate increase** ($52.77\%$ vs $42.05\%$), acting as the vital tie-breaker in speed-parity battles.
 5. **Class Balance & Strong Baselines:**  

@@ -112,7 +112,7 @@ First_pokemon,Second_pokemon,Winner,Name_first,Type 1_first,Type 2_first,HP_firs
 195,461,195,Flaaffy,Electric,,70,55,55,80,60,45,2,False,Wormadam Trash Cloak,Bug,Steel,60,69,95,69,95,36,4,False,1,9,-14,-40
 493,568,493,Gabite,Dragon,Ground,68,90,65,50,55,82,4,False,Stoutland,Normal,,85,110,90,45,90,80,5,False,1,2,-20,-25
 400,341,341,Sealeo,Ice,Water,90,60,70,75,70,45,3,False,Plusle,Electric,,60,50,40,85,75,95,3,False,0,-50,10,30
-63,297,63,,Fighting,,65,105,60,60,70,95,1,False,Seedot,Grass,,40,40,50,30,30,30,3,False,1,65,65,10
+63,297,63,Primeape,Fighting,,65,105,60,60,70,95,1,False,Seedot,Grass,,40,40,50,30,30,30,3,False,1,65,65,10
 541,446,541,Dialga,Steel,Dragon,100,120,120,150,100,90,4,True,Bibarel,Normal,Water,79,85,60,55,60,71,4,False,1,19,35,60
 141,152,141,Gyarados,Water,Flying,95,125,79,60,100,81,1,False,Kabuto,Rock,Water,30,80,90,55,45,55,1,False,1,26,45,-11
 54,115,115,Venonat,Bug,Poison,60,55,50,40,55,45,1,False,Hitmonlee,Fighting,,50,120,53,35,110,87,1,False,0,-42,-65,-3
@@ -245,7 +245,7 @@ First_pokemon,Second_pokemon,Winner,Name_first,Type 1_first,Type 2_first,HP_firs
 459,399,459,Wormadam Plant Cloak,Bug,Grass,60,59,85,79,105,36,4,False,Spheal,Ice,Water,70,40,50,55,50,25,3,False,1,11,19,35
 421,494,421,Mega Latios,Dragon,Psychic,80,130,100,160,120,110,3,True,Garchomp,Dragon,Ground,108,130,95,80,85,102,4,False,1,8,0,5
 578,768,768,Musharna,Psychic,,116,55,85,107,95,29,5,False,Tyrantrum,Rock,Dragon,82,121,119,69,59,71,6,False,0,-42,-66,-34
-63,82,63,,Fighting,,65,105,60,60,70,95,1,False,Graveler,Rock,Ground,55,95,115,45,45,35,1,False,1,60,10,-55
+63,82,63,Primeape,Fighting,,65,105,60,60,70,95,1,False,Graveler,Rock,Ground,55,95,115,45,45,35,1,False,1,60,10,-55
 257,221,257,Hitmontop,Fighting,,50,95,95,35,110,70,2,False,Forretress,Bug,Steel,75,90,140,60,60,40,2,False,1,30,5,-45
 4,150,4,Mega Venusaur,Grass,Poison,80,100,123,122,120,80,1,False,Omanyte,Rock,Water,35,40,100,90,55,35,1,False,1,45,60,23
 546,333,546,Giratina Origin Forme,Ghost,Dragon,150,120,100,120,100,90,4,True,Aggron,Steel,Rock,70,110,180,60,60,50,3,False,1,40,10,-80
@@ -973,7 +973,7 @@ First_pokemon,Second_pokemon,Winner,Name_first,Type 1_first,Type 2_first,HP_firs
 603,452,603,Leavanny,Bug,Grass,75,103,80,70,80,92,5,False,Budew,Grass,Poison,40,30,35,50,70,55,4,False,1,37,73,45
 514,640,514,Magnezone,Electric,Steel,70,70,115,130,90,60,4,False,Duosion,Psychic,,65,40,50,125,60,30,5,False,1,30,30,65
 542,615,542,Palkia,Water,Dragon,90,120,100,150,120,100,4,True,Darumaka,Fire,,70,90,45,15,45,50,5,False,1,50,30,55
-63,399,63,,Fighting,,65,105,60,60,70,95,1,False,Spheal,Ice,Water,70,40,50,55,50,25,3,False,1,70,65,10
+63,399,63,Primeape,Fighting,,65,105,60,60,70,95,1,False,Spheal,Ice,Water,70,40,50,55,50,25,3,False,1,70,65,10
 676,142,142,Beartic,Ice,,95,110,80,70,80,50,5,False,Mega Gyarados,Water,Dark,95,155,109,70,130,81,1,False,0,-31,-45,-29
 274,615,615,Grovyle,Grass,,50,65,45,85,65,95,3,False,Darumaka,Fire,,70,90,45,15,45,50,5,False,0,45,-25,0
 792,498,792,Noivern,Flying,Dragon,85,70,80,97,80,123,6,False,Lucario,Fighting,Steel,70,110,70,115,70,90,4,False,1,33,-40,10
@@ -1143,7 +1143,7 @@ First_pokemon,Second_pokemon,Winner,Name_first,Type 1_first,Type 2_first,HP_firs
 737,701,701,Pyroar,Fire,Normal,86,68,72,109,66,106,6,False,Terrakion,Rock,Fighting,91,129,90,72,90,108,5,True,0,-2,-61,-18
 305,160,160,Kirlia,Psychic,Fairy,38,35,35,65,55,50,3,False,Dratini,Dragon,,41,64,45,50,50,50,1,False,0,0,-29,-10
 638,310,638,Gothitelle,Psychic,,70,55,95,95,110,65,5,False,Shroomish,Grass,,60,40,60,40,60,35,3,False,1,30,15,35
-63,428,428,,Fighting,,65,105,60,60,70,95,1,False,Jirachi,Steel,Psychic,100,100,100,100,100,100,3,True,0,-5,5,-40
+63,428,428,Primeape,Fighting,,65,105,60,60,70,95,1,False,Jirachi,Steel,Psychic,100,100,100,100,100,100,3,True,0,-5,5,-40
 676,353,676,Beartic,Ice,,95,110,80,70,80,50,5,False,Numel,Fire,Ground,60,60,40,65,45,35,3,False,1,15,50,40
 454,55,55,Cranidos,Rock,,67,125,40,30,30,58,4,False,Venomoth,Bug,Poison,70,65,60,90,75,90,1,False,0,-32,60,-20
 390,439,439,Dusclops,Ghost,,40,70,130,60,130,25,3,False,Piplup,Water,,53,51,53,61,56,40,4,False,0,-15,19,77
@@ -1506,7 +1506,7 @@ First_pokemon,Second_pokemon,Winner,Name_first,Type 1_first,Type 2_first,HP_firs
 397,306,306,Glalie,Ice,,80,80,80,80,80,80,3,False,Gardevoir,Psychic,Fairy,68,65,65,125,115,80,3,False,0,0,15,15
 226,126,126,Snubbull,Fairy,,60,80,50,40,40,30,2,False,Horsea,Water,,30,40,70,70,25,60,1,False,0,-30,40,-20
 457,601,601,Bastiodon,Rock,Steel,60,52,168,47,138,30,4,False,Sewaddle,Bug,Grass,45,53,70,40,60,42,5,False,0,-12,-1,98
-369,63,63,Seviper,Poison,,73,100,60,100,60,65,3,False,,Fighting,,65,105,60,60,70,95,1,False,0,-30,-5,0
+369,63,63,Seviper,Poison,,73,100,60,100,60,65,3,False,Primeape,Fighting,,65,105,60,60,70,95,1,False,0,-30,-5,0
 388,123,388,Mega Banette,Ghost,,64,165,75,93,83,75,3,False,Tangela,Grass,,65,55,115,100,40,60,1,False,1,15,110,-40
 21,518,518,Pidgey,Normal,Flying,40,45,40,35,35,56,1,False,Electivire,Electric,,75,123,67,95,85,95,4,False,0,-39,-78,-27
 656,382,656,Alomomola,Water,,165,75,80,40,45,65,5,False,Feebas,Water,,20,15,20,10,55,80,3,False,1,-15,60,60
@@ -2118,7 +2118,7 @@ First_pokemon,Second_pokemon,Winner,Name_first,Type 1_first,Type 2_first,HP_firs
 625,519,519,Cofagrigus,Ghost,,58,50,145,95,105,30,5,False,Magmortar,Fire,,75,95,67,125,95,83,4,False,0,-53,-45,78
 493,747,747,Gabite,Dragon,Ground,68,90,65,50,55,82,4,False,Meowstic Male,Psychic,,74,48,76,83,81,104,6,False,0,-22,42,-11
 779,344,344,Phantump,Ghost,Grass,43,70,48,50,60,38,6,False,Illumise,Bug,,65,47,55,73,75,85,3,False,0,-47,23,-7
-371,63,63,Solrock,Rock,Psychic,70,95,85,55,65,70,3,False,,Fighting,,65,105,60,60,70,95,1,False,0,-25,-10,25
+371,63,63,Solrock,Rock,Psychic,70,95,85,55,65,70,3,False,Primeape,Fighting,,65,105,60,60,70,95,1,False,0,-25,-10,25
 412,43,43,Metang,Steel,Psychic,60,75,100,55,80,50,3,False,Vulpix,Fire,,38,41,40,50,65,65,1,False,0,-15,34,60
 330,583,583,Mega Mawile,Steel,Fairy,50,105,125,55,95,50,3,False,Zebstrika,Electric,,75,100,63,80,63,116,5,False,0,-66,5,62
 494,86,494,Garchomp,Dragon,Ground,108,130,95,80,85,102,4,False,Slowpoke,Water,Psychic,90,65,65,40,40,15,1,False,1,87,65,30
@@ -2284,7 +2284,7 @@ First_pokemon,Second_pokemon,Winner,Name_first,Type 1_first,Type 2_first,HP_firs
 238,763,763,Magcargo,Fire,Rock,50,50,120,80,80,30,2,False,Clauncher,Water,,50,53,62,58,63,44,6,False,0,-14,-3,58
 314,160,314,Slaking,Normal,,150,160,100,95,65,100,3,False,Dratini,Dragon,,41,64,45,50,50,50,1,False,1,50,96,55
 726,14,726,Frogadier,Water,,54,63,52,83,56,97,6,False,Caterpie,Bug,,45,30,35,20,20,45,1,False,1,52,33,17
-450,63,63,Luxio,Electric,,60,85,49,60,49,60,4,False,,Fighting,,65,105,60,60,70,95,1,False,0,-35,-20,-11
+450,63,63,Luxio,Electric,,60,85,49,60,49,60,4,False,Primeape,Fighting,,65,105,60,60,70,95,1,False,0,-35,-20,-11
 428,734,428,Jirachi,Steel,Psychic,100,100,100,100,100,100,3,True,Spewpa,Bug,,45,22,60,27,30,29,6,False,1,71,78,40
 663,578,663,Klinklang,Steel,,60,100,115,70,85,90,5,False,Musharna,Psychic,,116,55,85,107,95,29,5,False,1,61,45,30
 432,225,225,Deoxys Speed Forme,Psychic,,50,95,90,95,90,180,3,True,Mega Steelix,Steel,Ground,75,125,230,55,95,30,2,False,0,150,-30,-140
@@ -2350,7 +2350,7 @@ First_pokemon,Second_pokemon,Winner,Name_first,Type 1_first,Type 2_first,HP_firs
 338,774,338,Electrike,Electric,,40,45,40,65,40,65,3,False,Carbink,Rock,Fairy,50,50,150,50,150,50,6,False,1,15,-5,-110
 113,282,282,Cubone,Ground,,50,50,95,40,50,35,1,False,Marshtomp,Water,Ground,70,85,70,60,70,50,3,False,0,-15,-35,25
 114,531,531,Marowak,Ground,,60,80,110,50,80,45,1,False,Froslass,Ice,Ghost,70,80,70,80,70,110,4,False,0,-65,0,40
-224,63,63,Steelix,Steel,Ground,75,85,200,55,65,30,2,False,,Fighting,,65,105,60,60,70,95,1,False,0,-65,-20,140
+224,63,63,Steelix,Steel,Ground,75,85,200,55,65,30,2,False,Primeape,Fighting,,65,105,60,60,70,95,1,False,0,-65,-20,140
 735,243,735,Vivillon,Bug,Flying,80,52,50,90,50,89,6,False,Octillery,Water,,75,105,75,105,75,45,2,False,1,44,-53,-25
 733,439,439,Scatterbug,Bug,,38,35,40,27,25,35,6,False,Piplup,Water,,53,51,53,61,56,40,4,False,0,-5,-16,-13
 397,735,735,Glalie,Ice,,80,80,80,80,80,80,3,False,Vivillon,Bug,Flying,80,52,50,90,50,89,6,False,0,-9,28,30
@@ -2462,7 +2462,7 @@ First_pokemon,Second_pokemon,Winner,Name_first,Type 1_first,Type 2_first,HP_firs
 253,91,91,Porygon2,Normal,,85,80,90,105,95,60,2,False,Farfetch'd,Normal,Flying,52,65,55,58,62,60,1,False,0,0,15,35
 634,657,634,Minccino,Normal,,55,50,40,40,40,75,5,False,Joltik,Bug,Electric,50,47,50,57,50,65,5,False,1,10,3,-10
 7,240,7,Charizard,Fire,Flying,78,84,78,109,85,100,1,False,Piloswine,Ice,Ground,100,100,80,60,60,50,2,False,1,50,-16,-2
-220,63,63,Pineco,Bug,,50,65,90,35,35,15,2,False,,Fighting,,65,105,60,60,70,95,1,False,0,-80,-40,30
+220,63,63,Pineco,Bug,,50,65,90,35,35,15,2,False,Primeape,Fighting,,65,105,60,60,70,95,1,False,0,-80,-40,30
 696,250,250,Zweilous,Dark,Dragon,72,85,70,65,70,58,5,False,Kingdra,Water,Dragon,75,95,95,95,95,85,2,False,0,-27,-10,-25
 97,80,80,Muk,Poison,,105,105,75,65,100,50,1,False,Tentacruel,Water,Poison,80,70,65,80,120,100,1,False,0,-50,35,10
 380,746,380,Anorith,Rock,Bug,45,95,50,40,50,75,3,False,Espurr,Psychic,,62,48,54,63,60,68,6,False,1,7,47,-4
@@ -2988,7 +2988,7 @@ First_pokemon,Second_pokemon,Winner,Name_first,Type 1_first,Type 2_first,HP_firs
 162,625,162,Dragonite,Dragon,Flying,91,134,95,100,100,80,1,False,Cofagrigus,Ghost,,58,50,145,95,105,30,5,False,1,50,84,-50
 109,158,158,Voltorb,Electric,,40,30,50,55,55,100,1,False,Zapdos,Electric,Flying,90,90,85,125,90,100,1,True,0,0,-60,-35
 275,373,275,Sceptile,Grass,,70,85,65,105,85,120,3,False,Whiscash,Water,Ground,110,78,73,76,71,60,3,False,1,60,7,-8
-63,671,671,,Fighting,,65,105,60,60,70,95,1,False,Chandelure,Ghost,Fire,60,55,90,145,90,80,5,False,0,15,50,-30
+63,671,671,Primeape,Fighting,,65,105,60,60,70,95,1,False,Chandelure,Ghost,Fire,60,55,90,145,90,80,5,False,0,15,50,-30
 234,199,234,Sneasel,Dark,Ice,55,95,55,35,75,115,2,False,Marill,Water,Fairy,70,20,50,20,50,40,2,False,1,75,75,5
 510,637,637,Snover,Grass,Ice,60,62,50,62,60,40,4,False,Gothorita,Psychic,,60,45,70,75,85,55,5,False,0,-15,17,-20
 587,762,587,Woobat,Psychic,Flying,55,45,43,55,43,72,5,False,Dragalge,Poison,Dragon,65,75,90,97,123,44,6,False,1,28,-30,-47
@@ -3236,7 +3236,7 @@ First_pokemon,Second_pokemon,Winner,Name_first,Type 1_first,Type 2_first,HP_firs
 444,604,444,Staraptor,Normal,Flying,85,120,70,50,60,100,4,False,Venipede,Bug,Poison,30,45,59,30,39,57,5,False,1,43,75,11
 252,413,413,Donphan,Ground,,90,120,120,60,60,50,2,False,Metagross,Steel,Psychic,80,135,130,95,90,70,3,False,0,-20,-15,-10
 675,233,233,Cubchoo,Ice,,55,70,40,60,40,40,5,False,Mega Heracross,Bug,Fighting,80,185,115,40,105,75,2,False,0,-35,-115,-75
-490,63,63,Chatot,Normal,Flying,76,65,45,92,42,91,4,False,,Fighting,,65,105,60,60,70,95,1,False,0,-4,-40,-15
+490,63,63,Chatot,Normal,Flying,76,65,45,92,42,91,4,False,Primeape,Fighting,,65,105,60,60,70,95,1,False,0,-4,-40,-15
 524,771,524,Gliscor,Ground,Flying,75,95,125,45,75,95,4,False,Sylveon,Fairy,,95,65,65,110,130,60,6,False,1,35,30,60
 537,300,537,Mow Rotom,Electric,Grass,50,65,107,105,107,86,4,False,Taillow,Normal,Flying,40,55,30,30,30,85,3,False,1,1,10,77
 576,520,576,Simipour,Water,,75,98,63,98,63,101,5,False,Togekiss,Fairy,Flying,85,50,95,120,115,80,4,False,1,21,48,-32
@@ -4024,7 +4024,7 @@ First_pokemon,Second_pokemon,Winner,Name_first,Type 1_first,Type 2_first,HP_firs
 649,41,649,Emolga,Electric,Flying,55,75,60,75,60,103,5,False,Clefairy,Fairy,,70,45,48,60,65,35,1,False,1,68,30,12
 506,231,506,Carnivine,Grass,,74,100,72,90,72,46,4,False,Shuckle,Bug,Rock,20,10,230,10,230,5,2,False,1,41,90,-158
 756,692,692,Slurpuff,Fairy,,82,80,86,85,75,72,6,False,Mandibuzz,Dark,Flying,110,65,105,55,95,80,5,False,0,-8,15,-19
-594,63,63,Gurdurr,Fighting,,85,105,85,40,50,40,5,False,,Fighting,,65,105,60,60,70,95,1,False,0,-55,0,25
+594,63,63,Gurdurr,Fighting,,85,105,85,40,50,40,5,False,Primeape,Fighting,,65,105,60,60,70,95,1,False,0,-55,0,25
 272,560,272,Celebi,Psychic,Grass,100,100,100,100,100,100,2,False,Emboar,Fire,Fighting,110,123,65,100,65,65,5,False,1,35,-23,35
 83,555,555,Golem,Rock,Ground,80,120,130,55,65,45,1,False,Snivy,Grass,,45,45,55,45,55,63,5,False,0,-18,75,75
 611,115,611,Basculin,Water,,70,92,65,80,55,98,5,False,Hitmonlee,Fighting,,50,120,53,35,110,87,1,False,1,11,-28,12
@@ -4290,7 +4290,7 @@ First_pokemon,Second_pokemon,Winner,Name_first,Type 1_first,Type 2_first,HP_firs
 136,767,136,Magmar,Fire,,65,95,57,100,85,93,1,False,Tyrunt,Rock,Dragon,58,89,77,45,45,48,6,False,1,45,6,-20
 508,230,508,Lumineon,Water,,69,69,76,69,86,91,4,False,Mega Scizor,Bug,Steel,70,150,140,65,100,75,2,False,1,16,-81,-64
 557,373,557,Serperior,Grass,,75,75,95,75,95,113,5,False,Whiscash,Water,Ground,110,78,73,76,71,60,3,False,1,53,-3,22
-557,63,557,Serperior,Grass,,75,75,95,75,95,113,5,False,,Fighting,,65,105,60,60,70,95,1,False,1,18,-30,35
+557,63,557,Serperior,Grass,,75,75,95,75,95,113,5,False,Primeape,Fighting,,65,105,60,60,70,95,1,False,1,18,-30,35
 380,569,380,Anorith,Rock,Bug,45,95,50,40,50,75,3,False,Purrloin,Dark,,41,50,37,50,37,66,5,False,1,9,45,13
 448,50,448,Kricketune,Bug,,77,85,51,55,51,65,4,False,Gloom,Grass,Poison,60,65,70,85,75,40,1,False,1,25,20,-19
 292,255,292,Cascoon,Bug,,50,35,55,25,25,15,3,False,Smeargle,Normal,,55,20,35,20,45,75,2,False,1,-60,15,20
@@ -4742,7 +4742,7 @@ First_pokemon,Second_pokemon,Winner,Name_first,Type 1_first,Type 2_first,HP_firs
 514,84,84,Magnezone,Electric,Steel,70,70,115,130,90,60,4,False,Ponyta,Fire,,50,85,55,65,65,90,1,False,0,-30,-15,60
 497,455,497,Riolu,Fighting,,40,70,40,35,40,60,4,False,Rampardos,Rock,,97,165,60,65,50,58,4,False,1,2,-95,-20
 15,21,21,Metapod,Bug,,50,20,55,25,25,30,1,False,Pidgey,Normal,Flying,40,45,40,35,35,56,1,False,0,-26,-25,15
-63,406,406,,Fighting,,65,105,60,60,70,95,1,False,Luvdisc,Water,,43,30,55,40,65,97,3,False,0,-2,75,5
+63,406,406,Primeape,Fighting,,65,105,60,60,70,95,1,False,Luvdisc,Water,,43,30,55,40,65,97,3,False,0,-2,75,5
 648,164,164,Sawsbuck,Normal,Grass,80,100,70,60,70,95,5,False,Mega Mewtwo X,Psychic,Fighting,106,190,100,154,100,130,1,True,0,-35,-90,-30
 392,70,70,Chimecho,Psychic,,65,50,70,95,80,65,3,False,Kadabra,Psychic,,40,35,30,120,70,105,1,False,0,-40,15,40
 324,321,324,Nosepass,Rock,,30,45,135,45,90,30,3,False,Makuhita,Fighting,,72,60,30,20,30,25,3,False,1,5,-15,105
@@ -5260,7 +5260,7 @@ First_pokemon,Second_pokemon,Winner,Name_first,Type 1_first,Type 2_first,HP_firs
 574,333,574,Simisear,Fire,,75,98,63,98,63,101,5,False,Aggron,Steel,Rock,70,110,180,60,60,50,3,False,1,51,-12,-117
 572,118,572,Simisage,Grass,,75,98,63,98,63,101,5,False,Koffing,Poison,,40,65,95,60,45,35,1,False,1,66,33,-32
 749,712,712,Honedge,Steel,Ghost,45,80,100,35,37,28,6,False,Kyurem Black Kyurem,Dragon,Ice,125,170,100,120,90,95,5,True,0,-67,-90,0
-63,246,63,,Fighting,,65,105,60,60,70,95,1,False,Skarmory,Steel,Flying,65,80,140,40,70,70,2,False,1,25,25,-80
+63,246,63,Primeape,Fighting,,65,105,60,60,70,95,1,False,Skarmory,Steel,Flying,65,80,140,40,70,70,2,False,1,25,25,-80
 708,577,708,Zekrom,Dragon,Electric,100,150,120,120,100,90,5,True,Munna,Psychic,,76,25,45,67,55,24,5,False,1,66,125,75
 522,68,522,Leafeon,Grass,,65,110,130,60,65,95,4,False,Poliwrath,Water,Fighting,90,95,95,70,90,70,1,False,1,25,15,35
 759,722,722,Binacle,Rock,Water,42,52,67,39,56,50,6,False,Fennekin,Fire,,40,45,40,62,60,60,6,False,0,-10,7,27
@@ -5291,7 +5291,7 @@ First_pokemon,Second_pokemon,Winner,Name_first,Type 1_first,Type 2_first,HP_firs
 374,252,252,Corphish,Water,,43,80,65,50,35,35,3,False,Donphan,Ground,,90,120,120,60,60,50,2,False,0,-15,-40,-55
 328,36,36,Mega Sableye,Dark,Ghost,50,85,125,85,115,20,3,False,Nidorina,Poison,,70,62,67,55,55,56,1,False,0,-36,23,58
 352,361,361,Wailord,Water,,170,90,45,90,45,60,3,False,Vibrava,Ground,Dragon,50,70,50,50,50,70,3,False,0,-10,20,-5
-63,341,341,,Fighting,,65,105,60,60,70,95,1,False,Plusle,Electric,,60,50,40,85,75,95,3,False,0,0,55,20
+63,341,341,Primeape,Fighting,,65,105,60,60,70,95,1,False,Plusle,Electric,,60,50,40,85,75,95,3,False,0,0,55,20
 667,671,671,Elgyem,Psychic,,55,55,55,85,55,30,5,False,Chandelure,Ghost,Fire,60,55,90,145,90,80,5,False,0,-50,0,-35
 282,726,726,Marshtomp,Water,Ground,70,85,70,60,70,50,3,False,Frogadier,Water,,54,63,52,83,56,97,6,False,0,-47,22,18
 508,274,274,Lumineon,Water,,69,69,76,69,86,91,4,False,Grovyle,Grass,,50,65,45,85,65,95,3,False,0,-4,4,31
@@ -5677,7 +5677,7 @@ First_pokemon,Second_pokemon,Winner,Name_first,Type 1_first,Type 2_first,HP_firs
 117,188,117,Lickitung,Normal,,90,55,75,60,75,30,1,False,Cleffa,Fairy,,50,25,28,45,55,15,2,False,1,15,30,47
 624,7,7,Yamask,Ghost,,38,30,85,55,65,30,5,False,Charizard,Fire,Flying,78,84,78,109,85,100,1,False,0,-70,-54,7
 762,722,722,Dragalge,Poison,Dragon,65,75,90,97,123,44,6,False,Fennekin,Fire,,40,45,40,62,60,60,6,False,0,-16,30,50
-63,732,732,,Fighting,,65,105,60,60,70,95,1,False,Talonflame,Fire,Flying,78,81,71,74,69,126,6,False,0,-31,24,-11
+63,732,732,Primeape,Fighting,,65,105,60,60,70,95,1,False,Talonflame,Fire,Flying,78,81,71,74,69,126,6,False,0,-31,24,-11
 680,626,680,Stunfisk,Ground,Electric,109,66,84,81,99,32,5,False,Tirtouga,Water,Rock,54,78,103,53,45,22,5,False,1,10,-12,-19
 612,348,348,Sandile,Ground,Dark,50,72,35,35,35,65,5,False,Carvanha,Water,Dark,45,90,20,65,20,65,3,False,0,0,-18,15
 367,152,367,Mega Altaria,Dragon,Fairy,75,110,110,110,105,80,3,False,Kabuto,Rock,Water,30,80,90,55,45,55,1,False,1,25,30,20
@@ -5691,7 +5691,7 @@ First_pokemon,Second_pokemon,Winner,Name_first,Type 1_first,Type 2_first,HP_firs
 585,631,631,Boldore,Rock,,70,105,105,50,40,20,5,False,Garbodor,Poison,,80,95,82,60,82,75,5,False,0,-55,10,23
 76,628,628,Bellsprout,Grass,Poison,50,75,35,70,30,40,1,False,Archen,Rock,Flying,55,112,45,74,45,70,5,False,0,-30,-37,-10
 95,397,397,Dewgong,Water,Ice,90,70,80,70,95,70,1,False,Glalie,Ice,,80,80,80,80,80,80,3,False,0,-10,-10,0
-686,63,63,Pawniard,Dark,Steel,45,85,70,40,40,60,5,False,,Fighting,,65,105,60,60,70,95,1,False,0,-35,-20,10
+686,63,63,Pawniard,Dark,Steel,45,85,70,40,40,60,5,False,Primeape,Fighting,,65,105,60,60,70,95,1,False,0,-35,-20,10
 163,709,163,Mewtwo,Psychic,,106,110,90,154,90,130,1,True,Landorus Incarnate Forme,Ground,Flying,89,125,90,115,80,101,5,True,1,29,-15,0
 337,775,337,Mega Medicham,Fighting,Psychic,60,100,85,80,85,100,3,False,Goomy,Dragon,,45,50,35,55,75,40,6,False,1,60,50,50
 389,206,206,Duskull,Ghost,,20,40,90,30,90,25,3,False,Aipom,Normal,,55,70,55,40,55,85,2,False,0,-60,-30,35
@@ -5775,7 +5775,7 @@ First_pokemon,Second_pokemon,Winner,Name_first,Type 1_first,Type 2_first,HP_firs
 648,688,648,Sawsbuck,Normal,Grass,80,100,70,60,70,95,5,False,Bouffalant,Normal,,95,110,95,40,95,55,5,False,1,40,-10,-25
 608,530,608,Whimsicott,Grass,Fairy,60,67,85,77,75,116,5,False,Dusknoir,Ghost,,45,100,135,65,135,45,4,False,1,71,-33,-50
 119,568,568,Weezing,Poison,,65,90,120,85,70,60,1,False,Stoutland,Normal,,85,110,90,45,90,80,5,False,0,-20,-20,30
-22,63,63,Pidgeotto,Normal,Flying,63,60,55,50,50,71,1,False,,Fighting,,65,105,60,60,70,95,1,False,0,-24,-45,-5
+22,63,63,Pidgeotto,Normal,Flying,63,60,55,50,50,71,1,False,Primeape,Fighting,,65,105,60,60,70,95,1,False,0,-24,-45,-5
 196,678,196,Ampharos,Electric,,90,75,85,115,90,55,2,False,Shelmet,Bug,,50,40,85,40,65,25,5,False,1,30,35,0
 781,600,781,Pumpkaboo Average Size,Ghost,Grass,49,66,70,44,55,51,6,False,Sawk,Fighting,,75,125,75,30,75,85,5,False,1,-34,-59,-5
 308,691,308,Surskit,Bug,Water,40,30,32,50,52,65,3,False,Vullaby,Dark,Flying,70,55,75,45,65,60,5,False,1,5,-25,-43
@@ -5796,7 +5796,7 @@ First_pokemon,Second_pokemon,Winner,Name_first,Type 1_first,Type 2_first,HP_firs
 613,566,613,Krokorok,Ground,Dark,60,82,45,45,45,74,5,False,Lillipup,Normal,,45,60,45,25,45,55,5,False,1,19,22,0
 526,691,526,Porygon-Z,Normal,,85,80,70,135,75,90,4,False,Vullaby,Dark,Flying,70,55,75,45,65,60,5,False,1,30,25,-5
 384,295,384,Castform,Normal,,70,70,70,70,70,70,3,False,Lombre,Water,Grass,60,50,50,60,70,50,3,False,1,20,20,20
-657,63,63,Joltik,Bug,Electric,50,47,50,57,50,65,5,False,,Fighting,,65,105,60,60,70,95,1,False,0,-30,-58,-10
+657,63,63,Joltik,Bug,Electric,50,47,50,57,50,65,5,False,Primeape,Fighting,,65,105,60,60,70,95,1,False,0,-30,-58,-10
 468,508,508,Cherubi,Grass,,45,35,45,62,53,35,4,False,Lumineon,Water,,69,69,76,69,86,91,4,False,0,-56,-34,-31
 238,596,596,Magcargo,Fire,Rock,50,50,120,80,80,30,2,False,Tympole,Water,,50,50,40,50,40,64,5,False,0,-34,0,80
 271,298,271,Ho-oh,Fire,Flying,106,130,90,110,154,90,2,True,Nuzleaf,Grass,Dark,70,70,40,60,40,60,3,False,1,30,60,50
@@ -6985,7 +6985,7 @@ First_pokemon,Second_pokemon,Winner,Name_first,Type 1_first,Type 2_first,HP_firs
 719,285,719,Chespin,Grass,,56,61,65,48,45,38,6,False,Poochyena,Dark,,35,55,35,30,30,35,3,False,1,3,6,30
 528,175,528,Mega Gallade,Psychic,Fighting,68,165,95,65,115,110,4,False,Feraligatr,Water,,85,105,100,79,83,78,2,False,1,32,60,-5
 4,797,797,Mega Venusaur,Grass,Poison,80,100,123,122,120,80,1,False,Mega Diancie,Rock,Fairy,50,160,110,160,110,110,6,True,0,-30,-60,13
-63,220,63,,Fighting,,65,105,60,60,70,95,1,False,Pineco,Bug,,50,65,90,35,35,15,2,False,1,80,40,-30
+63,220,63,Primeape,Fighting,,65,105,60,60,70,95,1,False,Pineco,Bug,,50,65,90,35,35,15,2,False,1,80,40,-30
 330,800,800,Mega Mawile,Steel,Fairy,50,105,125,55,95,50,3,False,Volcanion,Fire,Water,80,110,120,130,90,70,6,True,0,-20,-5,5
 391,58,58,Tropius,Grass,Flying,99,68,83,72,87,51,3,False,Meowth,Normal,,40,45,35,40,40,90,1,False,0,-39,23,48
 384,307,307,Castform,Normal,,70,70,70,70,70,70,3,False,Mega Gardevoir,Psychic,Fairy,68,85,65,165,135,100,3,False,0,-30,-15,5
@@ -8451,7 +8451,7 @@ First_pokemon,Second_pokemon,Winner,Name_first,Type 1_first,Type 2_first,HP_firs
 689,139,139,Rufflet,Normal,Flying,70,83,50,37,50,60,5,False,Tauros,Normal,,75,100,95,40,70,110,1,False,0,-50,-17,-45
 105,610,610,Drowzee,Psychic,,60,48,45,43,90,42,1,False,Lilligant,Grass,,70,60,75,110,75,90,5,False,0,-48,-12,-30
 361,57,57,Vibrava,Ground,Dragon,50,70,50,50,50,70,3,False,Dugtrio,Ground,,35,80,50,50,70,120,1,False,0,-50,-10,0
-63,716,63,,Fighting,,65,105,60,60,70,95,1,False,Meloetta Aria Forme,Normal,Psychic,100,77,77,128,128,90,5,False,1,5,28,-17
+63,716,63,Primeape,Fighting,,65,105,60,60,70,95,1,False,Meloetta Aria Forme,Normal,Psychic,100,77,77,128,128,90,5,False,1,5,28,-17
 736,428,428,Litleo,Fire,Normal,62,50,58,73,54,72,6,False,Jirachi,Steel,Psychic,100,100,100,100,100,100,3,True,0,-28,-50,-42
 164,323,164,Mega Mewtwo X,Psychic,Fighting,106,190,100,154,100,130,1,True,Azurill,Normal,Fairy,50,20,40,20,40,20,3,False,1,110,170,60
 31,364,31,Pikachu,Electric,,35,55,40,50,50,90,1,False,Cacturne,Grass,Dark,70,115,60,115,60,55,3,False,1,35,-60,-20
@@ -9685,7 +9685,7 @@ First_pokemon,Second_pokemon,Winner,Name_first,Type 1_first,Type 2_first,HP_firs
 346,414,414,Gulpin,Poison,,70,43,53,43,53,40,3,False,Mega Metagross,Steel,Psychic,80,145,150,105,110,110,3,False,0,-70,-102,-97
 171,400,171,Quilava,Fire,,58,64,58,80,65,80,2,False,Sealeo,Ice,Water,90,60,70,75,70,45,3,False,1,35,4,-12
 631,45,631,Garbodor,Poison,,80,95,82,60,82,75,5,False,Jigglypuff,Normal,Fairy,115,45,20,45,25,20,1,False,1,55,50,62
-71,63,71,Alakazam,Psychic,,55,50,45,135,95,120,1,False,,Fighting,,65,105,60,60,70,95,1,False,1,25,-55,-15
+71,63,71,Alakazam,Psychic,,55,50,45,135,95,120,1,False,Primeape,Fighting,,65,105,60,60,70,95,1,False,1,25,-55,-15
 403,452,452,Huntail,Water,,55,104,105,94,75,52,3,False,Budew,Grass,Poison,40,30,35,50,70,55,4,False,0,-3,74,70
 478,289,478,Mismagius,Ghost,,60,60,60,105,105,105,4,False,Wurmple,Bug,,45,45,35,20,30,20,3,False,1,85,15,25
 124,147,147,Kangaskhan,Normal,,105,95,80,40,80,90,1,False,Jolteon,Electric,,65,65,60,110,95,130,1,False,0,-40,30,20
@@ -9843,7 +9843,7 @@ First_pokemon,Second_pokemon,Winner,Name_first,Type 1_first,Type 2_first,HP_firs
 68,447,68,Poliwrath,Water,Fighting,90,95,95,70,90,70,1,False,Kricketot,Bug,,37,25,41,25,41,25,4,False,1,45,70,54
 4,73,4,Mega Venusaur,Grass,Poison,80,100,123,122,120,80,1,False,Machop,Fighting,,70,80,50,35,35,35,1,False,1,45,20,73
 571,267,571,Pansage,Grass,,50,53,48,53,48,64,5,False,Pupitar,Rock,Ground,70,84,70,65,70,51,2,False,1,13,-31,-22
-63,542,542,,Fighting,,65,105,60,60,70,95,1,False,Palkia,Water,Dragon,90,120,100,150,120,100,4,True,0,-5,-15,-40
+63,542,542,Primeape,Fighting,,65,105,60,60,70,95,1,False,Palkia,Water,Dragon,90,120,100,150,120,100,4,True,0,-5,-15,-40
 73,258,73,Machop,Fighting,,70,80,50,35,35,35,1,False,Smoochum,Ice,Psychic,45,30,15,85,65,65,2,False,1,-30,50,35
 112,48,48,Exeggutor,Grass,Psychic,95,95,85,125,65,55,1,False,Golbat,Poison,Flying,75,80,70,65,75,90,1,False,0,-35,15,15
 210,117,117,Wooper,Water,Ground,55,45,45,25,25,15,2,False,Lickitung,Normal,,90,55,75,60,75,30,1,False,0,-15,-10,-30
@@ -10851,7 +10851,7 @@ First_pokemon,Second_pokemon,Winner,Name_first,Type 1_first,Type 2_first,HP_firs
 290,285,285,Silcoon,Bug,,50,35,55,25,25,15,3,False,Poochyena,Dark,,35,55,35,30,30,35,3,False,0,-20,-20,20
 50,206,206,Gloom,Grass,Poison,60,65,70,85,75,40,1,False,Aipom,Normal,,55,70,55,40,55,85,2,False,0,-45,-5,15
 382,187,382,Feebas,Water,,20,15,20,10,55,80,3,False,Pichu,Electric,,20,40,15,35,35,60,2,False,1,20,-25,5
-63,690,63,,Fighting,,65,105,60,60,70,95,1,False,Braviary,Normal,Flying,100,123,75,57,75,80,5,False,1,15,-18,-15
+63,690,63,Primeape,Fighting,,65,105,60,60,70,95,1,False,Braviary,Normal,Flying,100,123,75,57,75,80,5,False,1,15,-18,-15
 15,54,54,Metapod,Bug,,50,20,55,25,25,30,1,False,Venonat,Bug,Poison,60,55,50,40,55,45,1,False,0,-15,-35,5
 672,638,638,Axew,Dragon,,46,87,60,30,40,57,5,False,Gothitelle,Psychic,,70,55,95,95,110,65,5,False,0,-8,32,-35
 552,160,552,Shaymin Sky Forme,Grass,Flying,100,103,75,120,75,127,4,True,Dratini,Dragon,,41,64,45,50,50,50,1,False,1,77,39,30
@@ -11070,7 +11070,7 @@ First_pokemon,Second_pokemon,Winner,Name_first,Type 1_first,Type 2_first,HP_firs
 222,410,410,Dunsparce,Normal,,100,70,70,65,65,45,2,False,Mega Salamence,Dragon,Flying,95,145,130,120,90,120,3,False,0,-75,-75,-60
 731,440,731,Fletchinder,Fire,Flying,62,73,55,56,52,84,6,False,Prinplup,Water,,64,66,68,81,76,50,4,False,1,34,7,-13
 721,53,721,Chesnaught,Grass,Fighting,88,107,122,74,75,64,6,False,Parasect,Bug,Grass,60,95,80,60,80,30,1,False,1,34,12,42
-639,63,63,Solosis,Psychic,,45,30,40,105,50,20,5,False,,Fighting,,65,105,60,60,70,95,1,False,0,-75,-75,-20
+639,63,63,Solosis,Psychic,,45,30,40,105,50,20,5,False,Primeape,Fighting,,65,105,60,60,70,95,1,False,0,-75,-75,-20
 439,351,351,Piplup,Water,,53,51,53,61,56,40,4,False,Wailmer,Water,,130,70,35,70,35,60,3,False,0,-20,-19,18
 423,171,423,Primal Kyogre,Water,,100,150,90,180,160,90,3,True,Quilava,Fire,,58,64,58,80,65,80,2,False,1,10,86,32
 362,338,362,Flygon,Ground,Dragon,80,100,80,80,80,100,3,False,Electrike,Electric,,40,45,40,65,40,65,3,False,1,35,55,40
@@ -11475,7 +11475,7 @@ First_pokemon,Second_pokemon,Winner,Name_first,Type 1_first,Type 2_first,HP_firs
 518,305,518,Electivire,Electric,,75,123,67,95,85,95,4,False,Kirlia,Psychic,Fairy,38,35,35,65,55,50,3,False,1,45,88,32
 136,42,136,Magmar,Fire,,65,95,57,100,85,93,1,False,Clefable,Fairy,,95,70,73,95,90,60,1,False,1,33,25,-16
 119,758,758,Weezing,Poison,,65,90,120,85,70,60,1,False,Malamar,Dark,Psychic,86,92,88,68,75,73,6,False,0,-13,-2,32
-63,138,138,,Fighting,,65,105,60,60,70,95,1,False,Mega Pinsir,Bug,Flying,65,155,120,65,90,105,1,False,0,-10,-50,-60
+63,138,138,Primeape,Fighting,,65,105,60,60,70,95,1,False,Mega Pinsir,Bug,Flying,65,155,120,65,90,105,1,False,0,-10,-50,-60
 407,466,466,Bagon,Dragon,,45,75,60,40,30,50,3,False,Buizel,Water,,55,65,35,60,30,85,4,False,0,-35,10,25
 404,164,164,Gorebyss,Water,,55,84,105,114,75,52,3,False,Mega Mewtwo X,Psychic,Fighting,106,190,100,154,100,130,1,True,0,-78,-106,5
 641,775,775,Reuniclus,Psychic,,110,65,75,125,85,30,5,False,Goomy,Dragon,,45,50,35,55,75,40,6,False,0,-10,15,40
@@ -12004,7 +12004,7 @@ First_pokemon,Second_pokemon,Winner,Name_first,Type 1_first,Type 2_first,HP_firs
 290,81,81,Silcoon,Bug,,50,35,55,25,25,15,3,False,Geodude,Rock,Ground,40,80,100,30,30,20,1,False,0,-5,-45,-45
 539,687,687,Mesprit,Psychic,,80,105,105,105,105,80,4,True,Bisharp,Dark,Steel,65,125,100,60,70,70,5,False,0,10,-20,5
 333,598,598,Aggron,Steel,Rock,70,110,180,60,60,50,3,False,Seismitoad,Water,Ground,105,95,75,85,75,74,5,False,0,-24,15,105
-63,273,63,,Fighting,,65,105,60,60,70,95,1,False,Treecko,Grass,,40,45,35,65,55,70,3,False,1,25,60,25
+63,273,63,Primeape,Fighting,,65,105,60,60,70,95,1,False,Treecko,Grass,,40,45,35,65,55,70,3,False,1,25,60,25
 17,214,214,Weedle,Bug,Poison,40,35,30,20,20,50,1,False,Murkrow,Dark,Flying,60,85,42,85,42,91,2,False,0,-41,-50,-12
 587,329,587,Woobat,Psychic,Flying,55,45,43,55,43,72,5,False,Mawile,Steel,Fairy,50,85,85,55,55,50,3,False,1,22,-40,-42
 520,57,57,Togekiss,Fairy,Flying,85,50,95,120,115,80,4,False,Dugtrio,Ground,,35,80,50,50,70,120,1,False,0,-40,-30,45
@@ -12067,7 +12067,7 @@ First_pokemon,Second_pokemon,Winner,Name_first,Type 1_first,Type 2_first,HP_firs
 365,724,724,Swablu,Normal,Flying,45,40,60,40,75,50,3,False,Delphox,Fire,Psychic,75,69,72,114,100,104,6,False,0,-54,-29,-12
 617,70,70,Darmanitan Zen Mode,Fire,Psychic,105,30,105,140,105,55,5,False,Kadabra,Psychic,,40,35,30,120,70,105,1,False,0,-50,-5,75
 69,525,69,Abra,Psychic,,25,20,15,105,55,90,1,False,Mamoswine,Ice,Ground,110,130,80,70,60,80,4,False,1,10,-110,-65
-63,780,780,,Fighting,,65,105,60,60,70,95,1,False,Trevenant,Ghost,Grass,85,110,76,65,82,56,6,False,0,39,-5,-16
+63,780,780,Primeape,Fighting,,65,105,60,60,70,95,1,False,Trevenant,Ghost,Grass,85,110,76,65,82,56,6,False,0,39,-5,-16
 742,622,742,Gogoat,Grass,,123,100,62,97,81,68,6,False,Scrafty,Dark,Fighting,65,90,115,45,115,58,5,False,1,10,10,-53
 751,291,291,Aegislash Blade Forme,Steel,Ghost,60,150,50,150,50,60,6,False,Beautifly,Bug,Flying,60,70,50,100,50,65,3,False,0,-5,80,0
 217,245,245,Unown,Psychic,,48,72,48,72,48,48,2,False,Mantine,Water,Flying,65,40,70,80,140,70,2,False,0,-22,32,-22
@@ -12575,7 +12575,7 @@ First_pokemon,Second_pokemon,Winner,Name_first,Type 1_first,Type 2_first,HP_firs
 194,74,74,Mareep,Electric,,55,40,40,65,45,35,2,False,Machoke,Fighting,,80,100,70,50,60,45,1,False,0,-10,-60,-30
 798,514,798,Hoopa Confined,Psychic,Ghost,80,110,60,150,130,70,6,True,Magnezone,Electric,Steel,70,70,115,130,90,60,4,False,1,10,40,-55
 621,334,334,Scraggy,Dark,Fighting,50,75,70,35,70,48,5,False,Mega Aggron,Steel,,70,140,230,60,80,50,3,False,0,-2,-65,-160
-63,120,63,,Fighting,,65,105,60,60,70,95,1,False,Rhyhorn,Ground,Rock,80,85,95,30,30,25,1,False,1,70,20,-35
+63,120,63,Primeape,Fighting,,65,105,60,60,70,95,1,False,Rhyhorn,Ground,Rock,80,85,95,30,30,25,1,False,1,70,20,-35
 754,774,774,Aromatisse,Fairy,,101,72,72,99,89,29,6,False,Carbink,Rock,Fairy,50,50,150,50,150,50,6,False,0,-21,22,-78
 398,156,398,Mega Glalie,Ice,,80,120,80,120,80,100,3,False,Snorlax,Normal,,160,110,65,65,110,30,1,False,1,70,10,15
 138,278,138,Mega Pinsir,Bug,Flying,65,155,120,65,90,105,1,False,Combusken,Fire,Fighting,60,85,60,85,60,55,3,False,1,50,70,60
@@ -12822,7 +12822,7 @@ First_pokemon,Second_pokemon,Winner,Name_first,Type 1_first,Type 2_first,HP_firs
 476,719,476,Lopunny,Normal,,65,76,84,54,96,105,4,False,Chespin,Grass,,56,61,65,48,45,38,6,False,1,67,15,19
 79,461,461,Tentacool,Water,Poison,40,40,35,50,100,70,1,False,Wormadam Trash Cloak,Bug,Steel,60,69,95,69,95,36,4,False,0,34,-29,-60
 681,560,560,Mienfoo,Fighting,,45,85,50,55,50,65,5,False,Emboar,Fire,Fighting,110,123,65,100,65,65,5,False,0,0,-38,-15
-122,63,63,Chansey,Normal,,250,5,5,35,105,50,1,False,,Fighting,,65,105,60,60,70,95,1,False,0,-45,-100,-55
+122,63,63,Chansey,Normal,,250,5,5,35,105,50,1,False,Primeape,Fighting,,65,105,60,60,70,95,1,False,0,-45,-100,-55
 346,471,346,Gulpin,Poison,,70,43,53,43,53,40,3,False,Gastrodon,Water,Ground,111,83,68,92,82,39,4,False,1,1,-40,-15
 259,304,259,Elekid,Electric,,45,63,37,65,55,95,2,False,Ralts,Psychic,Fairy,28,25,25,45,35,40,3,False,1,55,38,12
 316,161,316,Ninjask,Bug,Flying,61,90,45,50,50,160,3,False,Dragonair,Dragon,,61,84,65,70,70,70,1,False,1,90,6,-20
@@ -12839,7 +12839,7 @@ First_pokemon,Second_pokemon,Winner,Name_first,Type 1_first,Type 2_first,HP_firs
 576,532,532,Simipour,Water,,75,98,63,98,63,101,5,False,Rotom,Electric,Ghost,50,50,77,95,77,91,4,False,0,10,48,-14
 128,224,128,Goldeen,Water,,45,67,60,35,50,63,1,False,Steelix,Steel,Ground,75,85,200,55,65,30,2,False,1,33,-18,-140
 429,703,429,Deoxys Normal Forme,Psychic,,50,150,50,150,50,150,3,True,Tornadus Incarnate Forme,Flying,,79,115,70,125,80,111,5,True,1,39,35,-20
-317,63,63,Shedinja,Bug,Ghost,1,90,45,30,30,40,3,False,,Fighting,,65,105,60,60,70,95,1,False,0,-55,-15,-15
+317,63,63,Shedinja,Bug,Ghost,1,90,45,30,30,40,3,False,Primeape,Fighting,,65,105,60,60,70,95,1,False,0,-55,-15,-15
 293,203,293,Dustox,Bug,Poison,60,50,70,50,90,65,3,False,Hoppip,Grass,Flying,35,35,40,35,55,50,2,False,1,15,15,30
 525,250,250,Mamoswine,Ice,Ground,110,130,80,70,60,80,4,False,Kingdra,Water,Dragon,75,95,95,95,95,85,2,False,0,-5,35,-15
 425,364,425,Primal Groudon,Ground,Fire,100,180,160,150,90,90,3,True,Cacturne,Grass,Dark,70,115,60,115,60,55,3,False,1,35,65,100
@@ -13544,7 +13544,7 @@ First_pokemon,Second_pokemon,Winner,Name_first,Type 1_first,Type 2_first,HP_firs
 575,140,140,Panpour,Water,,50,53,48,53,48,64,5,False,Magikarp,Water,,20,10,55,15,20,80,1,False,0,-16,43,-7
 592,153,153,Mega Audino,Normal,Fairy,103,60,126,80,126,50,5,False,Kabutops,Rock,Water,60,115,105,65,70,80,1,False,0,-30,-55,21
 229,76,229,Scizor,Bug,Steel,70,130,100,55,80,65,2,False,Bellsprout,Grass,Poison,50,75,35,70,30,40,1,False,1,25,55,65
-456,63,63,Shieldon,Rock,Steel,30,42,118,42,88,30,4,False,,Fighting,,65,105,60,60,70,95,1,False,0,-65,-63,58
+456,63,63,Shieldon,Rock,Steel,30,42,118,42,88,30,4,False,Primeape,Fighting,,65,105,60,60,70,95,1,False,0,-65,-63,58
 187,345,345,Pichu,Electric,,20,40,15,35,35,60,2,False,Roselia,Grass,Poison,50,60,45,100,80,65,3,False,0,-5,-20,-30
 192,357,192,Natu,Psychic,Flying,40,50,45,70,45,70,2,False,Spoink,Psychic,,60,25,35,70,80,60,3,False,1,10,25,10
 64,765,765,Growlithe,Fire,,55,70,45,70,50,60,1,False,Helioptile,Electric,Normal,44,38,33,61,43,70,6,False,0,-10,32,12
@@ -13968,7 +13968,7 @@ First_pokemon,Second_pokemon,Winner,Name_first,Type 1_first,Type 2_first,HP_firs
 309,446,446,Masquerain,Bug,Flying,70,60,62,80,82,60,3,False,Bibarel,Normal,Water,79,85,60,55,60,71,4,False,0,-11,-25,2
 709,2,709,Landorus Incarnate Forme,Ground,Flying,89,125,90,115,80,101,5,True,Ivysaur,Grass,Poison,60,62,63,80,80,60,1,False,1,41,63,27
 177,394,394,Furret,Normal,,85,76,64,45,55,90,2,False,Mega Absol,Dark,,65,150,60,115,60,115,3,False,0,-25,-74,4
-63,702,702,,Fighting,,65,105,60,60,70,95,1,False,Virizion,Grass,Fighting,91,90,72,90,129,108,5,True,0,-13,15,-12
+63,702,702,Primeape,Fighting,,65,105,60,60,70,95,1,False,Virizion,Grass,Fighting,91,90,72,90,129,108,5,True,0,-13,15,-12
 42,384,384,Clefable,Fairy,,95,70,73,95,90,60,1,False,Castform,Normal,,70,70,70,70,70,70,3,False,0,-10,0,3
 370,625,370,Lunatone,Rock,Psychic,70,55,65,95,85,70,3,False,Cofagrigus,Ghost,,58,50,145,95,105,30,5,False,1,40,5,-80
 265,35,265,Suicune,Water,,100,75,115,90,115,85,2,True,Nidoran♀,Poison,,55,47,52,40,40,41,1,False,1,44,28,63
@@ -15206,7 +15206,7 @@ First_pokemon,Second_pokemon,Winner,Name_first,Type 1_first,Type 2_first,HP_firs
 184,9,184,Crobat,Poison,Flying,85,90,80,70,80,130,2,False,Mega Charizard Y,Fire,Flying,78,104,78,159,115,100,1,False,1,30,-14,2
 488,593,488,Mime Jr.,Psychic,Fairy,20,25,45,70,90,60,4,False,Timburr,Fighting,,75,80,55,25,35,35,5,False,1,25,-55,-10
 537,95,537,Mow Rotom,Electric,Grass,50,65,107,105,107,86,4,False,Dewgong,Water,Ice,90,70,80,70,95,70,1,False,1,16,-5,27
-63,220,63,,Fighting,,65,105,60,60,70,95,1,False,Pineco,Bug,,50,65,90,35,35,15,2,False,1,80,40,-30
+63,220,63,Primeape,Fighting,,65,105,60,60,70,95,1,False,Pineco,Bug,,50,65,90,35,35,15,2,False,1,80,40,-30
 702,95,702,Virizion,Grass,Fighting,91,90,72,90,129,108,5,True,Dewgong,Water,Ice,90,70,80,70,95,70,1,False,1,38,20,-8
 628,208,628,Archen,Rock,Flying,55,112,45,74,45,70,5,False,Sunflora,Grass,,75,75,55,105,85,30,2,False,1,40,37,-10
 499,716,499,Mega Lucario,Fighting,Steel,70,145,88,140,70,112,4,False,Meloetta Aria Forme,Normal,Psychic,100,77,77,128,128,90,5,False,1,22,68,11
@@ -15422,7 +15422,7 @@ First_pokemon,Second_pokemon,Winner,Name_first,Type 1_first,Type 2_first,HP_firs
 575,755,575,Panpour,Water,,50,53,48,53,48,64,5,False,Swirlix,Fairy,,62,48,66,59,57,49,6,False,1,15,5,-18
 243,702,702,Octillery,Water,,75,105,75,105,75,45,2,False,Virizion,Grass,Fighting,91,90,72,90,129,108,5,True,0,-63,15,3
 130,110,110,Staryu,Water,,30,45,55,70,55,85,1,False,Electrode,Electric,,60,50,70,80,80,140,1,False,0,-55,-5,-15
-454,63,63,Cranidos,Rock,,67,125,40,30,30,58,4,False,,Fighting,,65,105,60,60,70,95,1,False,0,-37,20,-20
+454,63,63,Cranidos,Rock,,67,125,40,30,30,58,4,False,Primeape,Fighting,,65,105,60,60,70,95,1,False,0,-37,20,-20
 334,199,334,Mega Aggron,Steel,,70,140,230,60,80,50,3,False,Marill,Water,Fairy,70,20,50,20,50,40,2,False,1,10,120,180
 189,550,550,Igglybuff,Normal,Fairy,90,30,15,40,20,15,2,False,Darkrai,Dark,,70,90,90,135,90,125,4,True,0,-110,-60,-75
 533,258,533,Heat Rotom,Electric,Fire,50,65,107,105,107,86,4,False,Smoochum,Ice,Psychic,45,30,15,85,65,65,2,False,1,21,35,92
@@ -15917,7 +15917,7 @@ First_pokemon,Second_pokemon,Winner,Name_first,Type 1_first,Type 2_first,HP_firs
 27,663,663,Spearow,Normal,Flying,40,60,30,31,31,70,1,False,Klinklang,Steel,,60,100,115,70,85,90,5,False,0,-20,-40,-85
 60,687,687,Psyduck,Water,,50,52,48,65,50,55,1,False,Bisharp,Dark,Steel,65,125,100,60,70,70,5,False,0,-15,-73,-52
 448,227,448,Kricketune,Bug,,77,85,51,55,51,65,4,False,Granbull,Fairy,,90,120,75,60,60,45,2,False,1,20,-35,-24
-494,63,494,Garchomp,Dragon,Ground,108,130,95,80,85,102,4,False,,Fighting,,65,105,60,60,70,95,1,False,1,7,25,35
+494,63,494,Garchomp,Dragon,Ground,108,130,95,80,85,102,4,False,Primeape,Fighting,,65,105,60,60,70,95,1,False,1,7,25,35
 700,580,700,Cobalion,Steel,Fighting,91,90,129,90,72,108,5,True,Tranquill,Normal,Flying,62,77,62,50,42,65,5,False,1,43,13,67
 106,445,106,Hypno,Psychic,,85,73,70,73,115,67,1,False,Bidoof,Normal,,59,45,40,35,40,31,4,False,1,36,28,30
 543,787,543,Heatran,Fire,Steel,91,90,106,130,106,77,4,True,Gourgeist Large Size,Ghost,Grass,75,95,122,58,75,69,6,False,1,8,-5,-16
@@ -16369,7 +16369,7 @@ First_pokemon,Second_pokemon,Winner,Name_first,Type 1_first,Type 2_first,HP_firs
 466,103,103,Buizel,Water,,55,65,35,60,30,85,4,False,Mega Gengar,Ghost,Poison,60,65,80,170,95,130,1,False,0,-45,0,-45
 502,298,502,Skorupi,Poison,Bug,40,50,90,30,55,65,4,False,Nuzleaf,Grass,Dark,70,70,40,60,40,60,3,False,1,5,-20,50
 392,267,392,Chimecho,Psychic,,65,50,70,95,80,65,3,False,Pupitar,Rock,Ground,70,84,70,65,70,51,2,False,1,14,-34,0
-334,63,63,Mega Aggron,Steel,,70,140,230,60,80,50,3,False,,Fighting,,65,105,60,60,70,95,1,False,0,-45,35,170
+334,63,63,Mega Aggron,Steel,,70,140,230,60,80,50,3,False,Primeape,Fighting,,65,105,60,60,70,95,1,False,0,-45,35,170
 307,93,93,Mega Gardevoir,Psychic,Fairy,68,85,65,165,135,100,3,False,Dodrio,Normal,Flying,60,110,70,60,60,100,1,False,0,0,-25,-5
 597,30,30,Palpitoad,Water,Ground,75,65,55,65,55,69,5,False,Arbok,Poison,,60,85,69,65,79,80,1,False,0,-11,-20,-14
 530,267,267,Dusknoir,Ghost,,45,100,135,65,135,45,4,False,Pupitar,Rock,Ground,70,84,70,65,70,51,2,False,0,-6,16,65
@@ -16573,7 +16573,7 @@ First_pokemon,Second_pokemon,Winner,Name_first,Type 1_first,Type 2_first,HP_firs
 299,798,299,Shiftry,Grass,Dark,90,100,60,90,60,80,3,False,Hoopa Confined,Psychic,Ghost,80,110,60,150,130,70,6,True,1,10,-10,0
 474,493,493,Drifblim,Ghost,Flying,150,80,44,90,54,80,4,False,Gabite,Dragon,Ground,68,90,65,50,55,82,4,False,0,-2,-10,-21
 267,420,420,Pupitar,Rock,Ground,70,84,70,65,70,51,2,False,Latios,Dragon,Psychic,80,90,80,130,110,110,3,True,0,-59,-6,-10
-63,384,63,,Fighting,,65,105,60,60,70,95,1,False,Castform,Normal,,70,70,70,70,70,70,3,False,1,25,35,-10
+63,384,63,Primeape,Fighting,,65,105,60,60,70,95,1,False,Castform,Normal,,70,70,70,70,70,70,3,False,1,25,35,-10
 439,62,62,Piplup,Water,,53,51,53,61,56,40,4,False,Mankey,Fighting,,40,80,35,35,45,70,1,False,0,-30,-29,18
 310,412,412,Shroomish,Grass,,60,40,60,40,60,35,3,False,Metang,Steel,Psychic,60,75,100,55,80,50,3,False,0,-15,-35,-40
 595,147,595,Conkeldurr,Fighting,,105,140,95,55,65,45,5,False,Jolteon,Electric,,65,65,60,110,95,130,1,False,1,-85,75,35
@@ -17230,7 +17230,7 @@ First_pokemon,Second_pokemon,Winner,Name_first,Type 1_first,Type 2_first,HP_firs
 758,283,758,Malamar,Dark,Psychic,86,92,88,68,75,73,6,False,Swampert,Water,Ground,100,110,90,85,90,60,3,False,1,13,-18,-2
 333,171,171,Aggron,Steel,Rock,70,110,180,60,60,50,3,False,Quilava,Fire,,58,64,58,80,65,80,2,False,0,-30,46,122
 716,199,716,Meloetta Aria Forme,Normal,Psychic,100,77,77,128,128,90,5,False,Marill,Water,Fairy,70,20,50,20,50,40,2,False,1,50,57,27
-63,799,63,,Fighting,,65,105,60,60,70,95,1,False,Hoopa Unbound,Psychic,Dark,80,160,60,170,130,80,6,True,1,15,-55,0
+63,799,63,Primeape,Fighting,,65,105,60,60,70,95,1,False,Hoopa Unbound,Psychic,Dark,80,160,60,170,130,80,6,True,1,15,-55,0
 93,67,93,Dodrio,Normal,Flying,60,110,70,60,60,100,1,False,Poliwhirl,Water,,65,65,65,50,50,90,1,False,1,10,45,5
 402,727,727,Clamperl,Water,,35,64,85,74,55,32,3,False,Greninja,Water,Dark,72,95,67,103,71,122,6,False,0,-90,-31,18
 512,457,457,Mega Abomasnow,Grass,Ice,90,132,105,132,105,30,4,False,Bastiodon,Rock,Steel,60,52,168,47,138,30,4,False,0,0,80,-63
@@ -17396,7 +17396,7 @@ First_pokemon,Second_pokemon,Winner,Name_first,Type 1_first,Type 2_first,HP_firs
 414,608,608,Mega Metagross,Steel,Psychic,80,145,150,105,110,110,3,False,Whimsicott,Grass,Fairy,60,67,85,77,75,116,5,False,0,-6,78,65
 128,269,269,Goldeen,Water,,45,67,60,35,50,63,1,False,Mega Tyranitar,Rock,Dark,100,164,150,95,120,71,2,False,0,-8,-97,-90
 458,372,372,Burmy,Bug,,40,29,45,29,45,36,4,False,Barboach,Water,Ground,50,48,43,46,41,60,3,False,0,-24,-19,2
-63,37,63,,Fighting,,65,105,60,60,70,95,1,False,Nidoqueen,Poison,Ground,90,92,87,75,85,76,1,False,1,19,13,-27
+63,37,63,Primeape,Fighting,,65,105,60,60,70,95,1,False,Nidoqueen,Poison,Ground,90,92,87,75,85,76,1,False,1,19,13,-27
 261,769,261,Miltank,Normal,,95,80,105,40,70,100,2,False,Amaura,Rock,Ice,77,59,50,67,63,46,6,False,1,54,21,55
 797,608,608,Mega Diancie,Rock,Fairy,50,160,110,160,110,110,6,True,Whimsicott,Grass,Fairy,60,67,85,77,75,116,5,False,0,-6,93,25
 645,52,645,Vanillish,Ice,,51,65,65,80,75,59,5,False,Paras,Bug,Grass,35,70,55,45,55,25,1,False,1,34,-5,10
@@ -17412,7 +17412,7 @@ First_pokemon,Second_pokemon,Winner,Name_first,Type 1_first,Type 2_first,HP_firs
 21,167,21,Pidgey,Normal,Flying,40,45,40,35,35,56,1,False,Chikorita,Grass,,45,49,65,49,65,45,2,False,1,11,-4,-25
 155,258,155,Mega Aerodactyl,Rock,Flying,80,135,85,70,95,150,1,False,Smoochum,Ice,Psychic,45,30,15,85,65,65,2,False,1,85,105,70
 613,157,157,Krokorok,Ground,Dark,60,82,45,45,45,74,5,False,Articuno,Ice,Flying,90,85,100,95,125,85,1,True,0,-11,-3,-55
-63,39,63,,Fighting,,65,105,60,60,70,95,1,False,Nidorino,Poison,,61,72,57,55,55,65,1,False,1,30,33,3
+63,39,63,Primeape,Fighting,,65,105,60,60,70,95,1,False,Nidorino,Poison,,61,72,57,55,55,65,1,False,1,30,33,3
 345,157,157,Roselia,Grass,Poison,50,60,45,100,80,65,3,False,Articuno,Ice,Flying,90,85,100,95,125,85,1,True,0,-20,-25,-55
 228,636,228,Qwilfish,Water,Poison,65,95,75,55,55,85,2,False,Gothita,Psychic,,45,30,50,55,65,45,5,False,1,40,65,25
 319,576,576,Loudred,Normal,,84,71,43,71,43,48,3,False,Simipour,Water,,75,98,63,98,63,101,5,False,0,-53,-27,-20
@@ -17966,7 +17966,7 @@ First_pokemon,Second_pokemon,Winner,Name_first,Type 1_first,Type 2_first,HP_firs
 729,174,729,Diggersby,Normal,Ground,85,56,77,50,77,78,6,False,Croconaw,Water,,65,80,80,59,63,58,2,False,1,20,-24,-3
 397,133,133,Glalie,Ice,,80,80,80,80,80,80,3,False,Scyther,Bug,Flying,70,110,80,55,80,105,1,False,0,-25,-30,0
 254,53,254,Stantler,Normal,,73,95,62,85,65,85,2,False,Parasect,Bug,Grass,60,95,80,60,80,30,1,False,1,55,0,-18
-17,63,63,Weedle,Bug,Poison,40,35,30,20,20,50,1,False,,Fighting,,65,105,60,60,70,95,1,False,0,-45,-70,-30
+17,63,63,Weedle,Bug,Poison,40,35,30,20,20,50,1,False,Primeape,Fighting,,65,105,60,60,70,95,1,False,0,-45,-70,-30
 37,219,219,Nidoqueen,Poison,Ground,90,92,87,75,85,76,1,False,Girafarig,Normal,Psychic,70,80,65,90,65,85,2,False,0,-9,12,22
 146,222,146,Vaporeon,Water,,130,65,60,110,95,65,1,False,Dunsparce,Normal,,100,70,70,65,65,45,2,False,1,20,-5,-10
 261,369,261,Miltank,Normal,,95,80,105,40,70,100,2,False,Seviper,Poison,,73,100,60,100,60,65,3,False,1,35,-20,45
@@ -18281,7 +18281,7 @@ First_pokemon,Second_pokemon,Winner,Name_first,Type 1_first,Type 2_first,HP_firs
 276,586,276,Mega Sceptile,Grass,Dragon,70,110,75,145,85,145,3,False,Gigalith,Rock,,85,135,130,60,80,25,5,False,1,120,-25,-55
 748,85,85,Meowstic Female,Psychic,,74,48,76,83,81,104,6,False,Rapidash,Fire,,65,100,70,80,80,105,1,False,0,-1,-52,6
 734,162,162,Spewpa,Bug,,45,22,60,27,30,29,6,False,Dragonite,Dragon,Flying,91,134,95,100,100,80,1,False,0,-51,-112,-35
-576,63,576,Simipour,Water,,75,98,63,98,63,101,5,False,,Fighting,,65,105,60,60,70,95,1,False,1,6,-7,3
+576,63,576,Simipour,Water,,75,98,63,98,63,101,5,False,Primeape,Fighting,,65,105,60,60,70,95,1,False,1,6,-7,3
 788,543,543,Gourgeist Super Size,Ghost,Grass,85,100,122,58,75,54,6,False,Heatran,Fire,Steel,91,90,106,130,106,77,4,True,0,-23,10,16
 319,721,721,Loudred,Normal,,84,71,43,71,43,48,3,False,Chesnaught,Grass,Fighting,88,107,122,74,75,64,6,False,0,-16,-36,-79
 177,155,155,Furret,Normal,,85,76,64,45,55,90,2,False,Mega Aerodactyl,Rock,Flying,80,135,85,70,95,150,1,False,0,-60,-59,-21
@@ -18329,7 +18329,7 @@ First_pokemon,Second_pokemon,Winner,Name_first,Type 1_first,Type 2_first,HP_firs
 520,534,534,Togekiss,Fairy,Flying,85,50,95,120,115,80,4,False,Wash Rotom,Electric,Water,50,65,107,105,107,86,4,False,0,-6,-15,-12
 393,195,393,Absol,Dark,,65,130,60,75,60,75,3,False,Flaaffy,Electric,,70,55,55,80,60,45,2,False,1,30,75,5
 48,483,48,Golbat,Poison,Flying,75,80,70,65,75,90,1,False,Stunky,Poison,Dark,63,63,47,41,41,74,4,False,1,16,17,23
-63,387,387,,Fighting,,65,105,60,60,70,95,1,False,Banette,Ghost,,64,115,65,83,63,65,3,False,0,30,-10,-5
+63,387,387,Primeape,Fighting,,65,105,60,60,70,95,1,False,Banette,Ghost,,64,115,65,83,63,65,3,False,0,30,-10,-5
 700,109,700,Cobalion,Steel,Fighting,91,90,129,90,72,108,5,True,Voltorb,Electric,,40,30,50,55,55,100,1,False,1,8,60,79
 551,276,276,Shaymin Land Forme,Grass,,100,100,100,100,100,100,4,True,Mega Sceptile,Grass,Dragon,70,110,75,145,85,145,3,False,0,-45,-10,25
 662,159,159,Klang,Steel,,60,80,95,70,85,50,5,False,Moltres,Fire,Flying,90,100,90,125,85,90,1,True,0,-40,-20,5
@@ -18702,7 +18702,7 @@ First_pokemon,Second_pokemon,Winner,Name_first,Type 1_first,Type 2_first,HP_firs
 438,61,438,Infernape,Fire,Fighting,76,104,71,104,71,108,4,False,Golduck,Water,,80,82,78,95,80,85,1,False,1,23,22,-7
 442,732,732,Starly,Normal,Flying,40,55,30,30,30,60,4,False,Talonflame,Fire,Flying,78,81,71,74,69,126,6,False,0,-66,-26,-41
 784,434,784,Pumpkaboo Super Size,Ghost,Grass,59,66,70,44,55,41,6,False,Grotle,Grass,,75,89,85,55,65,36,4,False,1,5,-23,-15
-63,610,63,,Fighting,,65,105,60,60,70,95,1,False,Lilligant,Grass,,70,60,75,110,75,90,5,False,1,5,45,-15
+63,610,63,Primeape,Fighting,,65,105,60,60,70,95,1,False,Lilligant,Grass,,70,60,75,110,75,90,5,False,1,5,45,-15
 582,210,582,Blitzle,Electric,,45,60,32,50,32,76,5,False,Wooper,Water,Ground,55,45,45,25,25,15,2,False,1,61,15,-13
 16,324,16,Butterfree,Bug,Flying,60,45,50,90,80,70,1,False,Nosepass,Rock,,30,45,135,45,90,30,3,False,1,40,0,-85
 680,49,680,Stunfisk,Ground,Electric,109,66,84,81,99,32,5,False,Oddish,Grass,Poison,45,50,55,75,65,30,1,False,1,2,16,29
@@ -19090,7 +19090,7 @@ First_pokemon,Second_pokemon,Winner,Name_first,Type 1_first,Type 2_first,HP_firs
 345,457,457,Roselia,Grass,Poison,50,60,45,100,80,65,3,False,Bastiodon,Rock,Steel,60,52,168,47,138,30,4,False,0,35,8,-123
 186,468,186,Lanturn,Water,Electric,125,58,58,76,76,67,2,False,Cherubi,Grass,,45,35,45,62,53,35,4,False,1,32,23,13
 787,350,350,Gourgeist Large Size,Ghost,Grass,75,95,122,58,75,69,6,False,Mega Sharpedo,Water,Dark,70,140,70,110,65,105,3,False,0,-36,-45,52
-63,239,63,,Fighting,,65,105,60,60,70,95,1,False,Swinub,Ice,Ground,50,50,40,30,30,50,2,False,1,45,55,20
+63,239,63,Primeape,Fighting,,65,105,60,60,70,95,1,False,Swinub,Ice,Ground,50,50,40,30,30,50,2,False,1,45,55,20
 49,272,272,Oddish,Grass,Poison,45,50,55,75,65,30,1,False,Celebi,Psychic,Grass,100,100,100,100,100,100,2,False,0,-70,-50,-45
 665,441,441,Eelektrik,Electric,,65,85,70,75,70,40,5,False,Empoleon,Water,Steel,84,86,88,111,101,60,4,False,0,-20,-1,-18
 416,401,401,Regice,Ice,,80,50,100,100,200,50,3,True,Walrein,Ice,Water,110,80,90,95,90,65,3,False,0,-15,-30,10
@@ -19727,7 +19727,7 @@ First_pokemon,Second_pokemon,Winner,Name_first,Type 1_first,Type 2_first,HP_firs
 84,179,84,Ponyta,Fire,,50,85,55,65,65,90,1,False,Noctowl,Normal,Flying,100,50,50,76,96,70,2,False,1,20,35,5
 142,441,142,Mega Gyarados,Water,Dark,95,155,109,70,130,81,1,False,Empoleon,Water,Steel,84,86,88,111,101,60,4,False,1,21,69,21
 369,249,249,Seviper,Poison,,73,100,60,100,60,65,3,False,Mega Houndoom,Dark,Fire,75,90,90,140,90,115,2,False,0,-50,10,-30
-333,63,63,Aggron,Steel,Rock,70,110,180,60,60,50,3,False,,Fighting,,65,105,60,60,70,95,1,False,0,-45,5,120
+333,63,63,Aggron,Steel,Rock,70,110,180,60,60,50,3,False,Primeape,Fighting,,65,105,60,60,70,95,1,False,0,-45,5,120
 478,799,478,Mismagius,Ghost,,60,60,60,105,105,105,4,False,Hoopa Unbound,Psychic,Dark,80,160,60,170,130,80,6,True,1,25,-100,0
 289,637,637,Wurmple,Bug,,45,45,35,20,30,20,3,False,Gothorita,Psychic,,60,45,70,75,85,55,5,False,0,-35,0,-35
 580,403,580,Tranquill,Normal,Flying,62,77,62,50,42,65,5,False,Huntail,Water,,55,104,105,94,75,52,3,False,1,13,-27,-43
@@ -19761,7 +19761,7 @@ First_pokemon,Second_pokemon,Winner,Name_first,Type 1_first,Type 2_first,HP_firs
 401,106,106,Walrein,Ice,Water,110,80,90,95,90,65,3,False,Hypno,Psychic,,85,73,70,73,115,67,1,False,0,-2,7,20
 495,199,495,Mega Garchomp,Dragon,Ground,108,170,115,120,95,92,4,False,Marill,Water,Fairy,70,20,50,20,50,40,2,False,1,52,150,65
 550,97,550,Darkrai,Dark,,70,90,90,135,90,125,4,True,Muk,Poison,,105,105,75,65,100,50,1,False,1,75,-15,15
-63,686,63,,Fighting,,65,105,60,60,70,95,1,False,Pawniard,Dark,Steel,45,85,70,40,40,60,5,False,1,35,20,-10
+63,686,63,Primeape,Fighting,,65,105,60,60,70,95,1,False,Pawniard,Dark,Steel,45,85,70,40,40,60,5,False,1,35,20,-10
 70,783,783,Kadabra,Psychic,,40,35,30,120,70,105,1,False,Pumpkaboo Large Size,Ghost,Grass,54,66,70,44,55,46,6,False,0,59,-31,-40
 715,146,715,Keldeo Resolute Forme,Water,Fighting,91,72,90,129,90,108,5,False,Vaporeon,Water,,130,65,60,110,95,65,1,False,1,43,7,30
 427,656,427,Mega Rayquaza,Dragon,Flying,105,180,100,180,100,115,3,True,Alomomola,Water,,165,75,80,40,45,65,5,False,1,50,105,20
@@ -20223,7 +20223,7 @@ First_pokemon,Second_pokemon,Winner,Name_first,Type 1_first,Type 2_first,HP_firs
 399,163,163,Spheal,Ice,Water,70,40,50,55,50,25,3,False,Mewtwo,Psychic,,106,110,90,154,90,130,1,True,0,-105,-70,-40
 511,50,511,Abomasnow,Grass,Ice,90,92,75,92,85,60,4,False,Gloom,Grass,Poison,60,65,70,85,75,40,1,False,1,20,27,5
 197,128,128,Mega Ampharos,Electric,Dragon,90,95,105,165,110,45,2,False,Goldeen,Water,,45,67,60,35,50,63,1,False,0,-18,28,45
-63,526,63,,Fighting,,65,105,60,60,70,95,1,False,Porygon-Z,Normal,,85,80,70,135,75,90,4,False,1,5,25,-10
+63,526,63,Primeape,Fighting,,65,105,60,60,70,95,1,False,Porygon-Z,Normal,,85,80,70,135,75,90,4,False,1,5,25,-10
 418,534,418,Latias,Dragon,Psychic,80,80,90,110,130,110,3,True,Wash Rotom,Electric,Water,50,65,107,105,107,86,4,False,1,24,15,-17
 260,442,260,Magby,Fire,,45,75,37,70,55,83,2,False,Starly,Normal,Flying,40,55,30,30,30,60,4,False,1,23,20,7
 206,154,154,Aipom,Normal,,55,70,55,40,55,85,2,False,Aerodactyl,Rock,Flying,80,105,65,60,75,130,1,False,0,-45,-35,-10
@@ -20479,7 +20479,7 @@ First_pokemon,Second_pokemon,Winner,Name_first,Type 1_first,Type 2_first,HP_firs
 271,720,271,Ho-oh,Fire,Flying,106,130,90,110,154,90,2,True,Quilladin,Grass,,61,78,95,56,58,57,6,False,1,33,52,-5
 564,377,377,Patrat,Normal,,45,55,39,35,39,42,5,False,Claydol,Ground,Psychic,60,70,105,70,120,75,3,False,0,-33,-15,-66
 428,494,494,Jirachi,Steel,Psychic,100,100,100,100,100,100,3,True,Garchomp,Dragon,Ground,108,130,95,80,85,102,4,False,0,-2,-30,5
-283,63,63,Swampert,Water,Ground,100,110,90,85,90,60,3,False,,Fighting,,65,105,60,60,70,95,1,False,0,-35,5,30
+283,63,63,Swampert,Water,Ground,100,110,90,85,90,60,3,False,Primeape,Fighting,,65,105,60,60,70,95,1,False,0,-35,5,30
 212,116,212,Espeon,Psychic,,65,65,60,130,95,110,2,False,Hitmonchan,Fighting,,50,105,79,35,110,76,1,False,1,34,-40,-19
 37,298,37,Nidoqueen,Poison,Ground,90,92,87,75,85,76,1,False,Nuzleaf,Grass,Dark,70,70,40,60,40,60,3,False,1,16,22,47
 616,645,616,Darmanitan Standard Mode,Fire,,105,140,55,30,55,95,5,False,Vanillish,Ice,,51,65,65,80,75,59,5,False,1,36,75,-10
@@ -21135,7 +21135,7 @@ First_pokemon,Second_pokemon,Winner,Name_first,Type 1_first,Type 2_first,HP_firs
 309,491,309,Masquerain,Bug,Flying,70,60,62,80,82,60,3,False,Spiritomb,Ghost,Dark,50,92,108,92,108,35,4,False,1,25,-32,-46
 502,38,502,Skorupi,Poison,Bug,40,50,90,30,55,65,4,False,Nidoran♂,Poison,,46,57,40,40,40,50,1,False,1,15,-7,50
 565,153,153,Watchog,Normal,,60,85,69,60,69,77,5,False,Kabutops,Rock,Water,60,115,105,65,70,80,1,False,0,-3,-30,-36
-137,63,63,Pinsir,Bug,,65,125,100,55,70,85,1,False,,Fighting,,65,105,60,60,70,95,1,False,0,-10,20,40
+137,63,63,Pinsir,Bug,,65,125,100,55,70,85,1,False,Primeape,Fighting,,65,105,60,60,70,95,1,False,0,-10,20,40
 369,641,369,Seviper,Poison,,73,100,60,100,60,65,3,False,Reuniclus,Psychic,,110,65,75,125,85,30,5,False,1,35,35,-15
 487,313,313,Bonsly,Rock,,50,80,95,10,45,10,4,False,Vigoroth,Normal,,80,80,80,55,55,90,3,False,0,-80,0,15
 691,396,691,Vullaby,Dark,Flying,70,55,75,45,65,60,5,False,Snorunt,Ice,,50,50,50,50,50,50,3,False,1,10,5,25
@@ -21579,7 +21579,7 @@ First_pokemon,Second_pokemon,Winner,Name_first,Type 1_first,Type 2_first,HP_firs
 119,104,104,Weezing,Poison,,65,90,120,85,70,60,1,False,Onix,Rock,Ground,35,45,160,30,45,70,1,False,0,-10,45,-40
 75,798,798,Machamp,Fighting,,90,130,80,65,85,55,1,False,Hoopa Confined,Psychic,Ghost,80,110,60,150,130,70,6,True,0,-15,20,20
 695,429,695,Deino,Dark,Dragon,52,65,50,45,50,38,5,False,Deoxys Normal Forme,Psychic,,50,150,50,150,50,150,3,True,1,-112,-85,0
-796,63,63,Diancie,Rock,Fairy,50,100,150,100,150,50,6,True,,Fighting,,65,105,60,60,70,95,1,False,0,-45,-5,90
+796,63,63,Diancie,Rock,Fairy,50,100,150,100,150,50,6,True,Primeape,Fighting,,65,105,60,60,70,95,1,False,0,-45,-5,90
 415,332,415,Regirock,Rock,,80,100,200,50,100,50,3,True,Lairon,Steel,Rock,60,90,140,50,50,40,3,False,1,10,10,60
 735,270,270,Vivillon,Bug,Flying,80,52,50,90,50,89,6,False,Lugia,Psychic,Flying,106,90,130,90,154,110,2,True,0,-21,-38,-80
 560,324,560,Emboar,Fire,Fighting,110,123,65,100,65,65,5,False,Nosepass,Rock,,30,45,135,45,90,30,3,False,1,35,78,-70
@@ -22063,7 +22063,7 @@ First_pokemon,Second_pokemon,Winner,Name_first,Type 1_first,Type 2_first,HP_firs
 52,612,612,Paras,Bug,Grass,35,70,55,45,55,25,1,False,Sandile,Ground,Dark,50,72,35,35,35,65,5,False,0,-40,-2,20
 787,37,37,Gourgeist Large Size,Ghost,Grass,75,95,122,58,75,69,6,False,Nidoqueen,Poison,Ground,90,92,87,75,85,76,1,False,0,-7,3,35
 242,653,653,Remoraid,Water,,35,65,35,65,35,65,2,False,Amoonguss,Grass,Poison,114,85,70,85,80,30,5,False,0,35,-20,-35
-63,800,63,,Fighting,,65,105,60,60,70,95,1,False,Volcanion,Fire,Water,80,110,120,130,90,70,6,True,1,25,-5,-60
+63,800,63,Primeape,Fighting,,65,105,60,60,70,95,1,False,Volcanion,Fire,Water,80,110,120,130,90,70,6,True,1,25,-5,-60
 135,157,135,Electabuzz,Electric,,65,83,57,95,85,105,1,False,Articuno,Ice,Flying,90,85,100,95,125,85,1,True,1,20,-2,-43
 446,138,138,Bibarel,Normal,Water,79,85,60,55,60,71,4,False,Mega Pinsir,Bug,Flying,65,155,120,65,90,105,1,False,0,-34,-70,-60
 696,151,696,Zweilous,Dark,Dragon,72,85,70,65,70,58,5,False,Omastar,Rock,Water,70,60,125,115,70,55,1,False,1,3,25,-55
@@ -22881,7 +22881,7 @@ First_pokemon,Second_pokemon,Winner,Name_first,Type 1_first,Type 2_first,HP_firs
 636,502,502,Gothita,Psychic,,45,30,50,55,65,45,5,False,Skorupi,Poison,Bug,40,50,90,30,55,65,4,False,0,-20,-20,-40
 108,781,108,Kingler,Water,,55,130,115,50,50,75,1,False,Pumpkaboo Average Size,Ghost,Grass,49,66,70,44,55,51,6,False,1,24,64,45
 717,247,717,Meloetta Pirouette Forme,Normal,Fighting,100,128,90,77,77,128,5,False,Houndour,Dark,Fire,45,60,30,80,50,65,2,False,1,63,68,60
-344,63,63,Illumise,Bug,,65,47,55,73,75,85,3,False,,Fighting,,65,105,60,60,70,95,1,False,0,-10,-58,-5
+344,63,63,Illumise,Bug,,65,47,55,73,75,85,3,False,Primeape,Fighting,,65,105,60,60,70,95,1,False,0,-10,-58,-5
 323,498,498,Azurill,Normal,Fairy,50,20,40,20,40,20,3,False,Lucario,Fighting,Steel,70,110,70,115,70,90,4,False,0,-70,-90,-30
 374,589,589,Corphish,Water,,43,80,65,50,35,35,3,False,Drilbur,Ground,,60,85,40,30,45,68,5,False,0,-33,-5,25
 211,390,211,Quagsire,Water,Ground,95,85,85,65,65,35,2,False,Dusclops,Ghost,,40,70,130,60,130,25,3,False,1,10,15,-45
@@ -23524,7 +23524,7 @@ First_pokemon,Second_pokemon,Winner,Name_first,Type 1_first,Type 2_first,HP_firs
 243,762,243,Octillery,Water,,75,105,75,105,75,45,2,False,Dragalge,Poison,Dragon,65,75,90,97,123,44,6,False,1,1,30,-15
 755,734,755,Swirlix,Fairy,,62,48,66,59,57,49,6,False,Spewpa,Bug,,45,22,60,27,30,29,6,False,1,20,26,6
 590,199,590,Excadrill,Ground,Steel,110,135,60,50,65,88,5,False,Marill,Water,Fairy,70,20,50,20,50,40,2,False,1,48,115,10
-8,63,8,Mega Charizard X,Fire,Dragon,78,130,111,130,85,100,1,False,,Fighting,,65,105,60,60,70,95,1,False,1,5,25,51
+8,63,8,Mega Charizard X,Fire,Dragon,78,130,111,130,85,100,1,False,Primeape,Fighting,,65,105,60,60,70,95,1,False,1,5,25,51
 360,59,59,Trapinch,Ground,,45,100,45,45,45,10,3,False,Persian,Normal,,65,70,60,65,65,115,1,False,0,-105,30,-15
 745,450,745,Furfrou,Normal,,75,80,60,65,90,102,6,False,Luxio,Electric,,60,85,49,60,49,60,4,False,1,42,-5,11
 460,753,460,Wormadam Sandy Cloak,Bug,Ground,60,79,105,59,85,36,4,False,Spritzee,Fairy,,78,52,60,63,65,23,6,False,1,13,27,45
@@ -24336,7 +24336,7 @@ First_pokemon,Second_pokemon,Winner,Name_first,Type 1_first,Type 2_first,HP_firs
 246,789,246,Skarmory,Steel,Flying,65,80,140,40,70,70,2,False,Bergmite,Ice,,55,69,85,32,35,28,6,False,1,42,11,55
 55,26,26,Venomoth,Bug,Poison,70,65,60,90,75,90,1,False,Raticate,Normal,,55,81,60,50,70,97,1,False,0,-7,-16,0
 306,606,606,Gardevoir,Psychic,Fairy,68,65,65,125,115,80,3,False,Scolipede,Bug,Poison,60,100,89,55,69,112,5,False,0,-32,-35,-24
-63,47,63,,Fighting,,65,105,60,60,70,95,1,False,Zubat,Poison,Flying,40,45,35,30,40,55,1,False,1,40,60,25
+63,47,63,Primeape,Fighting,,65,105,60,60,70,95,1,False,Zubat,Poison,Flying,40,45,35,30,40,55,1,False,1,40,60,25
 220,509,220,Pineco,Bug,,50,65,90,35,35,15,2,False,Mantyke,Water,Flying,45,20,50,60,120,50,4,False,1,-35,45,40
 795,363,795,Zygarde Half Forme,Dragon,Ground,108,100,121,81,95,95,6,True,Cacnea,Grass,,50,85,40,85,40,35,3,False,1,60,15,81
 26,15,26,Raticate,Normal,,55,81,60,50,70,97,1,False,Metapod,Bug,,50,20,55,25,25,30,1,False,1,67,61,5
@@ -24488,7 +24488,7 @@ First_pokemon,Second_pokemon,Winner,Name_first,Type 1_first,Type 2_first,HP_firs
 581,101,101,Unfezant,Normal,Flying,80,115,80,65,55,93,5,False,Haunter,Ghost,Poison,45,50,45,115,55,95,1,False,0,-2,65,35
 371,726,726,Solrock,Rock,Psychic,70,95,85,55,65,70,3,False,Frogadier,Water,,54,63,52,83,56,97,6,False,0,-27,32,33
 767,697,697,Tyrunt,Rock,Dragon,58,89,77,45,45,48,6,False,Hydreigon,Dark,Dragon,92,105,90,125,90,98,5,False,0,-50,-16,-13
-63,591,63,,Fighting,,65,105,60,60,70,95,1,False,Audino,Normal,,103,60,86,60,86,50,5,False,1,45,45,-26
+63,591,63,Primeape,Fighting,,65,105,60,60,70,95,1,False,Audino,Normal,,103,60,86,60,86,50,5,False,1,45,45,-26
 107,258,258,Krabby,Water,,30,105,90,25,25,50,1,False,Smoochum,Ice,Psychic,45,30,15,85,65,65,2,False,0,-15,75,75
 595,534,534,Conkeldurr,Fighting,,105,140,95,55,65,45,5,False,Wash Rotom,Electric,Water,50,65,107,105,107,86,4,False,0,-41,75,-12
 79,171,171,Tentacool,Water,Poison,40,40,35,50,100,70,1,False,Quilava,Fire,,58,64,58,80,65,80,2,False,0,-10,-24,-23
@@ -24952,7 +24952,7 @@ First_pokemon,Second_pokemon,Winner,Name_first,Type 1_first,Type 2_first,HP_firs
 634,306,306,Minccino,Normal,,55,50,40,40,40,75,5,False,Gardevoir,Psychic,Fairy,68,65,65,125,115,80,3,False,0,-5,-15,-25
 156,174,174,Snorlax,Normal,,160,110,65,65,110,30,1,False,Croconaw,Water,,65,80,80,59,63,58,2,False,0,-28,30,-15
 353,751,751,Numel,Fire,Ground,60,60,40,65,45,35,3,False,Aegislash Blade Forme,Steel,Ghost,60,150,50,150,50,60,6,False,0,-25,-90,-10
-29,63,63,Ekans,Poison,,35,60,44,40,54,55,1,False,,Fighting,,65,105,60,60,70,95,1,False,0,-40,-45,-16
+29,63,63,Ekans,Poison,,35,60,44,40,54,55,1,False,Primeape,Fighting,,65,105,60,60,70,95,1,False,0,-40,-45,-16
 318,700,700,Whismur,Normal,,64,51,23,51,23,28,3,False,Cobalion,Steel,Fighting,91,90,129,90,72,108,5,True,0,-80,-39,-106
 629,75,629,Archeops,Rock,Flying,75,140,65,112,65,110,5,False,Machamp,Fighting,,90,130,80,65,85,55,1,False,1,55,10,-15
 572,714,714,Simisage,Grass,,75,98,63,98,63,101,5,False,Keldeo Ordinary Forme,Water,Fighting,91,72,90,129,90,108,5,False,0,-7,26,-27
@@ -26027,7 +26027,7 @@ First_pokemon,Second_pokemon,Winner,Name_first,Type 1_first,Type 2_first,HP_firs
 312,301,301,Slakoth,Normal,,60,60,60,35,35,30,3,False,Swellow,Normal,Flying,60,85,60,50,50,125,3,False,0,-95,-25,0
 191,19,19,Togetic,Fairy,Flying,55,40,85,80,105,40,2,False,Beedrill,Bug,Poison,65,90,40,45,80,75,1,False,0,-35,-50,45
 643,230,643,Swanna,Water,Flying,75,87,63,87,63,98,5,False,Mega Scizor,Bug,Steel,70,150,140,65,100,75,2,False,1,23,-63,-77
-63,691,63,,Fighting,,65,105,60,60,70,95,1,False,Vullaby,Dark,Flying,70,55,75,45,65,60,5,False,1,35,50,-15
+63,691,63,Primeape,Fighting,,65,105,60,60,70,95,1,False,Vullaby,Dark,Flying,70,55,75,45,65,60,5,False,1,35,50,-15
 58,642,58,Meowth,Normal,,40,45,35,40,40,90,1,False,Ducklett,Water,Flying,62,44,50,44,50,55,5,False,1,35,1,-15
 299,408,299,Shiftry,Grass,Dark,90,100,60,90,60,80,3,False,Shelgon,Dragon,,65,95,100,60,50,50,3,False,1,30,5,-40
 630,92,92,Trubbish,Poison,,50,50,62,40,62,65,5,False,Doduo,Normal,Flying,35,85,45,35,35,75,1,False,0,-10,-35,17
@@ -26079,7 +26079,7 @@ First_pokemon,Second_pokemon,Winner,Name_first,Type 1_first,Type 2_first,HP_firs
 93,41,93,Dodrio,Normal,Flying,60,110,70,60,60,100,1,False,Clefairy,Fairy,,70,45,48,60,65,35,1,False,1,65,65,22
 108,10,108,Kingler,Water,,55,130,115,50,50,75,1,False,Squirtle,Water,,44,48,65,50,64,43,1,False,1,32,82,50
 369,654,654,Seviper,Poison,,73,100,60,100,60,65,3,False,Frillish,Water,Ghost,55,40,50,65,85,40,5,False,0,25,60,10
-751,63,63,Aegislash Blade Forme,Steel,Ghost,60,150,50,150,50,60,6,False,,Fighting,,65,105,60,60,70,95,1,False,0,-35,45,-10
+751,63,63,Aegislash Blade Forme,Steel,Ghost,60,150,50,150,50,60,6,False,Primeape,Fighting,,65,105,60,60,70,95,1,False,0,-35,45,-10
 645,296,296,Vanillish,Ice,,51,65,65,80,75,59,5,False,Ludicolo,Water,Grass,80,70,70,90,100,70,3,False,0,-11,-5,-5
 567,155,155,Herdier,Normal,,65,80,65,35,65,60,5,False,Mega Aerodactyl,Rock,Flying,80,135,85,70,95,150,1,False,0,-90,-55,-20
 286,376,286,Mightyena,Dark,,70,90,70,60,60,70,3,False,Baltoy,Ground,Psychic,40,40,55,40,70,55,3,False,1,15,50,15
@@ -26681,7 +26681,7 @@ First_pokemon,Second_pokemon,Winner,Name_first,Type 1_first,Type 2_first,HP_firs
 581,586,581,Unfezant,Normal,Flying,80,115,80,65,55,93,5,False,Gigalith,Rock,,85,135,130,60,80,25,5,False,1,68,-20,-50
 214,762,214,Murkrow,Dark,Flying,60,85,42,85,42,91,2,False,Dragalge,Poison,Dragon,65,75,90,97,123,44,6,False,1,47,10,-48
 415,450,450,Regirock,Rock,,80,100,200,50,100,50,3,True,Luxio,Electric,,60,85,49,60,49,60,4,False,0,-10,15,151
-310,63,63,Shroomish,Grass,,60,40,60,40,60,35,3,False,,Fighting,,65,105,60,60,70,95,1,False,0,-60,-65,0
+310,63,63,Shroomish,Grass,,60,40,60,40,60,35,3,False,Primeape,Fighting,,65,105,60,60,70,95,1,False,0,-60,-65,0
 762,660,762,Dragalge,Poison,Dragon,65,75,90,97,123,44,6,False,Ferrothorn,Grass,Steel,74,94,131,54,116,20,5,False,1,24,-19,-41
 13,463,13,Mega Blastoise,Water,,79,103,120,135,115,78,1,False,Combee,Bug,Flying,30,30,42,30,42,70,4,False,1,8,73,78
 80,202,80,Tentacruel,Water,Poison,80,70,65,80,120,100,1,False,Politoed,Water,,90,75,75,90,100,70,2,False,1,30,-5,-10
@@ -27570,7 +27570,7 @@ First_pokemon,Second_pokemon,Winner,Name_first,Type 1_first,Type 2_first,HP_firs
 1,26,26,Bulbasaur,Grass,Poison,45,49,49,65,65,45,1,False,Raticate,Normal,,55,81,60,50,70,97,1,False,0,-52,-32,-11
 347,348,348,Swalot,Poison,,100,73,83,73,83,55,3,False,Carvanha,Water,Dark,45,90,20,65,20,65,3,False,0,-10,-17,63
 704,360,704,Tornadus Therian Forme,Flying,,79,100,80,110,90,121,5,True,Trapinch,Ground,,45,100,45,45,45,10,3,False,1,111,0,35
-63,620,63,,Fighting,,65,105,60,60,70,95,1,False,Crustle,Bug,Rock,70,95,125,65,75,45,5,False,1,50,10,-65
+63,620,63,Primeape,Fighting,,65,105,60,60,70,95,1,False,Crustle,Bug,Rock,70,95,125,65,75,45,5,False,1,50,10,-65
 455,165,165,Rampardos,Rock,,97,165,60,65,50,58,4,False,Mega Mewtwo Y,Psychic,,106,150,70,194,120,140,1,True,0,-82,15,-10
 312,736,736,Slakoth,Normal,,60,60,60,35,35,30,3,False,Litleo,Fire,Normal,62,50,58,73,54,72,6,False,0,-42,10,2
 140,608,608,Magikarp,Water,,20,10,55,15,20,80,1,False,Whimsicott,Grass,Fairy,60,67,85,77,75,116,5,False,0,-36,-57,-30
@@ -28181,7 +28181,7 @@ First_pokemon,Second_pokemon,Winner,Name_first,Type 1_first,Type 2_first,HP_firs
 29,111,29,Ekans,Poison,,35,60,44,40,54,55,1,False,Exeggcute,Grass,Psychic,60,40,80,60,45,40,1,False,1,15,20,-36
 283,414,414,Swampert,Water,Ground,100,110,90,85,90,60,3,False,Mega Metagross,Steel,Psychic,80,145,150,105,110,110,3,False,0,-50,-35,-60
 331,135,135,Aron,Steel,Rock,50,70,100,40,40,30,3,False,Electabuzz,Electric,,65,83,57,95,85,105,1,False,0,-75,-13,43
-765,63,63,Helioptile,Electric,Normal,44,38,33,61,43,70,6,False,,Fighting,,65,105,60,60,70,95,1,False,0,-25,-67,-27
+765,63,63,Helioptile,Electric,Normal,44,38,33,61,43,70,6,False,Primeape,Fighting,,65,105,60,60,70,95,1,False,0,-25,-67,-27
 185,332,185,Chinchou,Water,Electric,75,38,38,56,56,67,2,False,Lairon,Steel,Rock,60,90,140,50,50,40,3,False,1,27,-52,-102
 493,768,493,Gabite,Dragon,Ground,68,90,65,50,55,82,4,False,Tyrantrum,Rock,Dragon,82,121,119,69,59,71,6,False,1,11,-31,-54
 751,636,636,Aegislash Blade Forme,Steel,Ghost,60,150,50,150,50,60,6,False,Gothita,Psychic,,45,30,50,55,65,45,5,False,0,15,120,0
@@ -28662,7 +28662,7 @@ First_pokemon,Second_pokemon,Winner,Name_first,Type 1_first,Type 2_first,HP_firs
 480,330,480,Glameow,Normal,,49,55,42,42,37,85,4,False,Mega Mawile,Steel,Fairy,50,105,125,55,95,50,3,False,1,35,-50,-83
 17,559,559,Weedle,Bug,Poison,40,35,30,20,20,50,1,False,Pignite,Fire,Fighting,90,93,55,70,55,55,5,False,0,-5,-58,-25
 364,18,364,Cacturne,Grass,Dark,70,115,60,115,60,55,3,False,Kakuna,Bug,Poison,45,25,50,25,25,35,1,False,1,20,90,10
-63,494,494,,Fighting,,65,105,60,60,70,95,1,False,Garchomp,Dragon,Ground,108,130,95,80,85,102,4,False,0,-7,-25,-35
+63,494,494,Primeape,Fighting,,65,105,60,60,70,95,1,False,Garchomp,Dragon,Ground,108,130,95,80,85,102,4,False,0,-7,-25,-35
 698,458,698,Larvesta,Bug,Fire,55,85,55,50,55,60,5,False,Burmy,Bug,,40,29,45,29,45,36,4,False,1,24,56,10
 683,572,572,Druddigon,Dragon,,77,120,90,60,90,48,5,False,Simisage,Grass,,75,98,63,98,63,101,5,False,0,-53,22,27
 531,455,455,Froslass,Ice,Ghost,70,80,70,80,70,110,4,False,Rampardos,Rock,,97,165,60,65,50,58,4,False,0,52,-85,10
@@ -28799,7 +28799,7 @@ First_pokemon,Second_pokemon,Winner,Name_first,Type 1_first,Type 2_first,HP_firs
 344,697,697,Illumise,Bug,,65,47,55,73,75,85,3,False,Hydreigon,Dark,Dragon,92,105,90,125,90,98,5,False,0,-13,-58,-35
 780,318,318,Trevenant,Ghost,Grass,85,110,76,65,82,56,6,False,Whismur,Normal,,64,51,23,51,23,28,3,False,0,28,59,53
 140,512,512,Magikarp,Water,,20,10,55,15,20,80,1,False,Mega Abomasnow,Grass,Ice,90,132,105,132,105,30,4,False,0,50,-122,-50
-219,63,63,Girafarig,Normal,Psychic,70,80,65,90,65,85,2,False,,Fighting,,65,105,60,60,70,95,1,False,0,-10,-25,5
+219,63,63,Girafarig,Normal,Psychic,70,80,65,90,65,85,2,False,Primeape,Fighting,,65,105,60,60,70,95,1,False,0,-10,-25,5
 406,265,406,Luvdisc,Water,,43,30,55,40,65,97,3,False,Suicune,Water,,100,75,115,90,115,85,2,True,1,12,-45,-60
 535,115,115,Frost Rotom,Electric,Ice,50,65,107,105,107,86,4,False,Hitmonlee,Fighting,,50,120,53,35,110,87,1,False,0,-1,-55,54
 329,274,274,Mawile,Steel,Fairy,50,85,85,55,55,50,3,False,Grovyle,Grass,,50,65,45,85,65,95,3,False,0,-45,20,40
@@ -30028,7 +30028,7 @@ First_pokemon,Second_pokemon,Winner,Name_first,Type 1_first,Type 2_first,HP_firs
 482,431,431,Chingling,Psychic,,45,30,50,65,50,45,4,False,Deoxys Defense Forme,Psychic,,50,70,160,70,160,90,3,True,0,-45,-40,-110
 265,273,265,Suicune,Water,,100,75,115,90,115,85,2,True,Treecko,Grass,,40,45,35,65,55,70,3,False,1,15,30,80
 689,146,146,Rufflet,Normal,Flying,70,83,50,37,50,60,5,False,Vaporeon,Water,,130,65,60,110,95,65,1,False,0,-5,18,-10
-63,632,63,,Fighting,,65,105,60,60,70,95,1,False,Zorua,Dark,,40,65,40,80,40,65,5,False,1,30,40,20
+63,632,63,Primeape,Fighting,,65,105,60,60,70,95,1,False,Zorua,Dark,,40,65,40,80,40,65,5,False,1,30,40,20
 279,442,279,Blaziken,Fire,Fighting,80,120,70,110,70,80,3,False,Starly,Normal,Flying,40,55,30,30,30,60,4,False,1,20,65,40
 376,195,376,Baltoy,Ground,Psychic,40,40,55,40,70,55,3,False,Flaaffy,Electric,,70,55,55,80,60,45,2,False,1,10,-15,0
 156,417,417,Snorlax,Normal,,160,110,65,65,110,30,1,False,Registeel,Steel,,80,75,150,75,150,50,3,True,0,-20,35,-85
@@ -30484,7 +30484,7 @@ First_pokemon,Second_pokemon,Winner,Name_first,Type 1_first,Type 2_first,HP_firs
 184,518,184,Crobat,Poison,Flying,85,90,80,70,80,130,2,False,Electivire,Electric,,75,123,67,95,85,95,4,False,1,35,-33,13
 599,101,101,Throh,Fighting,,120,100,85,30,85,45,5,False,Haunter,Ghost,Poison,45,50,45,115,55,95,1,False,0,-50,50,40
 103,226,103,Mega Gengar,Ghost,Poison,60,65,80,170,95,130,1,False,Snubbull,Fairy,,60,80,50,40,40,30,2,False,1,100,-15,30
-497,63,63,Riolu,Fighting,,40,70,40,35,40,60,4,False,,Fighting,,65,105,60,60,70,95,1,False,0,-35,-35,-20
+497,63,63,Riolu,Fighting,,40,70,40,35,40,60,4,False,Primeape,Fighting,,65,105,60,60,70,95,1,False,0,-35,-35,-20
 739,784,739,Floette,Fairy,,54,45,47,75,98,52,6,False,Pumpkaboo Super Size,Ghost,Grass,59,66,70,44,55,41,6,False,1,11,-21,-23
 753,759,759,Spritzee,Fairy,,78,52,60,63,65,23,6,False,Binacle,Rock,Water,42,52,67,39,56,50,6,False,0,-27,0,-7
 276,603,276,Mega Sceptile,Grass,Dragon,70,110,75,145,85,145,3,False,Leavanny,Bug,Grass,75,103,80,70,80,92,5,False,1,53,7,-5
@@ -30696,7 +30696,7 @@ First_pokemon,Second_pokemon,Winner,Name_first,Type 1_first,Type 2_first,HP_firs
 82,784,784,Graveler,Rock,Ground,55,95,115,45,45,35,1,False,Pumpkaboo Super Size,Ghost,Grass,59,66,70,44,55,41,6,False,0,-6,29,45
 509,187,187,Mantyke,Water,Flying,45,20,50,60,120,50,4,False,Pichu,Electric,,20,40,15,35,35,60,2,False,0,-10,-20,35
 718,590,718,Genesect,Bug,Steel,71,120,95,120,95,99,5,False,Excadrill,Ground,Steel,110,135,60,50,65,88,5,False,1,11,-15,35
-63,786,786,,Fighting,,65,105,60,60,70,95,1,False,Gourgeist Small Size,Ghost,Grass,55,85,122,58,75,99,6,False,0,-4,20,-62
+63,786,786,Primeape,Fighting,,65,105,60,60,70,95,1,False,Gourgeist Small Size,Ghost,Grass,55,85,122,58,75,99,6,False,0,-4,20,-62
 305,774,774,Kirlia,Psychic,Fairy,38,35,35,65,55,50,3,False,Carbink,Rock,Fairy,50,50,150,50,150,50,6,False,0,0,-15,-115
 268,798,798,Tyranitar,Rock,Dark,100,134,110,95,100,61,2,False,Hoopa Confined,Psychic,Ghost,80,110,60,150,130,70,6,True,0,-9,24,50
 411,200,200,Beldum,Steel,Psychic,40,55,80,35,60,30,3,False,Azumarill,Water,Fairy,100,50,80,60,80,50,2,False,0,-20,5,0
@@ -30809,7 +30809,7 @@ First_pokemon,Second_pokemon,Winner,Name_first,Type 1_first,Type 2_first,HP_firs
 118,335,335,Koffing,Poison,,40,65,95,60,45,35,1,False,Meditite,Fighting,Psychic,30,40,55,40,55,60,3,False,0,-25,25,40
 605,156,605,Whirlipede,Bug,Poison,40,55,99,40,79,47,5,False,Snorlax,Normal,,160,110,65,65,110,30,1,False,1,17,-55,34
 571,111,571,Pansage,Grass,,50,53,48,53,48,64,5,False,Exeggcute,Grass,Psychic,60,40,80,60,45,40,1,False,1,24,13,-32
-63,755,63,,Fighting,,65,105,60,60,70,95,1,False,Swirlix,Fairy,,62,48,66,59,57,49,6,False,1,46,57,-6
+63,755,63,Primeape,Fighting,,65,105,60,60,70,95,1,False,Swirlix,Fairy,,62,48,66,59,57,49,6,False,1,46,57,-6
 738,340,340,Flabébé,Fairy,,44,38,39,61,79,42,6,False,Mega Manectric,Electric,,70,75,80,135,80,135,3,False,0,-93,-37,-41
 676,182,676,Beartic,Ice,,95,110,80,70,80,50,5,False,Spinarak,Bug,Poison,40,60,40,40,40,30,2,False,1,20,50,40
 132,408,132,Mr. Mime,Psychic,Fairy,40,45,65,100,120,90,1,False,Shelgon,Dragon,,65,95,100,60,50,50,3,False,1,40,-50,-35
@@ -31547,7 +31547,7 @@ First_pokemon,Second_pokemon,Winner,Name_first,Type 1_first,Type 2_first,HP_firs
 706,794,706,Thundurus Therian Forme,Electric,Flying,79,105,70,145,80,101,5,True,Yveltal,Dark,Flying,126,131,95,131,98,99,6,True,1,2,-26,-25
 490,620,490,Chatot,Normal,Flying,76,65,45,92,42,91,4,False,Crustle,Bug,Rock,70,95,125,65,75,45,5,False,1,46,-30,-80
 689,518,518,Rufflet,Normal,Flying,70,83,50,37,50,60,5,False,Electivire,Electric,,75,123,67,95,85,95,4,False,0,-35,-40,-17
-63,101,101,,Fighting,,65,105,60,60,70,95,1,False,Haunter,Ghost,Poison,45,50,45,115,55,95,1,False,0,0,55,15
+63,101,101,Primeape,Fighting,,65,105,60,60,70,95,1,False,Haunter,Ghost,Poison,45,50,45,115,55,95,1,False,0,0,55,15
 257,224,257,Hitmontop,Fighting,,50,95,95,35,110,70,2,False,Steelix,Steel,Ground,75,85,200,55,65,30,2,False,1,40,10,-105
 282,728,728,Marshtomp,Water,Ground,70,85,70,60,70,50,3,False,Bunnelby,Normal,,38,36,38,32,36,57,6,False,0,-7,49,32
 747,581,747,Meowstic Male,Psychic,,74,48,76,83,81,104,6,False,Unfezant,Normal,Flying,80,115,80,65,55,93,5,False,1,11,-67,-4
@@ -32414,7 +32414,7 @@ First_pokemon,Second_pokemon,Winner,Name_first,Type 1_first,Type 2_first,HP_firs
 401,708,708,Walrein,Ice,Water,110,80,90,95,90,65,3,False,Zekrom,Dragon,Electric,100,150,120,120,100,90,5,True,0,-25,-70,-30
 628,585,628,Archen,Rock,Flying,55,112,45,74,45,70,5,False,Boldore,Rock,,70,105,105,50,40,20,5,False,1,50,7,-60
 401,447,401,Walrein,Ice,Water,110,80,90,95,90,65,3,False,Kricketot,Bug,,37,25,41,25,41,25,4,False,1,40,55,49
-204,63,63,Skiploom,Grass,Flying,55,45,50,45,65,80,2,False,,Fighting,,65,105,60,60,70,95,1,False,0,-15,-60,-10
+204,63,63,Skiploom,Grass,Flying,55,45,50,45,65,80,2,False,Primeape,Fighting,,65,105,60,60,70,95,1,False,0,-15,-60,-10
 52,475,475,Paras,Bug,Grass,35,70,55,45,55,25,1,False,Buneary,Normal,,55,66,44,44,56,85,4,False,0,-60,4,11
 409,666,409,Salamence,Dragon,Flying,95,135,80,110,80,100,3,False,Eelektross,Electric,,85,115,80,105,80,50,5,False,1,50,20,0
 137,615,137,Pinsir,Bug,,65,125,100,55,70,85,1,False,Darumaka,Fire,,70,90,45,15,45,50,5,False,1,35,35,55
@@ -32956,7 +32956,7 @@ First_pokemon,Second_pokemon,Winner,Name_first,Type 1_first,Type 2_first,HP_firs
 256,310,310,Tyrogue,Fighting,,35,35,35,35,35,35,2,False,Shroomish,Grass,,60,40,60,40,60,35,3,False,0,0,-5,-25
 557,583,583,Serperior,Grass,,75,75,95,75,95,113,5,False,Zebstrika,Electric,,75,100,63,80,63,116,5,False,0,-3,-25,32
 21,354,21,Pidgey,Normal,Flying,40,45,40,35,35,56,1,False,Camerupt,Fire,Ground,70,100,70,105,75,40,3,False,1,16,-55,-30
-63,13,63,,Fighting,,65,105,60,60,70,95,1,False,Mega Blastoise,Water,,79,103,120,135,115,78,1,False,1,17,2,-60
+63,13,63,Primeape,Fighting,,65,105,60,60,70,95,1,False,Mega Blastoise,Water,,79,103,120,135,115,78,1,False,1,17,2,-60
 444,304,444,Staraptor,Normal,Flying,85,120,70,50,60,100,4,False,Ralts,Psychic,Fairy,28,25,25,45,35,40,3,False,1,60,95,45
 334,571,571,Mega Aggron,Steel,,70,140,230,60,80,50,3,False,Pansage,Grass,,50,53,48,53,48,64,5,False,0,-14,87,182
 230,502,230,Mega Scizor,Bug,Steel,70,150,140,65,100,75,2,False,Skorupi,Poison,Bug,40,50,90,30,55,65,4,False,1,10,100,50
@@ -33379,7 +33379,7 @@ First_pokemon,Second_pokemon,Winner,Name_first,Type 1_first,Type 2_first,HP_firs
 695,360,695,Deino,Dark,Dragon,52,65,50,45,50,38,5,False,Trapinch,Ground,,45,100,45,45,45,10,3,False,1,28,-35,5
 496,753,496,Munchlax,Normal,,135,85,40,40,85,5,4,False,Spritzee,Fairy,,78,52,60,63,65,23,6,False,1,-18,33,-20
 45,758,758,Jigglypuff,Normal,Fairy,115,45,20,45,25,20,1,False,Malamar,Dark,Psychic,86,92,88,68,75,73,6,False,0,-53,-47,-68
-63,714,714,,Fighting,,65,105,60,60,70,95,1,False,Keldeo Ordinary Forme,Water,Fighting,91,72,90,129,90,108,5,False,0,-13,33,-30
+63,714,714,Primeape,Fighting,,65,105,60,60,70,95,1,False,Keldeo Ordinary Forme,Water,Fighting,91,72,90,129,90,108,5,False,0,-13,33,-30
 194,684,684,Mareep,Electric,,55,40,40,65,45,35,2,False,Golett,Ground,Ghost,59,74,50,35,50,35,5,False,0,0,-34,-10
 709,254,709,Landorus Incarnate Forme,Ground,Flying,89,125,90,115,80,101,5,True,Stantler,Normal,,73,95,62,85,65,85,2,False,1,16,30,28
 549,163,163,Manaphy,Water,,100,100,100,100,100,100,4,False,Mewtwo,Psychic,,106,110,90,154,90,130,1,True,0,-30,-10,10
@@ -34026,7 +34026,7 @@ First_pokemon,Second_pokemon,Winner,Name_first,Type 1_first,Type 2_first,HP_firs
 52,23,23,Paras,Bug,Grass,35,70,55,45,55,25,1,False,Pidgeot,Normal,Flying,83,80,75,70,70,101,1,False,0,-76,-10,-20
 567,272,272,Herdier,Normal,,65,80,65,35,65,60,5,False,Celebi,Psychic,Grass,100,100,100,100,100,100,2,False,0,-40,-20,-35
 335,184,184,Meditite,Fighting,Psychic,30,40,55,40,55,60,3,False,Crobat,Poison,Flying,85,90,80,70,80,130,2,False,0,-70,-50,-25
-63,391,63,,Fighting,,65,105,60,60,70,95,1,False,Tropius,Grass,Flying,99,68,83,72,87,51,3,False,1,44,37,-23
+63,391,63,Primeape,Fighting,,65,105,60,60,70,95,1,False,Tropius,Grass,Flying,99,68,83,72,87,51,3,False,1,44,37,-23
 99,381,99,Cloyster,Water,Ice,50,95,180,85,45,70,1,False,Armaldo,Rock,Bug,75,125,100,70,80,45,3,False,1,25,-30,80
 377,378,377,Claydol,Ground,Psychic,60,70,105,70,120,75,3,False,Lileep,Rock,Grass,66,41,77,61,87,23,3,False,1,52,29,28
 435,642,642,Torterra,Grass,Ground,95,109,105,75,85,56,4,False,Ducklett,Water,Flying,62,44,50,44,50,55,5,False,0,1,65,55
@@ -34074,7 +34074,7 @@ First_pokemon,Second_pokemon,Winner,Name_first,Type 1_first,Type 2_first,HP_firs
 563,495,495,Samurott,Water,,95,100,85,108,70,70,5,False,Mega Garchomp,Dragon,Ground,108,170,115,120,95,92,4,False,0,-22,-70,-30
 163,325,163,Mewtwo,Psychic,,106,110,90,154,90,130,1,True,Skitty,Normal,,50,45,45,35,35,50,3,False,1,80,65,45
 594,175,175,Gurdurr,Fighting,,85,105,85,40,50,40,5,False,Feraligatr,Water,,85,105,100,79,83,78,2,False,0,-38,0,-15
-63,6,63,,Fighting,,65,105,60,60,70,95,1,False,Charmeleon,Fire,,58,64,58,80,65,80,1,False,1,15,41,2
+63,6,63,Primeape,Fighting,,65,105,60,60,70,95,1,False,Charmeleon,Fire,,58,64,58,80,65,80,1,False,1,15,41,2
 318,748,748,Whismur,Normal,,64,51,23,51,23,28,3,False,Meowstic Female,Psychic,,74,48,76,83,81,104,6,False,0,-76,3,-53
 104,776,104,Onix,Rock,Ground,35,45,160,30,45,70,1,False,Sliggoo,Dragon,,68,75,53,83,113,60,6,False,1,10,-30,107
 281,459,281,Mudkip,Water,,50,70,50,50,50,40,3,False,Wormadam Plant Cloak,Bug,Grass,60,59,85,79,105,36,4,False,1,4,11,-35
@@ -37126,7 +37126,7 @@ First_pokemon,Second_pokemon,Winner,Name_first,Type 1_first,Type 2_first,HP_firs
 77,570,570,Weepinbell,Grass,Poison,65,90,50,85,45,55,1,False,Liepard,Dark,,64,88,50,88,50,106,5,False,0,-51,2,0
 97,688,688,Muk,Poison,,105,105,75,65,100,50,1,False,Bouffalant,Normal,,95,110,95,40,95,55,5,False,0,-5,-5,-20
 24,276,276,Mega Pidgeot,Normal,Flying,83,80,80,135,80,121,1,False,Mega Sceptile,Grass,Dragon,70,110,75,145,85,145,3,False,0,-24,-30,5
-63,81,63,,Fighting,,65,105,60,60,70,95,1,False,Geodude,Rock,Ground,40,80,100,30,30,20,1,False,1,75,25,-40
+63,81,63,Primeape,Fighting,,65,105,60,60,70,95,1,False,Geodude,Rock,Ground,40,80,100,30,30,20,1,False,1,75,25,-40
 610,276,276,Lilligant,Grass,,70,60,75,110,75,90,5,False,Mega Sceptile,Grass,Dragon,70,110,75,145,85,145,3,False,0,-55,-50,0
 203,332,332,Hoppip,Grass,Flying,35,35,40,35,55,50,2,False,Lairon,Steel,Rock,60,90,140,50,50,40,3,False,0,10,-55,-100
 60,569,569,Psyduck,Water,,50,52,48,65,50,55,1,False,Purrloin,Dark,,41,50,37,50,37,66,5,False,0,-11,2,11
@@ -37822,7 +37822,7 @@ First_pokemon,Second_pokemon,Winner,Name_first,Type 1_first,Type 2_first,HP_firs
 54,71,71,Venonat,Bug,Poison,60,55,50,40,55,45,1,False,Alakazam,Psychic,,55,50,45,135,95,120,1,False,0,-75,5,5
 254,411,254,Stantler,Normal,,73,95,62,85,65,85,2,False,Beldum,Steel,Psychic,40,55,80,35,60,30,3,False,1,55,40,-18
 337,649,649,Mega Medicham,Fighting,Psychic,60,100,85,80,85,100,3,False,Emolga,Electric,Flying,55,75,60,75,60,103,5,False,0,-3,25,25
-562,63,63,Dewott,Water,,75,75,60,83,60,60,5,False,,Fighting,,65,105,60,60,70,95,1,False,0,-35,-30,0
+562,63,63,Dewott,Water,,75,75,60,83,60,60,5,False,Primeape,Fighting,,65,105,60,60,70,95,1,False,0,-35,-30,0
 110,3,110,Electrode,Electric,,60,50,70,80,80,140,1,False,Venusaur,Grass,Poison,80,82,83,100,100,80,1,False,1,60,-32,-13
 796,60,60,Diancie,Rock,Fairy,50,100,150,100,150,50,6,True,Psyduck,Water,,50,52,48,65,50,55,1,False,0,-5,48,102
 382,593,593,Feebas,Water,,20,15,20,10,55,80,3,False,Timburr,Fighting,,75,80,55,25,35,35,5,False,0,45,-65,-35
@@ -38924,7 +38924,7 @@ First_pokemon,Second_pokemon,Winner,Name_first,Type 1_first,Type 2_first,HP_firs
 180,652,180,Ledyba,Bug,Flying,40,20,30,40,80,55,2,False,Foongus,Grass,Poison,69,55,45,55,55,15,5,False,1,40,-35,-15
 791,570,570,Noibat,Flying,Dragon,40,30,35,45,40,55,6,False,Liepard,Dark,,64,88,50,88,50,106,5,False,0,-51,-58,-15
 604,100,100,Venipede,Bug,Poison,30,45,59,30,39,57,5,False,Gastly,Ghost,Poison,30,35,30,100,35,80,1,False,0,-23,10,29
-360,63,63,Trapinch,Ground,,45,100,45,45,45,10,3,False,,Fighting,,65,105,60,60,70,95,1,False,0,-85,-5,-15
+360,63,63,Trapinch,Ground,,45,100,45,45,45,10,3,False,Primeape,Fighting,,65,105,60,60,70,95,1,False,0,-85,-5,-15
 194,579,579,Mareep,Electric,,55,40,40,65,45,35,2,False,Pidove,Normal,Flying,50,55,50,36,30,43,5,False,0,-8,-15,-10
 203,449,203,Hoppip,Grass,Flying,35,35,40,35,55,50,2,False,Shinx,Electric,,45,65,34,40,34,45,4,False,1,5,-30,6
 762,680,762,Dragalge,Poison,Dragon,65,75,90,97,123,44,6,False,Stunfisk,Ground,Electric,109,66,84,81,99,32,5,False,1,12,9,6
@@ -39641,7 +39641,7 @@ First_pokemon,Second_pokemon,Winner,Name_first,Type 1_first,Type 2_first,HP_firs
 450,74,450,Luxio,Electric,,60,85,49,60,49,60,4,False,Machoke,Fighting,,80,100,70,50,60,45,1,False,1,15,-15,-21
 529,334,334,Probopass,Rock,Steel,60,55,145,75,150,40,4,False,Mega Aggron,Steel,,70,140,230,60,80,50,3,False,0,-10,-85,-85
 360,628,360,Trapinch,Ground,,45,100,45,45,45,10,3,False,Archen,Rock,Flying,55,112,45,74,45,70,5,False,1,-60,-12,0
-30,63,63,Arbok,Poison,,60,85,69,65,79,80,1,False,,Fighting,,65,105,60,60,70,95,1,False,0,-15,-20,9
+30,63,63,Arbok,Poison,,60,85,69,65,79,80,1,False,Primeape,Fighting,,65,105,60,60,70,95,1,False,0,-15,-20,9
 480,449,480,Glameow,Normal,,49,55,42,42,37,85,4,False,Shinx,Electric,,45,65,34,40,34,45,4,False,1,40,-10,8
 442,205,205,Starly,Normal,Flying,40,55,30,30,30,60,4,False,Jumpluff,Grass,Flying,75,55,70,55,95,110,2,False,0,-50,0,-40
 496,497,496,Munchlax,Normal,,135,85,40,40,85,5,4,False,Riolu,Fighting,,40,70,40,35,40,60,4,False,1,-55,15,0
@@ -39858,7 +39858,7 @@ First_pokemon,Second_pokemon,Winner,Name_first,Type 1_first,Type 2_first,HP_firs
 719,346,346,Chespin,Grass,,56,61,65,48,45,38,6,False,Gulpin,Poison,,70,43,53,43,53,40,3,False,0,-2,18,12
 77,523,523,Weepinbell,Grass,Poison,65,90,50,85,45,55,1,False,Glaceon,Ice,,65,60,110,130,95,65,4,False,0,-10,30,-60
 84,596,84,Ponyta,Fire,,50,85,55,65,65,90,1,False,Tympole,Water,,50,50,40,50,40,64,5,False,1,26,35,15
-63,758,63,,Fighting,,65,105,60,60,70,95,1,False,Malamar,Dark,Psychic,86,92,88,68,75,73,6,False,1,22,13,-28
+63,758,63,Primeape,Fighting,,65,105,60,60,70,95,1,False,Malamar,Dark,Psychic,86,92,88,68,75,73,6,False,1,22,13,-28
 93,515,93,Dodrio,Normal,Flying,60,110,70,60,60,100,1,False,Lickilicky,Normal,,110,85,95,80,95,50,4,False,1,50,25,-25
 493,599,493,Gabite,Dragon,Ground,68,90,65,50,55,82,4,False,Throh,Fighting,,120,100,85,30,85,45,5,False,1,37,-10,-20
 709,182,709,Landorus Incarnate Forme,Ground,Flying,89,125,90,115,80,101,5,True,Spinarak,Bug,Poison,40,60,40,40,40,30,2,False,1,71,65,50
@@ -40684,7 +40684,7 @@ First_pokemon,Second_pokemon,Winner,Name_first,Type 1_first,Type 2_first,HP_firs
 163,8,163,Mewtwo,Psychic,,106,110,90,154,90,130,1,True,Mega Charizard X,Fire,Dragon,78,130,111,130,85,100,1,False,1,30,-20,-21
 447,60,60,Kricketot,Bug,,37,25,41,25,41,25,4,False,Psyduck,Water,,50,52,48,65,50,55,1,False,0,-30,-27,-7
 383,298,383,Milotic,Water,,95,60,79,100,125,81,3,False,Nuzleaf,Grass,Dark,70,70,40,60,40,60,3,False,1,21,-10,39
-63,580,63,,Fighting,,65,105,60,60,70,95,1,False,Tranquill,Normal,Flying,62,77,62,50,42,65,5,False,1,30,28,-2
+63,580,63,Primeape,Fighting,,65,105,60,60,70,95,1,False,Tranquill,Normal,Flying,62,77,62,50,42,65,5,False,1,30,28,-2
 515,484,484,Lickilicky,Normal,,110,85,95,80,95,50,4,False,Skuntank,Poison,Dark,103,93,67,71,61,84,4,False,0,-34,-8,28
 684,250,250,Golett,Ground,Ghost,59,74,50,35,50,35,5,False,Kingdra,Water,Dragon,75,95,95,95,95,85,2,False,0,-50,-21,-45
 43,764,43,Vulpix,Fire,,38,41,40,50,65,65,1,False,Clawitzer,Water,,71,73,88,120,89,59,6,False,1,6,-32,-48
@@ -41380,7 +41380,7 @@ First_pokemon,Second_pokemon,Winner,Name_first,Type 1_first,Type 2_first,HP_firs
 600,673,600,Sawk,Fighting,,75,125,75,30,75,85,5,False,Fraxure,Dragon,,66,117,70,40,50,67,5,False,1,18,8,5
 574,794,574,Simisear,Fire,,75,98,63,98,63,101,5,False,Yveltal,Dark,Flying,126,131,95,131,98,99,6,True,1,2,-33,-32
 485,243,243,Bronzor,Steel,Psychic,57,24,86,24,86,23,4,False,Octillery,Water,,75,105,75,105,75,45,2,False,0,-22,-81,11
-63,739,63,,Fighting,,65,105,60,60,70,95,1,False,Floette,Fairy,,54,45,47,75,98,52,6,False,1,43,60,13
+63,739,63,Primeape,Fighting,,65,105,60,60,70,95,1,False,Floette,Fairy,,54,45,47,75,98,52,6,False,1,43,60,13
 759,304,759,Binacle,Rock,Water,42,52,67,39,56,50,6,False,Ralts,Psychic,Fairy,28,25,25,45,35,40,3,False,1,10,27,42
 453,568,453,Roserade,Grass,Poison,60,70,65,125,105,90,4,False,Stoutland,Normal,,85,110,90,45,90,80,5,False,1,10,-40,-25
 736,410,410,Litleo,Fire,Normal,62,50,58,73,54,72,6,False,Mega Salamence,Dragon,Flying,95,145,130,120,90,120,3,False,0,-48,-95,-72
@@ -41425,7 +41425,7 @@ First_pokemon,Second_pokemon,Winner,Name_first,Type 1_first,Type 2_first,HP_firs
 45,661,661,Jigglypuff,Normal,Fairy,115,45,20,45,25,20,1,False,Klink,Steel,,40,55,70,45,60,30,5,False,0,-10,-10,-50
 136,232,136,Magmar,Fire,,65,95,57,100,85,93,1,False,Heracross,Bug,Fighting,80,125,75,40,95,85,2,False,1,8,-30,-18
 637,203,637,Gothorita,Psychic,,60,45,70,75,85,55,5,False,Hoppip,Grass,Flying,35,35,40,35,55,50,2,False,1,5,10,30
-628,63,63,Archen,Rock,Flying,55,112,45,74,45,70,5,False,,Fighting,,65,105,60,60,70,95,1,False,0,-25,7,-15
+628,63,63,Archen,Rock,Flying,55,112,45,74,45,70,5,False,Primeape,Fighting,,65,105,60,60,70,95,1,False,0,-25,7,-15
 146,194,146,Vaporeon,Water,,130,65,60,110,95,65,1,False,Mareep,Electric,,55,40,40,65,45,35,2,False,1,30,25,20
 307,414,414,Mega Gardevoir,Psychic,Fairy,68,85,65,165,135,100,3,False,Mega Metagross,Steel,Psychic,80,145,150,105,110,110,3,False,0,-10,-60,-85
 271,752,271,Ho-oh,Fire,Flying,106,130,90,110,154,90,2,True,Aegislash Shield Forme,Steel,Ghost,60,50,150,50,150,60,6,False,1,30,80,-60
@@ -41686,7 +41686,7 @@ First_pokemon,Second_pokemon,Winner,Name_first,Type 1_first,Type 2_first,HP_firs
 621,203,203,Scraggy,Dark,Fighting,50,75,70,35,70,48,5,False,Hoppip,Grass,Flying,35,35,40,35,55,50,2,False,0,-2,40,30
 127,114,127,Seadra,Water,,55,65,95,95,45,85,1,False,Marowak,Ground,,60,80,110,50,80,45,1,False,1,40,-15,-15
 238,268,268,Magcargo,Fire,Rock,50,50,120,80,80,30,2,False,Tyranitar,Rock,Dark,100,134,110,95,100,61,2,False,0,-31,-84,10
-397,63,63,Glalie,Ice,,80,80,80,80,80,80,3,False,,Fighting,,65,105,60,60,70,95,1,False,0,-15,-25,20
+397,63,63,Glalie,Ice,,80,80,80,80,80,80,3,False,Primeape,Fighting,,65,105,60,60,70,95,1,False,0,-15,-25,20
 628,792,792,Archen,Rock,Flying,55,112,45,74,45,70,5,False,Noivern,Flying,Dragon,85,70,80,97,80,123,6,False,0,-53,42,-35
 163,410,163,Mewtwo,Psychic,,106,110,90,154,90,130,1,True,Mega Salamence,Dragon,Flying,95,145,130,120,90,120,3,False,1,10,-35,-40
 125,243,125,Mega Kangaskhan,Normal,,105,125,100,60,100,100,1,False,Octillery,Water,,75,105,75,105,75,45,2,False,1,55,20,25
@@ -41880,7 +41880,7 @@ First_pokemon,Second_pokemon,Winner,Name_first,Type 1_first,Type 2_first,HP_firs
 326,14,326,Delcatty,Normal,,70,65,65,55,55,70,3,False,Caterpie,Bug,,45,30,35,20,20,45,1,False,1,25,35,30
 279,224,279,Blaziken,Fire,Fighting,80,120,70,110,70,80,3,False,Steelix,Steel,Ground,75,85,200,55,65,30,2,False,1,50,35,-130
 357,557,557,Spoink,Psychic,,60,25,35,70,80,60,3,False,Serperior,Grass,,75,75,95,75,95,113,5,False,0,-53,-50,-60
-54,63,63,Venonat,Bug,Poison,60,55,50,40,55,45,1,False,,Fighting,,65,105,60,60,70,95,1,False,0,-50,-50,-10
+54,63,63,Venonat,Bug,Poison,60,55,50,40,55,45,1,False,Primeape,Fighting,,65,105,60,60,70,95,1,False,0,-50,-50,-10
 323,749,749,Azurill,Normal,Fairy,50,20,40,20,40,20,3,False,Honedge,Steel,Ghost,45,80,100,35,37,28,6,False,0,-8,-60,-60
 543,267,543,Heatran,Fire,Steel,91,90,106,130,106,77,4,True,Pupitar,Rock,Ground,70,84,70,65,70,51,2,False,1,26,6,36
 434,209,209,Grotle,Grass,,75,89,85,55,65,36,4,False,Yanma,Bug,Flying,65,65,45,75,45,95,2,False,0,-59,24,40
@@ -41911,7 +41911,7 @@ First_pokemon,Second_pokemon,Winner,Name_first,Type 1_first,Type 2_first,HP_firs
 573,23,23,Pansear,Fire,,50,53,48,53,48,64,5,False,Pidgeot,Normal,Flying,83,80,75,70,70,101,1,False,0,-37,-27,-27
 157,620,157,Articuno,Ice,Flying,90,85,100,95,125,85,1,True,Crustle,Bug,Rock,70,95,125,65,75,45,5,False,1,40,-10,-25
 746,193,193,Espurr,Psychic,,62,48,54,63,60,68,6,False,Xatu,Psychic,Flying,65,75,70,95,70,95,2,False,0,-27,-27,-16
-63,692,63,,Fighting,,65,105,60,60,70,95,1,False,Mandibuzz,Dark,Flying,110,65,105,55,95,80,5,False,1,15,40,-45
+63,692,63,Primeape,Fighting,,65,105,60,60,70,95,1,False,Mandibuzz,Dark,Flying,110,65,105,55,95,80,5,False,1,15,40,-45
 246,716,716,Skarmory,Steel,Flying,65,80,140,40,70,70,2,False,Meloetta Aria Forme,Normal,Psychic,100,77,77,128,128,90,5,False,0,-20,3,63
 224,126,126,Steelix,Steel,Ground,75,85,200,55,65,30,2,False,Horsea,Water,,30,40,70,70,25,60,1,False,0,-30,45,130
 251,119,119,Phanpy,Ground,,90,60,60,40,40,40,2,False,Weezing,Poison,,65,90,120,85,70,60,1,False,0,-20,-30,-60
@@ -41986,7 +41986,7 @@ First_pokemon,Second_pokemon,Winner,Name_first,Type 1_first,Type 2_first,HP_firs
 27,699,699,Spearow,Normal,Flying,40,60,30,31,31,70,1,False,Volcarona,Bug,Fire,85,60,65,135,105,100,5,False,0,-30,0,-35
 380,101,101,Anorith,Rock,Bug,45,95,50,40,50,75,3,False,Haunter,Ghost,Poison,45,50,45,115,55,95,1,False,0,-20,45,5
 308,50,308,Surskit,Bug,Water,40,30,32,50,52,65,3,False,Gloom,Grass,Poison,60,65,70,85,75,40,1,False,1,25,-35,-38
-91,63,63,Farfetch'd,Normal,Flying,52,65,55,58,62,60,1,False,,Fighting,,65,105,60,60,70,95,1,False,0,-35,-40,-5
+91,63,63,Farfetch'd,Normal,Flying,52,65,55,58,62,60,1,False,Primeape,Fighting,,65,105,60,60,70,95,1,False,0,-35,-40,-5
 692,736,692,Mandibuzz,Dark,Flying,110,65,105,55,95,80,5,False,Litleo,Fire,Normal,62,50,58,73,54,72,6,False,1,8,15,47
 664,457,664,Tynamo,Electric,,35,55,40,45,40,60,5,False,Bastiodon,Rock,Steel,60,52,168,47,138,30,4,False,1,30,3,-128
 123,169,169,Tangela,Grass,,65,55,115,100,40,60,1,False,Meganium,Grass,,80,82,100,83,100,80,2,False,0,-20,-27,15
@@ -42036,7 +42036,7 @@ First_pokemon,Second_pokemon,Winner,Name_first,Type 1_first,Type 2_first,HP_firs
 799,187,799,Hoopa Unbound,Psychic,Dark,80,160,60,170,130,80,6,True,Pichu,Electric,,20,40,15,35,35,60,2,False,1,20,120,45
 43,96,96,Vulpix,Fire,,38,41,40,50,65,65,1,False,Grimer,Poison,,80,80,50,40,50,25,1,False,0,40,-39,-10
 690,399,690,Braviary,Normal,Flying,100,123,75,57,75,80,5,False,Spheal,Ice,Water,70,40,50,55,50,25,3,False,1,55,83,25
-63,725,63,,Fighting,,65,105,60,60,70,95,1,False,Froakie,Water,,41,56,40,62,44,71,6,False,1,24,49,20
+63,725,63,Primeape,Fighting,,65,105,60,60,70,95,1,False,Froakie,Water,,41,56,40,62,44,71,6,False,1,24,49,20
 571,554,554,Pansage,Grass,,50,53,48,53,48,64,5,False,Victini,Psychic,Fire,100,100,100,100,100,100,5,True,0,-36,-47,-52
 575,762,575,Panpour,Water,,50,53,48,53,48,64,5,False,Dragalge,Poison,Dragon,65,75,90,97,123,44,6,False,1,20,-22,-42
 272,494,494,Celebi,Psychic,Grass,100,100,100,100,100,100,2,False,Garchomp,Dragon,Ground,108,130,95,80,85,102,4,False,0,-2,-30,5
@@ -42330,7 +42330,7 @@ First_pokemon,Second_pokemon,Winner,Name_first,Type 1_first,Type 2_first,HP_firs
 483,324,483,Stunky,Poison,Dark,63,63,47,41,41,74,4,False,Nosepass,Rock,,30,45,135,45,90,30,3,False,1,44,18,-88
 390,334,334,Dusclops,Ghost,,40,70,130,60,130,25,3,False,Mega Aggron,Steel,,70,140,230,60,80,50,3,False,0,-25,-70,-100
 17,626,626,Weedle,Bug,Poison,40,35,30,20,20,50,1,False,Tirtouga,Water,Rock,54,78,103,53,45,22,5,False,0,28,-43,-73
-197,63,63,Mega Ampharos,Electric,Dragon,90,95,105,165,110,45,2,False,,Fighting,,65,105,60,60,70,95,1,False,0,-50,-10,45
+197,63,63,Mega Ampharos,Electric,Dragon,90,95,105,165,110,45,2,False,Primeape,Fighting,,65,105,60,60,70,95,1,False,0,-50,-10,45
 273,180,273,Treecko,Grass,,40,45,35,65,55,70,3,False,Ledyba,Bug,Flying,40,20,30,40,80,55,2,False,1,15,25,5
 456,262,262,Shieldon,Rock,Steel,30,42,118,42,88,30,4,False,Blissey,Normal,,255,10,10,75,135,55,2,False,0,-25,32,108
 795,141,141,Zygarde Half Forme,Dragon,Ground,108,100,121,81,95,95,6,True,Gyarados,Water,Flying,95,125,79,60,100,81,1,False,0,14,-25,42
@@ -42413,7 +42413,7 @@ First_pokemon,Second_pokemon,Winner,Name_first,Type 1_first,Type 2_first,HP_firs
 193,330,193,Xatu,Psychic,Flying,65,75,70,95,70,95,2,False,Mega Mawile,Steel,Fairy,50,105,125,55,95,50,3,False,1,45,-30,-55
 518,669,518,Electivire,Electric,,75,123,67,95,85,95,4,False,Litwick,Ghost,Fire,50,30,55,65,55,20,5,False,1,75,93,12
 24,457,24,Mega Pidgeot,Normal,Flying,83,80,80,135,80,121,1,False,Bastiodon,Rock,Steel,60,52,168,47,138,30,4,False,1,91,28,-88
-520,63,63,Togekiss,Fairy,Flying,85,50,95,120,115,80,4,False,,Fighting,,65,105,60,60,70,95,1,False,0,-15,-55,35
+520,63,63,Togekiss,Fairy,Flying,85,50,95,120,115,80,4,False,Primeape,Fighting,,65,105,60,60,70,95,1,False,0,-15,-55,35
 267,569,569,Pupitar,Rock,Ground,70,84,70,65,70,51,2,False,Purrloin,Dark,,41,50,37,50,37,66,5,False,0,-15,34,33
 758,207,758,Malamar,Dark,Psychic,86,92,88,68,75,73,6,False,Sunkern,Grass,,30,30,30,30,30,30,2,False,1,43,62,58
 553,304,553,Arceus,Normal,,120,120,120,120,120,120,4,True,Ralts,Psychic,Fairy,28,25,25,45,35,40,3,False,1,80,95,95
@@ -42822,7 +42822,7 @@ First_pokemon,Second_pokemon,Winner,Name_first,Type 1_first,Type 2_first,HP_firs
 780,395,780,Trevenant,Ghost,Grass,85,110,76,65,82,56,6,False,Wynaut,Psychic,,95,23,48,23,48,23,3,False,1,33,87,28
 502,612,612,Skorupi,Poison,Bug,40,50,90,30,55,65,4,False,Sandile,Ground,Dark,50,72,35,35,35,65,5,False,0,0,-22,55
 70,487,487,Kadabra,Psychic,,40,35,30,120,70,105,1,False,Bonsly,Rock,,50,80,95,10,45,10,4,False,0,95,-45,-65
-437,63,63,Monferno,Fire,Fighting,64,78,52,78,52,81,4,False,,Fighting,,65,105,60,60,70,95,1,False,0,-14,-27,-8
+437,63,63,Monferno,Fire,Fighting,64,78,52,78,52,81,4,False,Primeape,Fighting,,65,105,60,60,70,95,1,False,0,-14,-27,-8
 386,411,386,Shuppet,Ghost,,44,75,35,63,33,45,3,False,Beldum,Steel,Psychic,40,55,80,35,60,30,3,False,1,15,20,-45
 223,591,223,Gligar,Ground,Flying,65,75,105,35,65,85,2,False,Audino,Normal,,103,60,86,60,86,50,5,False,1,35,15,19
 76,797,797,Bellsprout,Grass,Poison,50,75,35,70,30,40,1,False,Mega Diancie,Rock,Fairy,50,160,110,160,110,110,6,True,0,-70,-85,-75
@@ -43229,7 +43229,7 @@ First_pokemon,Second_pokemon,Winner,Name_first,Type 1_first,Type 2_first,HP_firs
 283,146,146,Swampert,Water,Ground,100,110,90,85,90,60,3,False,Vaporeon,Water,,130,65,60,110,95,65,1,False,0,-5,45,30
 610,797,797,Lilligant,Grass,,70,60,75,110,75,90,5,False,Mega Diancie,Rock,Fairy,50,160,110,160,110,110,6,True,0,-20,-100,-35
 55,366,55,Venomoth,Bug,Poison,70,65,60,90,75,90,1,False,Altaria,Dragon,Flying,75,70,90,70,105,80,3,False,1,10,-5,-30
-63,150,63,,Fighting,,65,105,60,60,70,95,1,False,Omanyte,Rock,Water,35,40,100,90,55,35,1,False,1,60,65,-40
+63,150,63,Primeape,Fighting,,65,105,60,60,70,95,1,False,Omanyte,Rock,Water,35,40,100,90,55,35,1,False,1,60,65,-40
 415,731,731,Regirock,Rock,,80,100,200,50,100,50,3,True,Fletchinder,Fire,Flying,62,73,55,56,52,84,6,False,0,-34,27,145
 374,26,26,Corphish,Water,,43,80,65,50,35,35,3,False,Raticate,Normal,,55,81,60,50,70,97,1,False,0,-62,-1,5
 538,607,538,Uxie,Psychic,,75,75,130,75,130,95,4,True,Cottonee,Grass,Fairy,40,27,60,37,50,66,5,False,1,29,48,70
@@ -43267,7 +43267,7 @@ First_pokemon,Second_pokemon,Winner,Name_first,Type 1_first,Type 2_first,HP_firs
 162,283,162,Dragonite,Dragon,Flying,91,134,95,100,100,80,1,False,Swampert,Water,Ground,100,110,90,85,90,60,3,False,1,20,24,5
 601,425,425,Sewaddle,Bug,Grass,45,53,70,40,60,42,5,False,Primal Groudon,Ground,Fire,100,180,160,150,90,90,3,True,0,-48,-127,-90
 464,243,243,Vespiquen,Bug,Flying,70,80,102,80,102,40,4,False,Octillery,Water,,75,105,75,105,75,45,2,False,0,-5,-25,27
-4,63,63,Mega Venusaur,Grass,Poison,80,100,123,122,120,80,1,False,,Fighting,,65,105,60,60,70,95,1,False,0,-15,-5,63
+4,63,63,Mega Venusaur,Grass,Poison,80,100,123,122,120,80,1,False,Primeape,Fighting,,65,105,60,60,70,95,1,False,0,-15,-5,63
 383,406,406,Milotic,Water,,95,60,79,100,125,81,3,False,Luvdisc,Water,,43,30,55,40,65,97,3,False,0,-16,30,24
 729,606,606,Diggersby,Normal,Ground,85,56,77,50,77,78,6,False,Scolipede,Bug,Poison,60,100,89,55,69,112,5,False,0,-34,-44,-12
 657,309,657,Joltik,Bug,Electric,50,47,50,57,50,65,5,False,Masquerain,Bug,Flying,70,60,62,80,82,60,3,False,1,5,-13,-12
@@ -43292,7 +43292,7 @@ First_pokemon,Second_pokemon,Winner,Name_first,Type 1_first,Type 2_first,HP_firs
 95,358,358,Dewgong,Water,Ice,90,70,80,70,95,70,1,False,Grumpig,Psychic,,80,45,65,90,110,80,3,False,0,-10,25,15
 256,52,256,Tyrogue,Fighting,,35,35,35,35,35,35,2,False,Paras,Bug,Grass,35,70,55,45,55,25,1,False,1,10,-35,-20
 92,229,92,Doduo,Normal,Flying,35,85,45,35,35,75,1,False,Scizor,Bug,Steel,70,130,100,55,80,65,2,False,1,10,-45,-55
-384,63,63,Castform,Normal,,70,70,70,70,70,70,3,False,,Fighting,,65,105,60,60,70,95,1,False,0,-25,-35,10
+384,63,63,Castform,Normal,,70,70,70,70,70,70,3,False,Primeape,Fighting,,65,105,60,60,70,95,1,False,0,-25,-35,10
 337,581,337,Mega Medicham,Fighting,Psychic,60,100,85,80,85,100,3,False,Unfezant,Normal,Flying,80,115,80,65,55,93,5,False,1,7,-15,5
 663,667,663,Klinklang,Steel,,60,100,115,70,85,90,5,False,Elgyem,Psychic,,55,55,55,85,55,30,5,False,1,60,45,60
 221,87,221,Forretress,Bug,Steel,75,90,140,60,60,40,2,False,Slowbro,Water,Psychic,95,75,110,100,80,30,1,False,1,10,15,30
@@ -44249,7 +44249,7 @@ First_pokemon,Second_pokemon,Winner,Name_first,Type 1_first,Type 2_first,HP_firs
 670,273,273,Lampent,Ghost,Fire,60,40,60,95,60,55,5,False,Treecko,Grass,,40,45,35,65,55,70,3,False,0,-15,-5,25
 70,562,70,Kadabra,Psychic,,40,35,30,120,70,105,1,False,Dewott,Water,,75,75,60,83,60,60,5,False,1,45,-40,-30
 267,597,597,Pupitar,Rock,Ground,70,84,70,65,70,51,2,False,Palpitoad,Water,Ground,75,65,55,65,55,69,5,False,0,-18,19,15
-63,354,63,,Fighting,,65,105,60,60,70,95,1,False,Camerupt,Fire,Ground,70,100,70,105,75,40,3,False,1,55,5,-10
+63,354,63,Primeape,Fighting,,65,105,60,60,70,95,1,False,Camerupt,Fire,Ground,70,100,70,105,75,40,3,False,1,55,5,-10
 743,157,157,Pancham,Fighting,,67,82,62,46,48,43,6,False,Articuno,Ice,Flying,90,85,100,95,125,85,1,True,0,-42,-3,-38
 205,302,205,Jumpluff,Grass,Flying,75,55,70,55,95,110,2,False,Wingull,Water,Flying,40,30,30,55,30,85,3,False,1,25,25,40
 126,360,360,Horsea,Water,,30,40,70,70,25,60,1,False,Trapinch,Ground,,45,100,45,45,45,10,3,False,0,50,-60,25
@@ -44300,7 +44300,7 @@ First_pokemon,Second_pokemon,Winner,Name_first,Type 1_first,Type 2_first,HP_firs
 393,133,133,Absol,Dark,,65,130,60,75,60,75,3,False,Scyther,Bug,Flying,70,110,80,55,80,105,1,False,0,-30,20,-20
 387,769,387,Banette,Ghost,,64,115,65,83,63,65,3,False,Amaura,Rock,Ice,77,59,50,67,63,46,6,False,1,19,56,15
 38,245,245,Nidoran♂,Poison,,46,57,40,40,40,50,1,False,Mantine,Water,Flying,65,40,70,80,140,70,2,False,0,-20,17,-30
-63,699,699,,Fighting,,65,105,60,60,70,95,1,False,Volcarona,Bug,Fire,85,60,65,135,105,100,5,False,0,-5,45,-5
+63,699,699,Primeape,Fighting,,65,105,60,60,70,95,1,False,Volcarona,Bug,Fire,85,60,65,135,105,100,5,False,0,-5,45,-5
 623,87,623,Sigilyph,Psychic,Flying,72,58,80,103,80,97,5,False,Slowbro,Water,Psychic,95,75,110,100,80,30,1,False,1,67,-17,-30
 20,758,20,Mega Beedrill,Bug,Poison,65,150,40,15,80,145,1,False,Malamar,Dark,Psychic,86,92,88,68,75,73,6,False,1,72,58,-48
 527,153,153,Gallade,Psychic,Fighting,68,125,65,65,115,80,4,False,Kabutops,Rock,Water,60,115,105,65,70,80,1,False,0,0,10,-40
@@ -45144,7 +45144,7 @@ First_pokemon,Second_pokemon,Winner,Name_first,Type 1_first,Type 2_first,HP_firs
 786,260,786,Gourgeist Small Size,Ghost,Grass,55,85,122,58,75,99,6,False,Magby,Fire,,45,75,37,70,55,83,2,False,1,16,10,85
 631,401,631,Garbodor,Poison,,80,95,82,60,82,75,5,False,Walrein,Ice,Water,110,80,90,95,90,65,3,False,1,10,15,-8
 605,753,605,Whirlipede,Bug,Poison,40,55,99,40,79,47,5,False,Spritzee,Fairy,,78,52,60,63,65,23,6,False,1,24,3,39
-546,63,63,Giratina Origin Forme,Ghost,Dragon,150,120,100,120,100,90,4,True,,Fighting,,65,105,60,60,70,95,1,False,0,-5,15,40
+546,63,63,Giratina Origin Forme,Ghost,Dragon,150,120,100,120,100,90,4,True,Primeape,Fighting,,65,105,60,60,70,95,1,False,0,-5,15,40
 787,204,204,Gourgeist Large Size,Ghost,Grass,75,95,122,58,75,69,6,False,Skiploom,Grass,Flying,55,45,50,45,65,80,2,False,0,-11,50,72
 133,699,133,Scyther,Bug,Flying,70,110,80,55,80,105,1,False,Volcarona,Bug,Fire,85,60,65,135,105,100,5,False,1,5,50,15
 203,155,155,Hoppip,Grass,Flying,35,35,40,35,55,50,2,False,Mega Aerodactyl,Rock,Flying,80,135,85,70,95,150,1,False,0,-100,-100,-45
@@ -45328,7 +45328,7 @@ First_pokemon,Second_pokemon,Winner,Name_first,Type 1_first,Type 2_first,HP_firs
 409,201,409,Salamence,Dragon,Flying,95,135,80,110,80,100,3,False,Sudowoodo,Rock,,70,100,115,30,65,30,2,False,1,70,35,-35
 400,770,770,Sealeo,Ice,Water,90,60,70,75,70,45,3,False,Aurorus,Rock,Ice,123,77,72,99,92,58,6,False,0,-13,-17,-2
 81,498,498,Geodude,Rock,Ground,40,80,100,30,30,20,1,False,Lucario,Fighting,Steel,70,110,70,115,70,90,4,False,0,-70,-30,30
-549,63,549,Manaphy,Water,,100,100,100,100,100,100,4,False,,Fighting,,65,105,60,60,70,95,1,False,1,5,-5,40
+549,63,549,Manaphy,Water,,100,100,100,100,100,100,4,False,Primeape,Fighting,,65,105,60,60,70,95,1,False,1,5,-5,40
 574,408,574,Simisear,Fire,,75,98,63,98,63,101,5,False,Shelgon,Dragon,,65,95,100,60,50,50,3,False,1,51,3,-37
 161,758,758,Dragonair,Dragon,,61,84,65,70,70,70,1,False,Malamar,Dark,Psychic,86,92,88,68,75,73,6,False,0,-3,-8,-23
 760,740,740,Barbaracle,Rock,Water,72,105,115,54,86,68,6,False,Florges,Fairy,,78,65,68,112,154,75,6,False,0,-7,40,47
@@ -46213,7 +46213,7 @@ First_pokemon,Second_pokemon,Winner,Name_first,Type 1_first,Type 2_first,HP_firs
 731,787,731,Fletchinder,Fire,Flying,62,73,55,56,52,84,6,False,Gourgeist Large Size,Ghost,Grass,75,95,122,58,75,69,6,False,1,15,-22,-67
 180,275,275,Ledyba,Bug,Flying,40,20,30,40,80,55,2,False,Sceptile,Grass,,70,85,65,105,85,120,3,False,0,-65,-65,-35
 432,361,432,Deoxys Speed Forme,Psychic,,50,95,90,95,90,180,3,True,Vibrava,Ground,Dragon,50,70,50,50,50,70,3,False,1,110,25,40
-63,246,63,,Fighting,,65,105,60,60,70,95,1,False,Skarmory,Steel,Flying,65,80,140,40,70,70,2,False,1,25,25,-80
+63,246,63,Primeape,Fighting,,65,105,60,60,70,95,1,False,Skarmory,Steel,Flying,65,80,140,40,70,70,2,False,1,25,25,-80
 549,36,549,Manaphy,Water,,100,100,100,100,100,100,4,False,Nidorina,Poison,,70,62,67,55,55,56,1,False,1,44,38,33
 51,99,99,Vileplume,Grass,Poison,75,80,85,110,90,50,1,False,Cloyster,Water,Ice,50,95,180,85,45,70,1,False,0,-20,-15,-95
 532,319,319,Rotom,Electric,Ghost,50,50,77,95,77,91,4,False,Loudred,Normal,,84,71,43,71,43,48,3,False,0,43,-21,34
@@ -46597,7 +46597,7 @@ First_pokemon,Second_pokemon,Winner,Name_first,Type 1_first,Type 2_first,HP_firs
 497,146,146,Riolu,Fighting,,40,70,40,35,40,60,4,False,Vaporeon,Water,,130,65,60,110,95,65,1,False,0,-5,5,-20
 552,494,552,Shaymin Sky Forme,Grass,Flying,100,103,75,120,75,127,4,True,Garchomp,Dragon,Ground,108,130,95,80,85,102,4,False,1,25,-27,-20
 116,8,8,Hitmonchan,Fighting,,50,105,79,35,110,76,1,False,Mega Charizard X,Fire,Dragon,78,130,111,130,85,100,1,False,0,-24,-25,-32
-558,63,63,Tepig,Fire,,65,63,45,45,45,45,5,False,,Fighting,,65,105,60,60,70,95,1,False,0,-50,-42,-15
+558,63,63,Tepig,Fire,,65,63,45,45,45,45,5,False,Primeape,Fighting,,65,105,60,60,70,95,1,False,0,-50,-42,-15
 646,336,336,Vanilluxe,Ice,,71,95,85,110,95,79,5,False,Medicham,Fighting,Psychic,60,60,75,60,75,80,3,False,0,-1,35,10
 462,199,462,Mothim,Bug,Flying,70,94,50,94,50,66,4,False,Marill,Water,Fairy,70,20,50,20,50,40,2,False,1,26,74,0
 198,192,192,Bellossom,Grass,,75,80,95,90,100,50,2,False,Natu,Psychic,Flying,40,50,45,70,45,70,2,False,0,-20,30,50
@@ -46760,7 +46760,7 @@ First_pokemon,Second_pokemon,Winner,Name_first,Type 1_first,Type 2_first,HP_firs
 55,433,55,Venomoth,Bug,Poison,70,65,60,90,75,90,1,False,Turtwig,Grass,,55,68,64,45,55,31,4,False,1,59,-3,-4
 360,181,360,Trapinch,Ground,,45,100,45,45,45,10,3,False,Ledian,Bug,Flying,55,35,50,55,110,85,2,False,1,-75,65,-5
 162,780,162,Dragonite,Dragon,Flying,91,134,95,100,100,80,1,False,Trevenant,Ghost,Grass,85,110,76,65,82,56,6,False,1,24,24,19
-102,63,102,Gengar,Ghost,Poison,60,65,60,130,75,110,1,False,,Fighting,,65,105,60,60,70,95,1,False,1,15,-40,0
+102,63,102,Gengar,Ghost,Poison,60,65,60,130,75,110,1,False,Primeape,Fighting,,65,105,60,60,70,95,1,False,1,15,-40,0
 163,620,163,Mewtwo,Psychic,,106,110,90,154,90,130,1,True,Crustle,Bug,Rock,70,95,125,65,75,45,5,False,1,85,15,-35
 107,395,107,Krabby,Water,,30,105,90,25,25,50,1,False,Wynaut,Psychic,,95,23,48,23,48,23,3,False,1,27,82,42
 700,468,700,Cobalion,Steel,Fighting,91,90,129,90,72,108,5,True,Cherubi,Grass,,45,35,45,62,53,35,4,False,1,73,55,84
@@ -47211,7 +47211,7 @@ First_pokemon,Second_pokemon,Winner,Name_first,Type 1_first,Type 2_first,HP_firs
 705,312,705,Thundurus Incarnate Forme,Electric,Flying,79,115,70,125,80,111,5,True,Slakoth,Normal,,60,60,60,35,35,30,3,False,1,81,55,10
 462,408,462,Mothim,Bug,Flying,70,94,50,94,50,66,4,False,Shelgon,Dragon,,65,95,100,60,50,50,3,False,1,16,-1,-50
 568,711,711,Stoutland,Normal,,85,110,90,45,90,80,5,False,Kyurem,Dragon,Ice,125,130,90,130,90,95,5,True,0,-15,-20,0
-358,63,63,Grumpig,Psychic,,80,45,65,90,110,80,3,False,,Fighting,,65,105,60,60,70,95,1,False,0,-15,-60,5
+358,63,63,Grumpig,Psychic,,80,45,65,90,110,80,3,False,Primeape,Fighting,,65,105,60,60,70,95,1,False,0,-15,-60,5
 391,411,391,Tropius,Grass,Flying,99,68,83,72,87,51,3,False,Beldum,Steel,Psychic,40,55,80,35,60,30,3,False,1,21,13,3
 439,178,178,Piplup,Water,,53,51,53,61,56,40,4,False,Hoothoot,Normal,Flying,60,30,30,36,56,50,2,False,0,-10,21,23
 128,581,581,Goldeen,Water,,45,67,60,35,50,63,1,False,Unfezant,Normal,Flying,80,115,80,65,55,93,5,False,0,-30,-48,-20
@@ -48227,7 +48227,7 @@ First_pokemon,Second_pokemon,Winner,Name_first,Type 1_first,Type 2_first,HP_firs
 316,234,316,Ninjask,Bug,Flying,61,90,45,50,50,160,3,False,Sneasel,Dark,Ice,55,95,55,35,75,115,2,False,1,45,-5,-10
 452,787,787,Budew,Grass,Poison,40,30,35,50,70,55,4,False,Gourgeist Large Size,Ghost,Grass,75,95,122,58,75,69,6,False,0,-14,-65,-87
 549,466,549,Manaphy,Water,,100,100,100,100,100,100,4,False,Buizel,Water,,55,65,35,60,30,85,4,False,1,15,35,65
-374,63,63,Corphish,Water,,43,80,65,50,35,35,3,False,,Fighting,,65,105,60,60,70,95,1,False,0,-60,-25,5
+374,63,63,Corphish,Water,,43,80,65,50,35,35,3,False,Primeape,Fighting,,65,105,60,60,70,95,1,False,0,-60,-25,5
 423,221,423,Primal Kyogre,Water,,100,150,90,180,160,90,3,True,Forretress,Bug,Steel,75,90,140,60,60,40,2,False,1,50,60,-50
 220,396,396,Pineco,Bug,,50,65,90,35,35,15,2,False,Snorunt,Ice,,50,50,50,50,50,50,3,False,0,-35,15,40
 304,664,664,Ralts,Psychic,Fairy,28,25,25,45,35,40,3,False,Tynamo,Electric,,35,55,40,45,40,60,5,False,0,-20,-30,-15
@@ -48636,7 +48636,7 @@ First_pokemon,Second_pokemon,Winner,Name_first,Type 1_first,Type 2_first,HP_firs
 462,437,437,Mothim,Bug,Flying,70,94,50,94,50,66,4,False,Monferno,Fire,Fighting,64,78,52,78,52,81,4,False,0,-15,16,-2
 615,208,615,Darumaka,Fire,,70,90,45,15,45,50,5,False,Sunflora,Grass,,75,75,55,105,85,30,2,False,1,20,15,-10
 672,430,430,Axew,Dragon,,46,87,60,30,40,57,5,False,DeoxysAttack Forme,Psychic,,50,180,20,180,20,150,3,True,0,-93,-93,40
-63,170,63,,Fighting,,65,105,60,60,70,95,1,False,Cyndaquil,Fire,,39,52,43,60,50,65,2,False,1,30,53,17
+63,170,63,Primeape,Fighting,,65,105,60,60,70,95,1,False,Cyndaquil,Fire,,39,52,43,60,50,65,2,False,1,30,53,17
 75,543,543,Machamp,Fighting,,90,130,80,65,85,55,1,False,Heatran,Fire,Steel,91,90,106,130,106,77,4,True,0,-22,40,-26
 761,217,217,Skrelp,Poison,Water,50,60,60,60,60,30,6,False,Unown,Psychic,,48,72,48,72,48,48,2,False,0,-18,-12,12
 518,725,518,Electivire,Electric,,75,123,67,95,85,95,4,False,Froakie,Water,,41,56,40,62,44,71,6,False,1,24,67,27
@@ -48829,7 +48829,7 @@ First_pokemon,Second_pokemon,Winner,Name_first,Type 1_first,Type 2_first,HP_firs
 266,698,698,Larvitar,Rock,Ground,50,64,50,45,50,41,2,False,Larvesta,Bug,Fire,55,85,55,50,55,60,5,False,0,-19,-21,-5
 623,451,623,Sigilyph,Psychic,Flying,72,58,80,103,80,97,5,False,Luxray,Electric,,80,120,79,95,79,70,4,False,1,27,-62,1
 179,636,179,Noctowl,Normal,Flying,100,50,50,76,96,70,2,False,Gothita,Psychic,,45,30,50,55,65,45,5,False,1,25,20,0
-63,358,63,,Fighting,,65,105,60,60,70,95,1,False,Grumpig,Psychic,,80,45,65,90,110,80,3,False,1,15,60,-5
+63,358,63,Primeape,Fighting,,65,105,60,60,70,95,1,False,Grumpig,Psychic,,80,45,65,90,110,80,3,False,1,15,60,-5
 489,511,511,Happiny,Normal,,100,5,5,15,65,30,4,False,Abomasnow,Grass,Ice,90,92,75,92,85,60,4,False,0,-30,-87,-70
 557,435,557,Serperior,Grass,,75,75,95,75,95,113,5,False,Torterra,Grass,Ground,95,109,105,75,85,56,4,False,1,57,-34,-10
 240,141,141,Piloswine,Ice,Ground,100,100,80,60,60,50,2,False,Gyarados,Water,Flying,95,125,79,60,100,81,1,False,0,-31,-25,1
@@ -49342,7 +49342,7 @@ First_pokemon,Second_pokemon,Winner,Name_first,Type 1_first,Type 2_first,HP_firs
 784,790,784,Pumpkaboo Super Size,Ghost,Grass,59,66,70,44,55,41,6,False,Avalugg,Ice,,95,117,184,44,46,28,6,False,1,13,-51,-114
 766,623,766,Heliolisk,Electric,Normal,62,55,52,109,94,109,6,False,Sigilyph,Psychic,Flying,72,58,80,103,80,97,5,False,1,12,-3,-28
 153,462,153,Kabutops,Rock,Water,60,115,105,65,70,80,1,False,Mothim,Bug,Flying,70,94,50,94,50,66,4,False,1,14,21,55
-63,108,63,,Fighting,,65,105,60,60,70,95,1,False,Kingler,Water,,55,130,115,50,50,75,1,False,1,20,-25,-55
+63,108,63,Primeape,Fighting,,65,105,60,60,70,95,1,False,Kingler,Water,,55,130,115,50,50,75,1,False,1,20,-25,-55
 391,418,418,Tropius,Grass,Flying,99,68,83,72,87,51,3,False,Latias,Dragon,Psychic,80,80,90,110,130,110,3,True,0,-59,-12,-7
 220,371,371,Pineco,Bug,,50,65,90,35,35,15,2,False,Solrock,Rock,Psychic,70,95,85,55,65,70,3,False,0,-55,-30,5
 77,588,588,Weepinbell,Grass,Poison,65,90,50,85,45,55,1,False,Swoobat,Psychic,Flying,67,57,55,77,55,114,5,False,0,-59,33,-5
@@ -49895,7 +49895,7 @@ First_pokemon,Second_pokemon,Winner,Name_first,Type 1_first,Type 2_first,HP_firs
 722,92,92,Fennekin,Fire,,40,45,40,62,60,60,6,False,Doduo,Normal,Flying,35,85,45,35,35,75,1,False,0,-15,-40,-5
 679,459,679,Accelgor,Bug,,80,70,40,100,60,145,5,False,Wormadam Plant Cloak,Bug,Grass,60,59,85,79,105,36,4,False,1,109,11,-45
 750,372,372,Doublade,Steel,Ghost,59,110,150,45,49,35,6,False,Barboach,Water,Ground,50,48,43,46,41,60,3,False,0,-25,62,107
-63,205,205,,Fighting,,65,105,60,60,70,95,1,False,Jumpluff,Grass,Flying,75,55,70,55,95,110,2,False,0,-15,50,-10
+63,205,205,Primeape,Fighting,,65,105,60,60,70,95,1,False,Jumpluff,Grass,Flying,75,55,70,55,95,110,2,False,0,-15,50,-10
 514,511,511,Magnezone,Electric,Steel,70,70,115,130,90,60,4,False,Abomasnow,Grass,Ice,90,92,75,92,85,60,4,False,0,0,-22,40
 327,438,327,Sableye,Dark,Ghost,50,75,75,65,65,50,3,False,Infernape,Fire,Fighting,76,104,71,104,71,108,4,False,1,-58,-29,4
 302,558,302,Wingull,Water,Flying,40,30,30,55,30,85,3,False,Tepig,Fire,,65,63,45,45,45,45,5,False,1,40,-33,-15

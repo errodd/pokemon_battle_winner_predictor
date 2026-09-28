@@ -154,8 +154,10 @@ def calculate_type_multiplier(atk_t1: str, atk_t2: str, def_t1: str, def_t2: str
             return 1.0
         return chart.get((a, d), 1.0)
     m1 = val(atk_t1, def_t1) * val(atk_t1, def_t2)
-    m2 = val(atk_t2, def_t1) * val(atk_t2, def_t2) if (isinstance(atk_t2, str) and not pd.isna(atk_t2)) else 1.0
-    return max(m1, m2)
+    if isinstance(atk_t2, str) and not pd.isna(atk_t2):
+        m2 = val(atk_t2, def_t1) * val(atk_t2, def_t2)
+        return max(m1, m2)
+    return m1
 
 
 def calculate_type_advantage_ratio(df: pd.DataFrame, type_chart: Optional[dict] = None) -> pd.Series:

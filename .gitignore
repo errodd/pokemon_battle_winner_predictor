@@ -227,3 +227,9 @@ data/derived/
 *es.ipynb
 notebooks/*_es.ipynb
 
+# Documentos de trabajo / análisis locales (no forman parte de la entrega)
+PLAN.md
+PLAN_ASSIGNMENT_2.md
+ANALYSIS_NOTEBOOKS_02.md
+PUSH_COMMANDS.md
+

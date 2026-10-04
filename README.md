@@ -12,7 +12,7 @@
 ---
 
 # Pokémon Battle Winner Predictor
-### Assignment 1: Exploratory Data Analysis (EDA) & Feature Engineering
+### Assignment 1: Exploratory Data Analysis (EDA) · Assignment 2: Data Preparation & Feature Engineering
 
 [![Python Version](https://img.shields.io/badge/Python-3.12%2B-blue.svg?logo=python&logoColor=white)](https://www.python.org/)
 [![Jupyter Notebook](https://img.shields.io/badge/Jupyter-Notebook-orange.svg?logo=jupyter&logoColor=white)](https://jupyter.org/)
@@ -51,7 +51,8 @@ pokemon_battle_winner_predictor/
 │   └── features.py                       # Modular feature engineering functions (§5)
 │
 ├── notebooks/                            # Executable Jupyter Notebooks
-│   └── 01_eda_pokemon.ipynb              # Official English Assignment 1 Notebook (100% Pre-Executed)
+│   ├── 01_eda_pokemon.ipynb              # Assignment 1: EDA (100% Pre-Executed)
+│   └── 02_data_preparation.ipynb         # Assignment 2: Data Preparation & Feature Engineering (100% Pre-Executed)
 │
 ├── logo/                                 # Institutional assets
 │   └── Logo_Facyt.svg.png                # FACYT University Logo
@@ -77,12 +78,15 @@ pip install -r requirements.txt
 
 ### 3.2 Launch Jupyter Notebook
 ```powershell
-# Launch the pre-executed English analysis notebook
+# Assignment 1: EDA notebook
 py -m notebook notebooks/01_eda_pokemon.ipynb
+
+# Assignment 2: Data preparation notebook
+py -m notebook notebooks/02_data_preparation.ipynb
 ```
 
 > [!NOTE]
-> All code cells in `notebooks/01_eda_pokemon.ipynb` are **100% pre-executed** with non-null execution counts and embedded outputs, charts, and tables for immediate evaluation.
+> Both notebooks are **100% pre-executed** with embedded outputs, charts, and tables for immediate evaluation. `02_data_preparation.ipynb` runs end-to-end from a restarted kernel, reads only the raw CSV files in `data/`, and imports the domain helpers (`TYPE_CHART`, `classify_form`, `calculate_type_multiplier`) from `scripts/features.py`. It writes no files.
 
 ### 3.3 Reproduce the Unified Dataset (Feature-Engineering Pipeline)
 
@@ -123,7 +127,7 @@ Across the 11 analytical sections of the EDA, key mechanics governing combat out
    - **Naive Majority Class Baseline is established at $52.80\%$**.
    - **Strong Speed-Based Baseline is established at $94.05\%$** (faster fighter wins; second wins on exact speed ties). This constitutes the strong domain benchmark to surpass in Assignment 2, not an empirical ceiling.
 6. **Duplicate Handling & Data Leakage Prevention:**  
-   - The dataset contains **1,952 exact duplicate battles** (3.9%), which we hypothesize are repeated simulator executions. To prevent cross-fold data leakage, all exact duplicates will be removed prior to the train/test split.
+   - The dataset contains **1,952 exact duplicate battles** (3.9%), which we hypothesize are repeated simulator executions. In Assignment 2 they are **kept** and leakage is prevented by splitting by unordered pair instead (see §6).
 
 ---
 
@@ -141,37 +145,68 @@ Five domain-grounded mathematical features were engineered in `scripts/features.
 
 ---
 
-## 🗺️ 6. Modeling Roadmap (Assignment 2)
+## 🧪 6. Assignment 2: Data Preparation & Feature Engineering
+
+Notebook: [`notebooks/02_data_preparation.ipynb`](notebooks/02_data_preparation.ipynb). It turns the EDA findings into a reproducible, leakage-safe preparation pipeline. It does **not** train, compare, or tune models.
+
+### 6.1 EDA → Preparation Decisions (summary)
+
+| EDA Finding | Decision |
+| :--- | :--- |
+| `Winner` is the outcome | Derive `Target_First_Wins` and drop `Winner` immediately |
+| 784 distinct fighter IDs | IDs excluded from features; used only as split groups |
+| 1,822 pairs appear in both orientations; 1,952 exact duplicates | Train/test split grouped by **unordered pair** `(min(id), max(id))`; duplicates kept |
+| `Type 2` missing in ~48% of species (monotype) | Impute constant `"None"` (a real game state, not missing data) |
+| Species `#63` has no name | Deterministic imputation `Primeape` (exact stat match) |
+| `Generation` uncorrelated with target | Excluded (confirmed on train only) |
+| Heterogeneous stat scales | `StandardScaler` inside the pipeline |
+
+The full table with evidence and justification is in §3 of the notebook.
+
+### 6.2 Split Strategy
+
+- `GroupShuffleSplit(test_size=0.20, random_state=42)` grouped by unordered pair: **40,078 train / 9,922 test**, 0 shared pairs, class balance preserved (52.8% / 47.2%).
+- A random row split would leak ~11.8% of test matchups into train. Grouping keeps every repetition and orientation of a matchup on the same side (*Scenario A*: new matchup between known Pokémon).
+- The EDA used all 50,000 combats, so the test partition indirectly influenced feature selection; from this notebook on, no decision uses test data.
+
+### 6.3 Pipeline
 
 ```mermaid
 graph LR
-    A["Consolidated Dataset (50,000 Battles)"] --> B["Deduplication Protocol (Drop 1,952 Duplicates)"]
-    B --> C["Stratified Split (80% Train / 20% Test)"]
-    C --> D["3-Arm Feature Evaluation (Raw vs Engineered vs Combined)"]
-    D --> E["Candidate Model Training (5-Fold CV)"]
-    E --> F["Benchmark Comparison (vs 52.80% Naive & 94.05% Speed Baseline)"]
-    F --> G["Final Model Selection (Surpass Strong Baseline)"]
+    A["Raw pairs (First_pokemon, Second_pokemon)"] --> B["FunctionTransformer: create_pokemon_features"]
+    B --> C["ColumnTransformer: StandardScaler / Imputer + OneHotEncoder / passthrough"]
+    C --> D["Future model (Assignment 3)"]
 ```
 
-### 6.1 Evaluation Scenarios for "Unseen Combats"
-- **Scenario A (New Matchup Between Known Pokémon):** Both combatants have been observed in other battles during training, but this specific head-to-head matchup is novel. Evaluated via standard stratified 80/20 train/test split (primary Assignment 2 objective).
-- **Scenario B (Generalization to Completely Unseen Pokémon):** At least one combatant has never appeared in any training battle. Evaluated via `GroupShuffleSplit` (grouped by Pokémon ID) to test zero-shot generalization.
-- **Scenario C (Repeated Execution of an Observed Matchup):** Re-evaluating identical pairings. Requires strict duplicate isolation across folds.
+| Group | Columns | Transformation |
+| :--- | :--- | :--- |
+| Numeric (raw) | 12 base stats (`*_first`, `*_second`) | `StandardScaler` |
+| Numeric (engineered) | `Speed_diff`, `Stat_Total_Diff`, `Atk_Def_Penetration_Diff`, `Type_Advantage_Ratio` | `StandardScaler` |
+| Ordinal | `Special_Form_Advantage` ∈ {-1, 0, 1} | passthrough |
+| Nominal (`full` arm only) | `Type 1/2` of both fighters | `SimpleImputer("None")` + `OneHotEncoder(min_frequency=0.01)` |
+| Binary (`full` arm only) | `Legendary_first`, `Legendary_second` | passthrough |
+| Excluded | `Winner`, IDs, `Name_*`, `Generation_*` | dropped (`remainder="drop"`) |
 
-### 6.2 3-Arm Comparative Modeling Strategy
-Rather than prematurely assuming that the 5 master engineered features completely replace the raw attributes, Assignment 2 will benchmark three competing representations under identical 5-fold cross-validation folds:
-- **Model A (Raw Base Stats):** 12 raw base stats ($6 \times 2$) for both contenders.
-- **Model B (Master Engineered Features):** 5 domain-engineered relative features (`Speed_diff`, `Stat_Total_Diff`, `Atk_Def_Penetration_Diff`, `Special_Form_Advantage`, `Type_Advantage_Ratio`).
-- **Model C (Combined Raw + Engineered):** 17 features, evaluating whether non-linear models benefit from both raw scale and differential relative signals.
+Representation arms defined for later comparison: **A_raw** (12), **B_engineered** (5), **C_combined** (17, default), **full** (89).
 
-### 6.3 Candidate Models & Success Criteria
-- **Candidate Models:** Logistic Regression, Decision Trees (CART), Random Forest Classifier, Gradient Boosting / XGBoost, KNN, and Multi-Layer Perceptron (MLP).
-- **Primary Metrics:** Accuracy, Macro F1-Score, Confusion Matrix, and ROC-AUC.
-- **Target Metric:** Consistently surpass the **$94.05\%$ Strong Speed-Based Baseline** on unseen test battles, demonstrating that the classifier successfully resolves the ~6% parity/conflict zone.
+### 6.4 Verifications (train only)
+
+Row count preserved, no NaN/infinite values, no excluded column in the output, input not modified, output feature names inspected, and the same fitted pipeline transforms `data/tests.csv` without errors.
 
 ---
 
-## 📜 7. Authors & Academic Affiliation
+## 🗺️ 7. Modeling Roadmap (Assignment 3)
+
+- **Cross-validation:** `GroupKFold` / `StratifiedGroupKFold` on the same unordered-pair groups, inside the training partition only. The holdout partition is used once, for the final evaluation.
+- **Comparisons:** arms A vs B vs C vs `full`; whether `Special_Form_Advantage` adds signal beyond `Stat_Total_Diff`; whether one-hot types add signal beyond `Type_Advantage_Ratio`.
+- **Candidate models:** Logistic Regression (regularized, because Arm C has exact linear redundancies), Decision Trees, Random Forest, Gradient Boosting, KNN, MLP.
+- **Benchmarks to surpass:** Naive Majority Baseline **52.80%** and Strong Speed-Based Baseline **94.05%**.
+- **Metrics:** Accuracy, Macro F1-Score, Confusion Matrix, ROC-AUC.
+- **Out of scope so far:** generalization to completely unseen Pokémon (*Scenario B*, `GroupShuffleSplit` by Pokémon ID).
+
+---
+
+## 📜 8. Authors & Academic Affiliation
 
 - **Authors:** Anthony Quero and Luigi Quero
 - **Institution:** University of Carabobo (UC) — Experimental Faculty of Science and Technology (FACYT)

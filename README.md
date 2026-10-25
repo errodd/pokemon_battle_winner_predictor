@@ -48,7 +48,8 @@ pokemon_battle_winner_predictor/
 │
 ├── scripts/                              # Data / feature-engineering pipeline
 │   ├── merge.py                          # Builds the unified table with schema assertions (see §3.3)
-│   └── features.py                       # Modular feature engineering functions (§5)
+│   ├── features.py                       # Modular feature engineering functions (§5)
+│   └── preprocessing.py                  # Column groups, representation arms, pipeline factories, speed-rule baseline
 │
 ├── notebooks/                            # Executable Jupyter Notebooks
 │   ├── 01_eda_pokemon.ipynb              # Assignment 1: EDA (100% Pre-Executed)
@@ -90,7 +91,7 @@ py -m notebook notebooks/02_data_preparation.ipynb
 ```
 
 > [!NOTE]
-> Both notebooks are **100% pre-executed** with embedded outputs, charts, and tables for immediate evaluation. `02_data_preparation.ipynb` runs end-to-end from a restarted kernel, reads only the raw CSV files in `data/`, and imports the domain helpers (`TYPE_CHART`, `classify_form`, `calculate_type_multiplier`) from `scripts/features.py`. It writes no files.
+> Both notebooks are **100% pre-executed** with embedded outputs, charts, and tables for immediate evaluation. `02_data_preparation.ipynb` runs end-to-end from a restarted kernel, reads only the raw CSV files in `data/`, imports `TYPE_CHART` and `create_pokemon_features` from `scripts/features.py` and the column groups, representation arms and pipeline factories from `scripts/preprocessing.py`. Its only outputs are the split manifest and reproducibility metadata in `artifacts/` (no transformed data). The EDA also rebuilds the consolidated table from the raw CSV files and checks that it is identical to the tracked one (EDA §1.1).
 
 ### 3.3 Reproduce the Unified Dataset (Feature-Engineering Pipeline)
 
@@ -119,17 +120,17 @@ Across the 11 analytical sections of the EDA, key mechanics governing combat out
 1. **Speed as a Decisive Axis ($r = +0.678$):**  
    - Among the numerical differential features explored, Speed differential ($\Delta\text{Speed} = \text{Speed}_1 - \text{Speed}_2$) shows the strongest univariate linear association with victory.
    - Being faster than the rival yields a **$92.39\%$ victory rate**, whereas being slower collapses victory to **$4.60\%$**.
-2. **Outcome Determinism and Second-Turn Rule in Speed Ties:**  
-   - **$94.0\%$ ($1,712$ pairs)** of re-matched combats are completely deterministic (invariant to positioning order).
+2. **Order Consistency and Second-Turn Rule in Speed Ties:**  
+   - **$94.0\%$ ($1,712$ pairs)** of re-matched combats keep the same winner in both orientations; in the other 110 pairs the winner flips, and only 43.6% of those are speed ties.
    - In exact speed tie scenarios ($\text{Speed}_1 == \text{Speed}_2$), the simulator awards the victory to `Second_pokemon` in **$100\%$ of the $1,328$ observed cases** (2.66% of all battles).
 3. **Special Forms Taxonomy & Confounding Hypothesis:**  
-   - **Primal Reversions ($83.3\%$)**, **Alternative Battle Formes ($78.3\%$)**, **Standard Legendaries ($76.4\%$)**, and **Mega Evolutions ($73.6\%$)** significantly overpower standard Pokémon, which we hypothesize is primarily mediated by their base-stat advantage ($+100$ to $+350$ points). We explicitly treat this as a hypothesis, as category status and stat totals are naturally confounded and will be controlled during multivariate modeling.
+   - Against Standard species (both positions pooled), **Primal Reversions ($81.7\%$, 218 battles)**, **Alternative Combat Forms ($81.5\%$)**, **Legendaries ($80.0\%$)**, and **Mega Evolutions ($75.7\%$)** win most of their battles, while size/gender Variants show no advantage ($51.3\%$). We hypothesize this is primarily mediated by their base-stat advantage (mean total $+185$ to $+367$ points). We explicitly treat this as a hypothesis, as category status and stat totals are naturally confounded and will be controlled during multivariate modeling.
 4. **Elemental Matchup Impact:**  
    - With the corrected monotype multiplier (`scripts/features.py`), the first fighter wins **$51.35\%$** with type advantage vs **$41.58\%$** with disadvantage (**$+9.77$ pp**). This is an unconditional association: type advantage does not decide exact speed ties (Second wins all 1,328), and its role near speed parity is left to multivariate modeling.
 5. **Class Balance & Strong Baselines:**  
    - Target distribution: **Class 0 ($52.80\%$)** vs **Class 1 ($47.20\%$)**.
    - **Naive Majority Class Baseline is established at $52.80\%$**.
-   - **Strong Speed-Based Baseline is established at $94.05\%$** (faster fighter wins; second wins on exact speed ties). This constitutes the strong domain benchmark to surpass in Assignment 2, not an empirical ceiling.
+   - **Strong Speed-Based Baseline is established at $94.05\%$** (faster fighter wins; second wins on exact speed ties). This constitutes the strong domain benchmark to surpass in Assignment 3 (modeling), not an empirical ceiling. Its errors are not concentrated near speed parity: 79.2% of them occur when $|\Delta\text{Speed}| > 20$.
 6. **Duplicate Handling & Data Leakage Prevention:**  
    - The dataset contains **1,952 exact duplicate battles** (3.9%), which we hypothesize are repeated simulator executions. In Assignment 2 they are **kept** and leakage is prevented by splitting by unordered pair instead (see §6).
 
@@ -143,8 +144,8 @@ Five domain-grounded mathematical features were engineered in `scripts/features.
 | :--- | :---: | :--- |
 | **`Speed_diff`** | $\text{Speed}_1 - \text{Speed}_2$ | Turn-order initiative ($r = +0.678$). |
 | **`Stat_Total_Diff`** | $\text{Total\\_Stats}_1 - \text{Total\\_Stats}_2$ | Total combat power gap ($r = +0.470$). |
-| **`Atk_Def_Penetration_Diff`** | $\frac{\text{Attack}_1}{\text{Defense}_2} - \frac{\text{Attack}_2}{\text{Defense}_1}$ | Physical damage penetration ($r = +0.242$). |
-| **`Special_Form_Advantage`** | $\text{Is\\_Special}_1 - \text{Is\\_Special}_2$ | Evolutionary tier advantage ($75.9\%$ vs $18.9\%$ win rate). |
+| **`Atk_Def_Penetration_Diff`** | $\frac{\text{Attack}_1}{\text{Defense}_2} - \frac{\text{Attack}_2}{\text{Defense}_1}$ | Physical damage penetration ($r = +0.246$ on train). |
+| **`Special_Form_Advantage`** | $\text{Is\\_Special}_1 - \text{Is\\_Special}_2$ | Evolutionary tier advantage ($76.27\%$ vs $19.31\%$ First win rate); default forms and size/gender Variants are not counted as special. |
 | **`Type_Advantage_Ratio`** | $\log_2\left(\frac{\text{Eff}_{1 \rightarrow 2} + 0.1}{\text{Eff}_{2 \rightarrow 1} + 0.1}\right)$ | Symmetric elemental weakness exploitation ($+9.77$ pp win-rate gap, advantage vs disadvantage). |
 
 ---
@@ -171,7 +172,7 @@ The full table with evidence and justification is in §3 of the notebook.
 
 - `GroupShuffleSplit(test_size=0.20, random_state=42)` grouped by unordered pair: **40,078 train / 9,922 test**, 0 shared pairs, and every holdout Pokémon also appears in train (*Scenario A* verified). Holdout labels are not inspected.
 - The partition is persisted in `artifacts/split_assignments_pokemon.csv` and `artifacts/feature_engineering_metadata.json` so the modeling notebook evaluates on exactly the same split.
-- A random row split would leak ~11.8% of test matchups into train. Grouping keeps every repetition and orientation of a matchup on the same side (*Scenario A*: new matchup between known Pokémon).
+- A row-level `train_test_split` with the same seed would place 12.3% of its test battles in matchups already seen in train (measured in the notebook). Grouping keeps every repetition and orientation of a matchup on the same side (*Scenario A*: new matchup between known Pokémon).
 - The EDA used all 50,000 combats, so the test partition indirectly influenced feature selection; from this notebook on, no decision uses test data.
 
 ### 6.3 Pipeline
@@ -188,11 +189,11 @@ graph LR
 | Numeric (raw) | 12 base stats (`*_first`, `*_second`) | `StandardScaler` |
 | Numeric (engineered) | `Speed_diff`, `Stat_Total_Diff`, `Atk_Def_Penetration_Diff`, `Type_Advantage_Ratio` | `StandardScaler` |
 | Ordinal | `Special_Form_Advantage` ∈ {-1, 0, 1} | passthrough |
-| Nominal (`full` arm only) | `Type 1/2` of both fighters | `SimpleImputer("None")` + `OneHotEncoder(min_frequency=0.01)` |
+| Nominal (`full` / `full_onehot` arms only) | `Type 1/2` of both fighters | `SimpleImputer("None")` + `OneHotEncoder` (`min_frequency=0.01` in `full`, full one-hot in `full_onehot`) |
 | Binary (`full` arm only) | `Legendary_first`, `Legendary_second` | passthrough |
 | Excluded | `Winner`, IDs, `Name_*`, `Generation_*` | dropped (`remainder="drop"`) |
 
-Representation arms defined for later comparison: **A_raw** (12), **B_engineered** (5), **C_combined** (17, default), **full** (89).
+Representation arms defined in `scripts/preprocessing.py` for later comparison: **A_raw** (12), **B_engineered** (5), **C_combined** (17, default), **full** (89), **full_onehot** (93).
 
 ### 6.4 Verifications
 
@@ -203,7 +204,8 @@ Dataset sizes and duplicate counts checked in code (50,000 / 10,000 rows; 1,952 
 ## 🗺️ 7. Modeling Roadmap (Assignment 3)
 
 - **Cross-validation:** `GroupKFold` / `StratifiedGroupKFold` on the same unordered-pair groups, inside the training partition only. The holdout partition is used once, for the final evaluation.
-- **Comparisons:** arms A vs B vs C vs `full`; whether `Special_Form_Advantage` adds signal beyond `Stat_Total_Diff`; whether one-hot types add signal beyond `Type_Advantage_Ratio`; full one-hot vs grouping infrequent types (`min_frequency=0.01`).
+- **Comparisons:** arms A vs B vs C vs `full` vs `full_onehot`; whether `Special_Form_Advantage` adds signal beyond `Stat_Total_Diff`; whether one-hot types add signal beyond `Type_Advantage_Ratio`; full one-hot (`full_onehot`) vs grouping infrequent types (`full`).
+- **Shared code:** the modeling notebook imports `create_pokemon_features` (`scripts/features.py`) and `FEATURE_SETS`, `build_model_pipeline` and `speed_rule_predict` (`scripts/preprocessing.py`) instead of copying them, and reloads the split from `artifacts/`.
 - **Candidate models:** Logistic Regression (regularized, because Arm C has exact linear redundancies), Decision Trees, Random Forest, Gradient Boosting, KNN, MLP.
 - **Benchmarks to surpass:** Naive Majority Baseline **52.80%** and Strong Speed-Based Baseline **94.05%** (the speed rule is recomputed on the same folds and holdout used by the models).
 - **Metrics:** Accuracy, Macro F1-Score, Confusion Matrix, ROC-AUC.

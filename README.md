@@ -16,7 +16,6 @@
 
 [![Python Version](https://img.shields.io/badge/Python-3.12%2B-blue.svg?logo=python&logoColor=white)](https://www.python.org/)
 [![Jupyter Notebook](https://img.shields.io/badge/Jupyter-Notebook-orange.svg?logo=jupyter&logoColor=white)](https://jupyter.org/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![Status: Pre--Executed](https://img.shields.io/badge/Status-100%25%20Executed-success.svg)](#)
 
 </div>
@@ -188,16 +187,16 @@ graph LR
 | :--- | :--- | :--- |
 | Numeric (raw) | 12 base stats (`*_first`, `*_second`) | `StandardScaler` |
 | Numeric (engineered) | `Speed_diff`, `Stat_Total_Diff`, `Atk_Def_Penetration_Diff`, `Type_Advantage_Ratio` | `StandardScaler` |
-| Ordinal | `Special_Form_Advantage` ∈ {-1, 0, 1} | passthrough |
+| Ordinal | `Special_Form_Advantage` ∈ {-1, 0, 1} | passthrough (cast to float) |
 | Nominal (`full` / `full_onehot` arms only) | `Type 1/2` of both fighters | `SimpleImputer("None")` + `OneHotEncoder` (`min_frequency=0.01` in `full`, full one-hot in `full_onehot`) |
-| Binary (`full` arm only) | `Legendary_first`, `Legendary_second` | passthrough |
-| Excluded | `Winner`, IDs, `Name_*`, `Generation_*` | dropped (`remainder="drop"`) |
+| Binary (`full` / `full_onehot` arms only) | `Legendary_first`, `Legendary_second` | passthrough (cast to float) |
+| Excluded | `Winner`, IDs, `Name_*`, `form_*`, `Generation_*` | dropped (`remainder="drop"`) |
 
 Representation arms defined in `scripts/preprocessing.py` for later comparison: **A_raw** (12), **B_engineered** (5), **C_combined** (17, default), **full** (89), **full_onehot** (93).
 
 ### 6.4 Verifications
 
-Dataset sizes and duplicate counts checked in code (50,000 / 10,000 rows; 1,952 / 70 duplicates); `TYPE_CHART` checked for internal consistency against a transcription of Bulbapedia's Gen-6 chart. On train: row count preserved, no NaN/infinite values, explicitly excluded columns do not reach the prepared matrix, input not modified, output feature names inspected. The holdout and `data/tests.csv` are transformed by the train-fitted pipeline with the expected structure (labels not used). Feature engineering is imported from `scripts/features.py` (single implementation shared with the EDA).
+Dataset sizes and duplicate counts checked in code (50,000 / 10,000 rows; 1,952 / 70 duplicates); `TYPE_CHART` checked for internal consistency against a transcription of Bulbapedia's Gen-6 chart. On train: row count preserved, no NaN/infinite values, explicitly excluded columns do not reach the prepared matrix, input not modified, output feature names inspected. The holdout and `data/tests.csv` are transformed by the train-fitted pipeline with the expected structure (labels not used); 16 `tests.csv` species never appear in `combats.csv`, so it is not a pure *Scenario A* set. Feature engineering is imported from `scripts/features.py` (single implementation shared with the EDA).
 
 ---
 

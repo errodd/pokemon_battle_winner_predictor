@@ -10,7 +10,7 @@
   "pandas_version": "3.0.5",
   "numpy_version": "2.5.2",
   "scikit_learn_version": "1.9.0",
-  "git_commit_at_execution": "0ee28cffd8842b7455c2d60b228ff37d143a2c93",
+  "git_commit_at_execution": "c880c0f51575904b5b147cc9b9dc9a9401fff7eb",
   "uncommitted_tracked_changes": [],
   "sha256": {
     "data/pokemon.csv": "b5eed9715c8350367a1075cdb380bbdcc6793fafae2596954ec2e0186c6c0a97",

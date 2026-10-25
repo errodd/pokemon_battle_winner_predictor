@@ -54,6 +54,10 @@ pokemon_battle_winner_predictor/
 │   ├── 01_eda_pokemon.ipynb              # Assignment 1: EDA (100% Pre-Executed)
 │   └── 02_data_preparation.ipynb         # Assignment 2: Data Preparation & Feature Engineering (100% Pre-Executed)
 │
+├── artifacts/                            # Written by notebook 02 (reproducibility, not deliverables)
+│   ├── split_assignments_pokemon.csv     # Train/test assignment and pair group of every combat
+│   └── feature_engineering_metadata.json # Seed, test size, library versions, commit, input hashes
+│
 ├── logo/                                 # Institutional assets
 │   └── Logo_Facyt.svg.png                # FACYT University Logo
 │
@@ -121,7 +125,7 @@ Across the 11 analytical sections of the EDA, key mechanics governing combat out
 3. **Special Forms Taxonomy & Confounding Hypothesis:**  
    - **Primal Reversions ($83.3\%$)**, **Alternative Battle Formes ($78.3\%$)**, **Standard Legendaries ($76.4\%$)**, and **Mega Evolutions ($73.6\%$)** significantly overpower standard Pokémon, which we hypothesize is primarily mediated by their base-stat advantage ($+100$ to $+350$ points). We explicitly treat this as a hypothesis, as category status and stat totals are naturally confounded and will be controlled during multivariate modeling.
 4. **Elemental Matchup Impact:**  
-   - Holding an elemental type advantage delivers a **$+10.7\%$ net win rate increase** ($52.77\%$ vs $42.05\%$), acting as the vital tie-breaker in speed-parity battles.
+   - With the corrected monotype multiplier (`scripts/features.py`), the first fighter wins **$51.35\%$** with type advantage vs **$41.58\%$** with disadvantage (**$+9.77$ pp**). This is an unconditional association: type advantage does not decide exact speed ties (Second wins all 1,328), and its role near speed parity is left to multivariate modeling.
 5. **Class Balance & Strong Baselines:**  
    - Target distribution: **Class 0 ($52.80\%$)** vs **Class 1 ($47.20\%$)**.
    - **Naive Majority Class Baseline is established at $52.80\%$**.
@@ -141,7 +145,7 @@ Five domain-grounded mathematical features were engineered in `scripts/features.
 | **`Stat_Total_Diff`** | $\text{Total\\_Stats}_1 - \text{Total\\_Stats}_2$ | Total combat power gap ($r = +0.470$). |
 | **`Atk_Def_Penetration_Diff`** | $\frac{\text{Attack}_1}{\text{Defense}_2} - \frac{\text{Attack}_2}{\text{Defense}_1}$ | Physical damage penetration ($r = +0.242$). |
 | **`Special_Form_Advantage`** | $\text{Is\\_Special}_1 - \text{Is\\_Special}_2$ | Evolutionary tier advantage ($75.9\%$ vs $18.9\%$ win rate). |
-| **`Type_Advantage_Ratio`** | $\log_2\left(\frac{\text{Eff}_{1 \rightarrow 2} + 0.1}{\text{Eff}_{2 \rightarrow 1} + 0.1}\right)$ | Symmetric elemental weakness exploitation ($+10.7\%$ win rate boost). |
+| **`Type_Advantage_Ratio`** | $\log_2\left(\frac{\text{Eff}_{1 \rightarrow 2} + 0.1}{\text{Eff}_{2 \rightarrow 1} + 0.1}\right)$ | Symmetric elemental weakness exploitation ($+9.77$ pp win-rate gap, advantage vs disadvantage). |
 
 ---
 
@@ -158,14 +162,15 @@ Notebook: [`notebooks/02_data_preparation.ipynb`](notebooks/02_data_preparation.
 | 1,822 pairs appear in both orientations; 1,952 exact duplicates | Train/test split grouped by **unordered pair** `(min(id), max(id))`; duplicates kept |
 | `Type 2` missing in ~48% of species (monotype) | Impute constant `"None"` (a real game state, not missing data) |
 | Species `#63` has no name | Deterministic imputation `Primeape` (exact stat match) |
-| `Generation` uncorrelated with target | Excluded (confirmed on train only) |
+| `Generation` is a release-era catalogue attribute | Excluded from the baseline by domain (incremental value left as an optional modeling hypothesis) |
 | Heterogeneous stat scales | `StandardScaler` inside the pipeline |
 
 The full table with evidence and justification is in §3 of the notebook.
 
 ### 6.2 Split Strategy
 
-- `GroupShuffleSplit(test_size=0.20, random_state=42)` grouped by unordered pair: **40,078 train / 9,922 test**, 0 shared pairs, class balance preserved (52.8% / 47.2%).
+- `GroupShuffleSplit(test_size=0.20, random_state=42)` grouped by unordered pair: **40,078 train / 9,922 test**, 0 shared pairs, and every holdout Pokémon also appears in train (*Scenario A* verified). Holdout labels are not inspected.
+- The partition is persisted in `artifacts/split_assignments_pokemon.csv` and `artifacts/feature_engineering_metadata.json` so the modeling notebook evaluates on exactly the same split.
 - A random row split would leak ~11.8% of test matchups into train. Grouping keeps every repetition and orientation of a matchup on the same side (*Scenario A*: new matchup between known Pokémon).
 - The EDA used all 50,000 combats, so the test partition indirectly influenced feature selection; from this notebook on, no decision uses test data.
 
@@ -189,18 +194,18 @@ graph LR
 
 Representation arms defined for later comparison: **A_raw** (12), **B_engineered** (5), **C_combined** (17, default), **full** (89).
 
-### 6.4 Verifications (train only)
+### 6.4 Verifications
 
-Row count preserved, no NaN/infinite values, no excluded column in the output, input not modified, output feature names inspected, and the same fitted pipeline transforms `data/tests.csv` without errors.
+Dataset sizes and duplicate counts checked in code (50,000 / 10,000 rows; 1,952 / 70 duplicates); `TYPE_CHART` checked for internal consistency against a transcription of Bulbapedia's Gen-6 chart. On train: row count preserved, no NaN/infinite values, explicitly excluded columns do not reach the prepared matrix, input not modified, output feature names inspected. The holdout and `data/tests.csv` are transformed by the train-fitted pipeline with the expected structure (labels not used). Feature engineering is imported from `scripts/features.py` (single implementation shared with the EDA).
 
 ---
 
 ## 🗺️ 7. Modeling Roadmap (Assignment 3)
 
 - **Cross-validation:** `GroupKFold` / `StratifiedGroupKFold` on the same unordered-pair groups, inside the training partition only. The holdout partition is used once, for the final evaluation.
-- **Comparisons:** arms A vs B vs C vs `full`; whether `Special_Form_Advantage` adds signal beyond `Stat_Total_Diff`; whether one-hot types add signal beyond `Type_Advantage_Ratio`.
+- **Comparisons:** arms A vs B vs C vs `full`; whether `Special_Form_Advantage` adds signal beyond `Stat_Total_Diff`; whether one-hot types add signal beyond `Type_Advantage_Ratio`; full one-hot vs grouping infrequent types (`min_frequency=0.01`).
 - **Candidate models:** Logistic Regression (regularized, because Arm C has exact linear redundancies), Decision Trees, Random Forest, Gradient Boosting, KNN, MLP.
-- **Benchmarks to surpass:** Naive Majority Baseline **52.80%** and Strong Speed-Based Baseline **94.05%**.
+- **Benchmarks to surpass:** Naive Majority Baseline **52.80%** and Strong Speed-Based Baseline **94.05%** (the speed rule is recomputed on the same folds and holdout used by the models).
 - **Metrics:** Accuracy, Macro F1-Score, Confusion Matrix, ROC-AUC.
 - **Out of scope so far:** generalization to completely unseen Pokémon (*Scenario B*, `GroupShuffleSplit` by Pokémon ID).
 

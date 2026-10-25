@@ -10,13 +10,38 @@
   "pandas_version": "3.0.5",
   "numpy_version": "2.5.2",
   "scikit_learn_version": "1.9.0",
-  "git_commit_at_execution": "f5aee937cacb79a0b829933910ca62799fd2781b",
+  "git_commit_at_execution": "e32d11457b05e61c2b2ea57196c0154b64391c6f",
+  "uncommitted_tracked_changes": [],
   "sha256": {
     "data/pokemon.csv": "b5eed9715c8350367a1075cdb380bbdcc6793fafae2596954ec2e0186c6c0a97",
     "data/combats.csv": "a6cbcbb85c542f347db579f6d22dfd7fb7bd674cff7670517c16cc266bf00753",
     "data/tests.csv": "4a82760f2ea4fafca0e619f4850c9efec968112d9e77c40b72bed3efc68dd2df",
-    "scripts/features.py": "bc19c9dfdd867cc41661cdbd9ba1feb71c079206c81616f19067c9bcd1e58cbe"
+    "scripts/features.py": "9533782012abb94c60eec6d112bc6fcc3cc80c0bfffb39348ae2b222c22c1036",
+    "scripts/preprocessing.py": "58e299aabdfa18ad7f8dce3226ab1141063d7561a04cbcce6ecb8230ba039e3b"
   },
-  "feature_engineering": "scripts/features.py::create_pokemon_features (FunctionTransformer, kw_args={'catalog': pokemon})",
+  "feature_engineering": "scripts/features.py::create_pokemon_features via scripts/preprocessing.py::make_preparation_pipeline",
+  "feature_sets": {
+    "A_raw": [
+      "numeric"
+    ],
+    "B_engineered": [
+      "numeric",
+      "passthrough"
+    ],
+    "C_combined": [
+      "numeric",
+      "passthrough"
+    ],
+    "full": [
+      "numeric",
+      "nominal",
+      "passthrough"
+    ],
+    "full_onehot": [
+      "numeric",
+      "nominal",
+      "passthrough"
+    ]
+  },
   "note": "Holdout labels are not stored or summarized. No transformed matrix is saved: transformations are refitted inside each fold."
 }

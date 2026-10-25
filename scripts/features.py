@@ -77,17 +77,11 @@ def calculate_defense_diff(df: pd.DataFrame) -> pd.Series:
 def calculate_stat_total_diff(df: pd.DataFrame) -> pd.Series:
     """
     Calcula el diferencial de estadísticas totales: Total_first - Total_second.
-    Si no existen las columnas Total_first / Total_second, se calculan sumando las 6 base stats.
+    Siempre se recalcula sumando las 6 base stats (no reutiliza columnas Total_* preexistentes).
     """
     stats = ['HP', 'Attack', 'Defense', 'Sp. Atk', 'Sp. Def', 'Speed']
-    if 'Total_first' in df.columns and 'Total_second' in df.columns:
-        total_1 = df['Total_first']
-        total_2 = df['Total_second']
-    elif 'Total_diff' in df.columns:
-        return df['Total_diff']
-    else:
-        total_1 = sum(df[f"{s}_first"] for s in stats)
-        total_2 = sum(df[f"{s}_second"] for s in stats)
+    total_1 = sum(df[f"{s}_first"] for s in stats)
+    total_2 = sum(df[f"{s}_second"] for s in stats)
     return total_1 - total_2
 
 
@@ -101,11 +95,23 @@ def calculate_atk_def_penetration_diff(df: pd.DataFrame) -> pd.Series:
     return penetration_1 - penetration_2
 
 
+# Formas por defecto (base) cuyo nombre contiene "Forme"/"Mode"/"Rotom": no son formas alternativas
+BASE_FORM_NAMES: Set[str] = {
+    "Rotom", "Darmanitan Standard Mode", "Aegislash Shield Forme", "Keldeo Ordinary Forme",
+    "Meloetta Aria Forme", "Deoxys Normal Forme", "Giratina Altered Forme", "Shaymin Land Forme",
+    "Tornadus Incarnate Forme", "Thundurus Incarnate Forme", "Landorus Incarnate Forme",
+    "Zygarde Half Forme",
+}
+
+
 def classify_form(name: str, legendary: bool) -> str:
     """
     Clasifica taxonómicamente la forma de un Pokémon según su nombre y su estatus legendario.
+    Las formas base de BASE_FORM_NAMES se clasifican como Legendary o Standard, no como forma alternativa.
     """
     n = str(name)
+    if n in BASE_FORM_NAMES:
+        return "Legendary" if legendary else "Standard"
     if "Mega " in n:
         return "Mega-Evolution"
     if "Primal " in n:
@@ -124,19 +130,11 @@ def calculate_special_form_advantage(df: pd.DataFrame,
     """
     Calcula la ventaja binaria/ternaria de forma especial entre ambos contendientes:
     is_special_first - is_special_second in {-1, 0, 1}.
+    Siempre clasifica desde Name_* y Legendary_* (no reutiliza columnas form_* preexistentes).
     """
     forms = special_forms if special_forms is not None else SPECIAL_FORM_CATEGORIES
-    
-    if 'form_first' in df.columns:
-        f1 = df['form_first']
-    else:
-        f1 = [classify_form(n, l) for n, l in zip(df['Name_first'], df['Legendary_first'])]
-        
-    if 'form_second' in df.columns:
-        f2 = df['form_second']
-    else:
-        f2 = [classify_form(n, l) for n, l in zip(df['Name_second'], df['Legendary_second'])]
-        
+    f1 = [classify_form(n, l) for n, l in zip(df['Name_first'], df['Legendary_first'])]
+    f2 = [classify_form(n, l) for n, l in zip(df['Name_second'], df['Legendary_second'])]
     s1 = pd.Series(f1, index=df.index).isin(forms).astype(int)
     s2 = pd.Series(f2, index=df.index).isin(forms).astype(int)
     return s1 - s2
@@ -147,14 +145,17 @@ def calculate_type_multiplier(atk_t1: str, atk_t2: str, def_t1: str, def_t2: str
     """
     Calcula el multiplicador ofensivo máximo de un atacante contra un defensor considerando tipos duales.
     Cualquier matchup no explícito en la tabla se evalúa como neutral (1.0).
+    Un segundo tipo ausente (NaN, "None" o vacío) significa monotipo: el atacante usa solo su único tipo.
     """
     chart = type_chart if type_chart is not None else TYPE_CHART
+    def has_type(t):
+        return isinstance(t, str) and t not in ("", "None")
     def val(a, d):
-        if not isinstance(a, str) or not isinstance(d, str) or pd.isna(a) or pd.isna(d):
+        if not has_type(a) or not has_type(d):
             return 1.0
         return chart.get((a, d), 1.0)
     m1 = val(atk_t1, def_t1) * val(atk_t1, def_t2)
-    if isinstance(atk_t2, str) and not pd.isna(atk_t2):
+    if has_type(atk_t2):
         m2 = val(atk_t2, def_t1) * val(atk_t2, def_t2)
         return max(m1, m2)
     return m1
@@ -164,28 +165,18 @@ def calculate_type_advantage_ratio(df: pd.DataFrame, type_chart: Optional[dict] 
     """
     Calcula la razón de ventaja elemental simétrica:
     log2((Eff_1v2 + 0.1) / (Eff_2v1 + 0.1)).
+    Siempre recalcula los multiplicadores desde Type 1/2 (no reutiliza columnas Eff_* preexistentes).
     """
     chart = type_chart if type_chart is not None else TYPE_CHART
-    
-    if 'Eff_1v2' in df.columns and 'Eff_2v1' in df.columns:
-        eff_1v2 = df['Eff_1v2']
-        eff_2v1 = df['Eff_2v1']
-    else:
-        eff_1v2 = [
-            calculate_type_multiplier(t1_1, t2_1, t1_2, t2_2, chart)
-            for t1_1, t2_1, t1_2, t2_2 in zip(
-                df['Type 1_first'], df['Type 2_first'], df['Type 1_second'], df['Type 2_second']
-            )
-        ]
-        eff_2v1 = [
-            calculate_type_multiplier(t1_2, t2_2, t1_1, t2_1, chart)
-            for t1_1, t2_1, t1_2, t2_2 in zip(
-                df['Type 1_first'], df['Type 2_first'], df['Type 1_second'], df['Type 2_second']
-            )
-        ]
-        eff_1v2 = pd.Series(eff_1v2, index=df.index)
-        eff_2v1 = pd.Series(eff_2v1, index=df.index)
-        
+    types = list(zip(df['Type 1_first'], df['Type 2_first'], df['Type 1_second'], df['Type 2_second']))
+    eff_1v2 = pd.Series(
+        [calculate_type_multiplier(t1_1, t2_1, t1_2, t2_2, chart) for t1_1, t2_1, t1_2, t2_2 in types],
+        index=df.index,
+    )
+    eff_2v1 = pd.Series(
+        [calculate_type_multiplier(t1_2, t2_2, t1_1, t2_1, chart) for t1_1, t2_1, t1_2, t2_2 in types],
+        index=df.index,
+    )
     return np.log2((eff_1v2 + 0.1) / (eff_2v1 + 0.1))
 
 
@@ -219,16 +210,23 @@ def create_pokemon_features(battles: pd.DataFrame, catalog: pd.DataFrame) -> pd.
     Une cada combate (First_pokemon, Second_pokemon) con los atributos del Pokédex de ambos
     contendientes, clasifica su forma y añade las 5 master features con add_master_features.
     Conserva el índice original de `battles` y no modifica la entrada.
+    Lanza ValueError si el catálogo tiene IDs duplicados o si algún combatiente no está en el catálogo.
     """
     cat = catalog.rename(columns={"#": "id"})
     cat["form"] = [classify_form(n, l) for n, l in zip(cat["Name"], cat["Legendary"])]
     merge_cols = [c for c in cat.columns if c != "id"]
 
+    unknown = (set(battles["First_pokemon"]) | set(battles["Second_pokemon"])) - set(cat["id"])
+    if unknown:
+        raise ValueError(f"IDs de combatientes ausentes del catálogo: {sorted(unknown)[:10]}")
+
     result = battles.copy()
     original_index = result.index.copy()
     for side, id_col in (("first", "First_pokemon"), ("second", "Second_pokemon")):
         side_cat = cat.rename(columns={c: f"{c}_{side}" for c in merge_cols})
-        result = result.merge(side_cat, left_on=id_col, right_on="id", how="left").drop(columns=["id"])
+        # many_to_one: un ID duplicado en el catálogo multiplicaría filas en silencio
+        result = result.merge(side_cat, left_on=id_col, right_on="id", how="left",
+                              validate="many_to_one").drop(columns=["id"])
     # pd.merge reinicia el índice; se restaura para no desalinear X con y
     result.index = original_index
 

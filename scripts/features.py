@@ -210,3 +210,26 @@ def add_master_features(df: pd.DataFrame) -> pd.DataFrame:
 def add_engineered_features(df: pd.DataFrame) -> pd.DataFrame:
     """Alias compatible para add_master_features."""
     return add_master_features(df)
+
+
+def create_pokemon_features(battles: pd.DataFrame, catalog: pd.DataFrame) -> pd.DataFrame:
+    """
+    Transformación sin estado para el pipeline (FunctionTransformer con kw_args={"catalog": ...}).
+
+    Une cada combate (First_pokemon, Second_pokemon) con los atributos del Pokédex de ambos
+    contendientes, clasifica su forma y añade las 5 master features con add_master_features.
+    Conserva el índice original de `battles` y no modifica la entrada.
+    """
+    cat = catalog.rename(columns={"#": "id"})
+    cat["form"] = [classify_form(n, l) for n, l in zip(cat["Name"], cat["Legendary"])]
+    merge_cols = [c for c in cat.columns if c != "id"]
+
+    result = battles.copy()
+    original_index = result.index.copy()
+    for side, id_col in (("first", "First_pokemon"), ("second", "Second_pokemon")):
+        side_cat = cat.rename(columns={c: f"{c}_{side}" for c in merge_cols})
+        result = result.merge(side_cat, left_on=id_col, right_on="id", how="left").drop(columns=["id"])
+    # pd.merge reinicia el índice; se restaura para no desalinear X con y
+    result.index = original_index
+
+    return add_master_features(result)

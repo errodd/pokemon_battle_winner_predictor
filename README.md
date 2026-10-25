@@ -118,7 +118,7 @@ Across the 11 analytical sections of the EDA, key mechanics governing combat out
 
 1. **Speed as a Decisive Axis ($r = +0.678$):**  
    - Among the numerical differential features explored, Speed differential ($\Delta\text{Speed} = \text{Speed}_1 - \text{Speed}_2$) shows the strongest univariate linear association with victory.
-   - Being faster than the rival yields a **$92.39\%$ victory rate**, whereas being slower collapses victory to **$4.60\%$**.
+   - When the first fighter is faster it wins **$92.39\%$** of its battles; when it is slower it wins only **$4.60\%$**.
 2. **Order Consistency and Second-Turn Rule in Speed Ties:**  
    - **$94.0\%$ ($1,712$ pairs)** of re-matched combats keep the same winner in both orientations; in the other 110 pairs the winner flips, and only 43.6% of those are speed ties.
    - In exact speed tie scenarios ($\text{Speed}_1 == \text{Speed}_2$), the simulator awards the victory to `Second_pokemon` in **$100\%$ of the $1,328$ observed cases** (2.66% of all battles).
@@ -141,7 +141,7 @@ Five domain-grounded mathematical features were engineered in `scripts/features.
 
 | Feature Name | Mathematical Definition | Domain Interpretation & Predictive Impact |
 | :--- | :---: | :--- |
-| **`Speed_diff`** | $\text{Speed}_1 - \text{Speed}_2$ | Turn-order initiative ($r = +0.678$). |
+| **`Speed_diff`** | $\text{Speed}_1 - \text{Speed}_2$ | Speed advantage, the strongest univariate signal ($r = +0.678$). |
 | **`Stat_Total_Diff`** | $\text{Total\\_Stats}_1 - \text{Total\\_Stats}_2$ | Total combat power gap ($r = +0.470$). |
 | **`Atk_Def_Penetration_Diff`** | $\frac{\text{Attack}_1}{\text{Defense}_2} - \frac{\text{Attack}_2}{\text{Defense}_1}$ | Physical damage penetration ($r = +0.246$ on train). |
 | **`Special_Form_Advantage`** | $\text{Is\\_Special}_1 - \text{Is\\_Special}_2$ | Evolutionary tier advantage ($76.27\%$ vs $19.31\%$ First win rate); default forms and size/gender Variants are not counted as special. |
@@ -208,7 +208,7 @@ Dataset sizes and duplicate counts checked in code (50,000 / 10,000 rows; 1,952 
 - **Candidate models:** Logistic Regression (regularized, because Arm C has exact linear redundancies), Decision Trees, Random Forest, Gradient Boosting, KNN, MLP.
 - **Benchmarks to surpass:** Naive Majority Baseline **52.80%** and Strong Speed-Based Baseline **94.05%** (the speed rule is recomputed on the same folds and holdout used by the models).
 - **Metrics:** Accuracy, Macro F1-Score, Confusion Matrix, ROC-AUC.
-- **Out of scope so far:** generalization to completely unseen Pokémon (*Scenario B*, `GroupShuffleSplit` by Pokémon ID).
+- **Out of scope so far:** generalization to completely unseen Pokémon (*Scenario B*, which requires holding out a set of species and testing only on battles that involve them).
 
 ---
 

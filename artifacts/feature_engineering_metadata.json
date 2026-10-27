@@ -1,17 +1,25 @@
 {
   "random_state": 42,
   "test_size": 0.2,
-  "split_method": "GroupShuffleSplit by unordered pair (min(id), max(id))",
+  "split_method": "GroupShuffleSplit(n_splits=1) grouped by unordered pair f'{min(id)}_{max(id)}'",
   "n_train": 40078,
   "n_test": 9922,
-  "class_balance_train": {
-    "0": 0.5282948250910724,
-    "1": 0.4717051749089276
+  "n_train_pairs": 36980,
+  "n_test_pairs": 9246,
+  "python_version": "3.14.2",
+  "pandas_version": "3.0.5",
+  "numpy_version": "2.5.2",
+  "scikit_learn_version": "1.9.0",
+  "git_commit_at_execution": "c880c0f51575904b5b147cc9b9dc9a9401fff7eb",
+  "uncommitted_tracked_changes": [],
+  "sha256": {
+    "data/pokemon.csv": "b5eed9715c8350367a1075cdb380bbdcc6793fafae2596954ec2e0186c6c0a97",
+    "data/combats.csv": "a6cbcbb85c542f347db579f6d22dfd7fb7bd674cff7670517c16cc266bf00753",
+    "data/tests.csv": "4a82760f2ea4fafca0e619f4850c9efec968112d9e77c40b72bed3efc68dd2df",
+    "scripts/features.py": "9533782012abb94c60eec6d112bc6fcc3cc80c0bfffb39348ae2b222c22c1036",
+    "scripts/preprocessing.py": "58e299aabdfa18ad7f8dce3226ab1141063d7561a04cbcce6ecb8230ba039e3b"
   },
-  "class_balance_test": {
-    "0": 0.526708324934489,
-    "1": 0.473291675065511
-  },
+  "feature_engineering": "scripts/features.py::create_pokemon_features via scripts/preprocessing.py::make_preparation_pipeline",
   "feature_sets": {
     "A_raw": [
       "numeric"
@@ -28,16 +36,12 @@
       "numeric",
       "nominal",
       "passthrough"
+    ],
+    "full_onehot": [
+      "numeric",
+      "nominal",
+      "passthrough"
     ]
   },
-  "python_version": "3.12.3",
-  "pandas_version": "3.0.5",
-  "scikit_learn_version": "1.9.0",
-  "type_chart_audit": {
-    "non_neutral_matchups": 120,
-    "canonical_reference": "Gen-6 18x18 type chart verified (120 active, 204 neutral 1.0)",
-    "missing_matchups": 0,
-    "extra_matchups": 0
-  },
-  "test_set_protocol": "Holdout test partition is strictly locked. No model tuning or threshold selection may inspect test data prior to final submission."
+  "note": "Holdout labels are not stored or summarized. No transformed matrix is saved: transformations are refitted inside each fold."
 }

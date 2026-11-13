@@ -12,9 +12,9 @@
 ---
 
 # Pokémon Battle Winner Predictor
-### Assignment 1: Exploratory Data Analysis (EDA) · Assignment 2: Data Preparation & Feature Engineering
+### Assignment 1: Exploratory Data Analysis (EDA) · Assignment 2: Data Preparation & Feature Engineering · Assignment 3: Model Selection
 
-[![Python Version](https://img.shields.io/badge/Python-3.12%2B-blue.svg?logo=python&logoColor=white)](https://www.python.org/)
+[![Python Version](https://img.shields.io/badge/Python-3.13%2B-blue.svg?logo=python&logoColor=white)](https://www.python.org/)
 [![Jupyter Notebook](https://img.shields.io/badge/Jupyter-Notebook-orange.svg?logo=jupyter&logoColor=white)](https://jupyter.org/)
 [![Status: Pre--Executed](https://img.shields.io/badge/Status-100%25%20Executed-success.svg)](#)
 
@@ -52,7 +52,8 @@ pokemon_battle_winner_predictor/
 │
 ├── notebooks/                            # Executable Jupyter Notebooks
 │   ├── 01_eda_pokemon.ipynb              # Assignment 1: EDA (100% Pre-Executed)
-│   └── 02_data_preparation.ipynb         # Assignment 2: Data Preparation & Feature Engineering (100% Pre-Executed)
+│   ├── 02_data_preparation.ipynb         # Assignment 2: Data Preparation & Feature Engineering (100% Pre-Executed)
+│   └── 03_modeling_and_model_selection.ipynb  # Assignment 3: Model Selection & Optuna (100% Pre-Executed)
 │
 ├── artifacts/                            # Written by notebook 02 (reproducibility, not deliverables)
 │   ├── split_assignments_pokemon.csv     # Train/test assignment and pair group of every combat
@@ -87,6 +88,9 @@ py -m notebook notebooks/01_eda_pokemon.ipynb
 
 # Assignment 2: Data preparation notebook
 py -m notebook notebooks/02_data_preparation.ipynb
+
+# Assignment 3: Modeling notebook
+py -m notebook notebooks/03_modeling_and_model_selection.ipynb
 ```
 
 > [!NOTE]
@@ -200,15 +204,17 @@ Dataset sizes and duplicate counts checked in code (50,000 / 10,000 rows; 1,952 
 
 ---
 
-## 🗺️ 7. Modeling Roadmap (Assignment 3)
+## 🏁 7. Assignment 3: Model Selection & Hyperparameter Optimization
 
-- **Cross-validation:** `GroupKFold` / `StratifiedGroupKFold` on the same unordered-pair groups, inside the training partition only. The holdout partition is used once, for the final evaluation.
-- **Comparisons:** arms A vs B vs C vs `full` vs `full_onehot`; whether `Special_Form_Advantage` adds signal beyond `Stat_Total_Diff`; whether one-hot types add signal beyond `Type_Advantage_Ratio`; full one-hot (`full_onehot`) vs grouping infrequent types (`full`).
-- **Shared code:** the modeling notebook imports `create_pokemon_features` (`scripts/features.py`) and `FEATURE_SETS`, `build_model_pipeline` and `speed_rule_predict` (`scripts/preprocessing.py`) instead of copying them, and reloads the split from `artifacts/`.
-- **Candidate models:** Logistic Regression (regularized, because Arm C has exact linear redundancies), Decision Trees, Random Forest, Gradient Boosting, KNN, MLP.
-- **Benchmarks to surpass:** Naive Majority Baseline **52.80%** and Strong Speed-Based Baseline **94.05%** (the speed rule is recomputed on the same folds and holdout used by the models).
-- **Metrics:** Accuracy, Macro F1-Score, Confusion Matrix, ROC-AUC.
-- **Out of scope so far:** generalization to completely unseen Pokémon (*Scenario B*, which requires holding out a set of species and testing only on battles that involve them).
+Notebook: [`notebooks/03_modeling_and_model_selection.ipynb`](notebooks/03_modeling_and_model_selection.ipynb). `Restart Kernel → Run All` takes **about 4 minutes** (Python 3.13.14, 8-core / 16-thread CPU; Optuna under 2 minutes); the notebook prints its environment and the wall time of every section (§10).
+
+- **Protocol:** accuracy as primary metric (macro F1, ROC AUC and confusion matrix as secondary); `StratifiedGroupKFold` (5 folds) on the unordered-pair groups of the training partition, identical folds for every model; the split is reloaded from `artifacts/` and verified by hash and by git provenance (artifacts generated from a clean tree, `data/` and `scripts/` unchanged since).
+- **Baselines:** `DummyClassifier` (52.83% CV) and the speed rule (94.13% ± 0.19 accuracy, 94.12% ± 0.19 macro F1), scored on the same folds. Every model is reported with mean ± std of accuracy and macro F1.
+- **Candidates and ablation:** Logistic Regression, KNN, Random Forest and HistGradientBoosting on the five representation arms. Tree ensembles beat the speed rule in every fold. An attribution ablation shows that the gain of the `full` arm over `C_combined` (+1.45 pp for HistGradientBoosting) comes from the one-hot types; `Legendary` and `Special_Form_Advantage` add nothing measurable once stats and types are present.
+- **Optuna:** 15 trials per model (TPE sampler, seed 42) on the two best candidates, scored on 3 fixed grouped folds; the best trial is re-evaluated on the 5 main folds with the same protocol as the initial models. Tuning helps HistGradientBoosting (+0.32 pp, all five folds) and not Random Forest. A second 5-fold split with another seed (same training rows) is used only as a robustness check.
+- **Selected pipeline:** tuned HistGradientBoosting on the `full` arm, **97.55% ± 0.13** CV accuracy. Internal final evaluation on the holdout: **97.54%** (speed rule: 93.76% on the same battles). The holdout is not an untouched sample (the EDA explored all battles and a preliminary run evaluated it once), so this is a consistency check, not confirmatory evidence.
+- **Interpretability:** block permutation importance on the CV validation folds: speed dominates (42.4 pp), then the type columns (3.3 pp).
+- **Out of scope:** generalization to completely unseen Pokémon (*Scenario B*, which requires holding out a set of species and testing only on battles that involve them) and nested cross-validation.
 
 ---
 

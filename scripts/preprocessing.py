@@ -57,6 +57,28 @@ FEATURE_SETS: Dict[str, Dict[str, Any]] = {
     },
 }
 
+# Brazos SOLO para la ablación de atribución del notebook 03 (análisis descriptivo posterior a la
+# selección): aíslan los bloques que `full` añade a `C_combined` (tipos one-hot y Legendary) y el
+# aporte de Special_Form_Advantage. No participan en la regla de selección de representación.
+ABLATION_SETS: Dict[str, Dict[str, Any]] = {
+    "C_plus_types": {
+        "numeric": RAW_NUMERIC + ENGINEERED_NUMERIC,
+        "nominal": NOMINAL,
+        "nominal_min_frequency": 0.01,
+        "passthrough": ORDINAL,
+    },
+    "C_plus_legendary": {
+        "numeric": RAW_NUMERIC + ENGINEERED_NUMERIC,
+        "passthrough": ORDINAL + BINARY,
+    },
+    "full_no_sfa": {
+        "numeric": RAW_NUMERIC + ENGINEERED_NUMERIC,
+        "nominal": NOMINAL,
+        "nominal_min_frequency": 0.01,
+        "passthrough": BINARY,
+    },
+}
+
 
 def make_nominal_pipeline(min_frequency=0.01) -> Pipeline:
     """Type 2 ausente = monotipo ("None"); one-hot completo (None) o con tipos infrecuentes agrupados."""
@@ -77,8 +99,8 @@ def to_float(X) -> np.ndarray:
 
 
 def make_preprocessor(feature_set: str = "C_combined") -> ColumnTransformer:
-    """Construye un ColumnTransformer nuevo y sin ajustar para el brazo indicado."""
-    spec = FEATURE_SETS[feature_set]
+    """Construye un ColumnTransformer nuevo y sin ajustar para el brazo indicado (FEATURE_SETS o ABLATION_SETS)."""
+    spec = FEATURE_SETS[feature_set] if feature_set in FEATURE_SETS else ABLATION_SETS[feature_set]
     transformers = []
     if "numeric" in spec:
         transformers.append(("numeric", Pipeline([("scaler", StandardScaler())]), spec["numeric"]))
